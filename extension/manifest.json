@@ -3,13 +3,10 @@
   "name": "Claude i18n",
   "description": "Use Claude in your own language.",
   "version": "1.0.2",
-  "permissions": [
-    "storage",
-    "unlimitedStorage"
-  ],
+  "permissions": ["storage"],
   "host_permissions": [
     "https://claude.ai/*",
-    "https://claude-web-i18n.vercel.app/*"
+    "https://claude-i18n.vercel.app/*"
   ],
   "background": {
     "service_worker": "service.js"
@@ -17,9 +14,8 @@
   "content_scripts": [
     {
       "js": [
-        "hook.js"
+        "script.js"
       ],
-      "world": "MAIN",
       "run_at": "document_start",
       "matches": [
         "https://claude.ai/*"
@@ -27,8 +23,9 @@
     },
     {
       "js": [
-        "script.js"
+        "hook.js"
       ],
+      "world": "MAIN",
       "run_at": "document_start",
       "matches": [
         "https://claude.ai/*"
