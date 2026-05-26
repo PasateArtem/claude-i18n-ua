@@ -150,7 +150,7 @@ jobs:
           echo "pr_url=$pr_url" >> "$GITHUB_OUTPUT"
           echo "Created $pr_url"
 
-      - name: Close superseded update pull requests
+      - name: Close superseded update pull requests and branches
         if: steps.fetch.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -169,4 +169,13 @@ jobs:
                 gh pr close "$pr_number" \
                   --comment "Closing this superseded automated update because a newer upstream snapshot is available." \
                   --delete-branch
+              done
+
+          git ls-remote --heads origin "${BRANCH_PREFIX}*" \
+            | awk '{print $2}' \
+            | sed 's#^refs/heads/##' \
+            | while IFS= read -r branch; do
+                [ -z "$branch" ] && continue
+                [ "$branch" = "$BRANCH_NAME" ] && continue
+                git push origin --delete "$branch" || true
               done
