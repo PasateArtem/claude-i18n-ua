@@ -219,5 +219,5 @@ Or simply leave a Star ⭐ — that means a lot too.
 
 | WeChat Pay | Alipay |
 |:---:|:---:|
-| <img src="donate/wechat.png" width="160" alt="WeChat Pay QR Code" /> | <img src="donate/alipay.png" width="160" alt="Alipay QR Code" /> |
+| <img src="assets/wechat.png" width="160" alt="WeChat Pay QR Code" /> | <img src="assets/alipay.png" width="160" alt="Alipay QR Code" /> |
 </div>

@@ -220,5 +220,5 @@ UI 按 Claude 自己的语言流程切换为中文
 
 | 微信赞赏 | 支付宝 |
 |:---:|:---:|
-| <img src="donate/wechat.png" width="160" alt="微信赞赏码" /> | <img src="donate/alipay.png" width="160" alt="支付宝收款码" /> |
+| <img src="assets/wechat.png" width="160" alt="微信赞赏码" /> | <img src="assets/alipay.png" width="160" alt="支付宝收款码" /> |
 </div>
