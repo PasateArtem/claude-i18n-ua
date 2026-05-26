@@ -1,0 +1,141 @@
+name: Update original Claude locale files
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: update-original-locales
+  cancel-in-progress: true
+
+env:
+  BRANCH_PREFIX: bot/update-original-locales-
+  MAIN_SOURCE_URL: https://claude.ai/i18n/en-US.json
+  STATSIG_SOURCE_URL: https://claude.ai/i18n/statsig/en-US.json
+
+jobs:
+  update:
+    name: Check upstream locale files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch upstream files
+        id: fetch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 5 \
+            "$MAIN_SOURCE_URL" \
+            --output "$tmp_dir/en-US.json"
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 5 \
+            "$STATSIG_SOURCE_URL" \
+            --output "$tmp_dir/en-US.statsig.json"
+
+          python3 -m json.tool "$tmp_dir/en-US.json" >/dev/null
+          python3 -m json.tool "$tmp_dir/en-US.statsig.json" >/dev/null
+
+          if cmp --silent "$tmp_dir/en-US.json" .original/en-US.json \
+            && cmp --silent "$tmp_dir/en-US.statsig.json" .original/en-US.statsig.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Upstream files match the repository copies."
+            exit 0
+          fi
+
+          cp "$tmp_dir/en-US.json" .original/en-US.json
+          cp "$tmp_dir/en-US.statsig.json" .original/en-US.statsig.json
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          {
+            echo "changed_files<<EOF"
+            git diff --name-only -- .original/en-US.json .original/en-US.statsig.json
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create update branch and commit
+        if: steps.fetch.outputs.changed == 'true'
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          branch_name="${BRANCH_PREFIX}${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git checkout -b "$branch_name"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .original/en-US.json .original/en-US.statsig.json
+          git commit -m "chore: update original Claude locale files"
+          git push --set-upstream origin "$branch_name"
+
+          echo "branch_name=$branch_name" >> "$GITHUB_OUTPUT"
+
+      - name: Open latest pull request
+        if: steps.fetch.outputs.changed == 'true'
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH_NAME: ${{ steps.commit.outputs.branch_name }}
+          CHANGED_FILES: ${{ steps.fetch.outputs.changed_files }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          body_file="$(mktemp)"
+          {
+            echo "Automated update for upstream Claude locale source files."
+            echo
+            echo "Sources:"
+            echo "- $MAIN_SOURCE_URL"
+            echo "- $STATSIG_SOURCE_URL"
+            echo
+            echo "Changed files:"
+            while IFS= read -r file; do
+              [ -n "$file" ] && echo "- \`$file\`"
+            done <<< "$CHANGED_FILES"
+          } > "$body_file"
+
+          pr_url="$(gh pr create \
+            --base "$GITHUB_REF_NAME" \
+            --head "$BRANCH_NAME" \
+            --title "chore: update original Claude locale files" \
+            --body-file "$body_file")"
+
+          echo "pr_url=$pr_url" >> "$GITHUB_OUTPUT"
+          echo "Created $pr_url"
+
+      - name: Close superseded update pull requests
+        if: steps.fetch.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH_NAME: ${{ steps.commit.outputs.branch_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          gh pr list --state open --limit 100 --json number,headRefName \
+            | jq --raw-output \
+              --arg branch "$BRANCH_NAME" \
+              --arg prefix "$BRANCH_PREFIX" \
+              '.[] | select(.headRefName | startswith($prefix)) | select(.headRefName != $branch) | .number' \
+            | while IFS= read -r pr_number; do
+                [ -z "$pr_number" ] && continue
+                gh pr close "$pr_number" \
+                  --comment "Closing this superseded automated update because a newer upstream snapshot is available." \
+                  --delete-branch
+              done
