@@ -30,6 +30,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install fetch dependency
+        shell: bash
+        run: python3 -m pip install --quiet curl_cffi
+
       - name: Fetch upstream files
         id: fetch
         shell: bash
@@ -39,22 +48,37 @@ jobs:
           tmp_dir="$(mktemp -d)"
           trap 'rm -rf "$tmp_dir"' EXIT
 
-          fetch_locale() {
-            local url="$1"
-            local output="$2"
+          python3 - "$MAIN_SOURCE_URL" "$tmp_dir/en-US.json" "$STATSIG_SOURCE_URL" "$tmp_dir/en-US.statsig.json" <<'PY'
+          import sys
+          from curl_cffi import requests
 
-            curl --fail --silent --show-error --location --compressed \
-              --retry 3 --retry-delay 5 \
-              --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36" \
-              --header "Accept: application/json,text/plain,*/*" \
-              --header "Accept-Language: en-US,en;q=0.9" \
-              --header "Referer: https://claude.ai/" \
-              "$url" \
-              --output "$output"
+          headers = {
+              "accept": "application/json,text/plain,*/*",
+              "accept-language": "en-US,en;q=0.9",
+              "referer": "https://claude.ai/",
           }
 
-          fetch_locale "$MAIN_SOURCE_URL" "$tmp_dir/en-US.json"
-          fetch_locale "$STATSIG_SOURCE_URL" "$tmp_dir/en-US.statsig.json"
+          sources = [
+              (sys.argv[1], sys.argv[2]),
+              (sys.argv[3], sys.argv[4]),
+          ]
+
+          for url, output in sources:
+              response = requests.get(
+                  url,
+                  headers=headers,
+                  impersonate="chrome",
+                  timeout=60,
+              )
+              response.raise_for_status()
+
+              content = response.content
+              if not content.lstrip().startswith((b"{", b"[")):
+                  raise SystemExit(f"Fetched response from {url} does not look like JSON.")
+
+              with open(output, "wb") as file:
+                  file.write(content)
+          PY
 
           if cmp --silent "$tmp_dir/en-US.json" .original/en-US.json \
             && cmp --silent "$tmp_dir/en-US.statsig.json" .original/en-US.statsig.json; then
