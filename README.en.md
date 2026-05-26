@@ -50,13 +50,13 @@ After installation, a **中文（中国）** option appears in Claude Web's lang
 
 ### Option 2: Userscript (experimental)
 
-> 🧪 Experimental build for Firefox Desktop + userscript managers
+> 🧪 Experimental build for Firefox Desktop and macOS Safari Userscripts
 
-Non-Chromium browser users can try [`userscript/claude-i18n.user.js`](userscript/claude-i18n.user.js). Tampermonkey or Violentmonkey is recommended; Greasemonkey is best-effort experimental support, and Safari is not supported yet.
+Non-Chromium browser users can try the userscript builds. For Firefox, use [`userscript/claude-i18n.user.js`](userscript/claude-i18n.user.js) with Tampermonkey or Violentmonkey; Greasemonkey is best-effort experimental support. For Safari, try [`userscript/claude-i18n.safari.user.js`](userscript/claude-i18n.safari.user.js), currently verified only for macOS Safari + Userscripts App.
 
 1. Install Tampermonkey, Violentmonkey, or Greasemonkey in Firefox Desktop
-2. Open the userscript manager dashboard and create a new script
-3. Replace the default template with the contents of [`userscript/claude-i18n.user.js`](userscript/claude-i18n.user.js), then save
+2. Or install Userscripts App in macOS Safari and allow access to `claude.ai`
+3. Choose the matching `.user.js` script for your browser and save it
 4. Open [claude.ai](https://claude.ai), click your username in the bottom-left → Language → **中文（中国）** ✓
 
 See [`userscript/README.md`](userscript/README.md) for details.
