@@ -1,5 +1,6 @@
 {
   "buildCommand": "bash ./build.sh",
+  "ignoreCommand": "bash ./ignore.sh",
   "outputDirectory": "dist",
   "rewrites": [
     {
