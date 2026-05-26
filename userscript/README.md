@@ -13,7 +13,7 @@
 
 - 打开 DevTools Console，确认出现 `[claude-i18n][hook] hook.installed`。
 - 在 Console 查看 `window.__CLAUDE_ARRAY_PROXY_REPORT__`。
-- 选择中文后，`i18nRedirectHits`、`i18nCacheHits`、`accountProfileResponseHits` 等计数应有增长。
+- 选择中文后，`i18nRedirectHits`、`i18nCacheHits`、`requestLocaleRewriteHits`、`responseLocaleRewriteHits` 等计数应有增长。
 
 ## 已知限制
 
