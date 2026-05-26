@@ -48,14 +48,14 @@ After installation, a **中文（中国）** option appears in Claude Web's lang
 - Microsoft Edge Add-ons:
   [Claude i18n](https://microsoftedge.microsoft.com/addons/detail/claude-i18n/meogggfdmdeigjpkcpkdhngaegpncgjc)
 
-### Option 2: Tampermonkey userscript (experimental)
+### Option 2: Userscript (experimental)
 
-> 🧪 Experimental build for Firefox Desktop + Tampermonkey
+> 🧪 Experimental build for Firefox Desktop + userscript managers
 
-Non-Chromium browser users can try [`userscript/claude-i18n.user.js`](userscript/claude-i18n.user.js). This version is still experimental and does not yet promise Safari, Violentmonkey, or Greasemonkey compatibility.
+Non-Chromium browser users can try [`userscript/claude-i18n.user.js`](userscript/claude-i18n.user.js). Tampermonkey or Violentmonkey is recommended; Greasemonkey is best-effort experimental support, and Safari is not supported yet.
 
-1. Install Tampermonkey in Firefox Desktop
-2. Open the Tampermonkey Dashboard and create a new script
+1. Install Tampermonkey, Violentmonkey, or Greasemonkey in Firefox Desktop
+2. Open the userscript manager dashboard and create a new script
 3. Replace the default template with the contents of [`userscript/claude-i18n.user.js`](userscript/claude-i18n.user.js), then save
 4. Open [claude.ai](https://claude.ai), click your username in the bottom-left → Language → **中文（中国）** ✓
 

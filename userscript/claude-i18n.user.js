@@ -1,15 +1,20 @@
 // ==UserScript==
-// @name         Claude i18n Firefox Tampermonkey Experimental
+// @name         Claude i18n Firefox Userscript Experimental
 // @namespace    https://github.com/Pectics/claude-i18n
 // @version      0.1.0
-// @description  Experimental Firefox Tampermonkey bridge for Claude i18n.
+// @description  Experimental Firefox userscript bridge for Claude i18n.
 // @match        https://claude.ai/*
 // @run-at       document-start
+// @inject-into  page
 // @grant        unsafeWindow
 // @grant        GM_xmlhttpRequest
+// @grant        GM.xmlHttpRequest
 // @grant        GM_getValue
+// @grant        GM.getValue
 // @grant        GM_setValue
+// @grant        GM.setValue
 // @grant        GM_deleteValue
+// @grant        GM.deleteValue
 // @connect      claude-i18n.vercel.app
 // ==/UserScript==
 
@@ -214,7 +219,7 @@
     }
 
     const cacheKey = buildResourceCacheKey(locale, kind, resourceHash);
-    const cached = readResourceCache(cacheKey);
+    const cached = await readResourceCache(cacheKey);
     if (cached) {
       logger.info("i18n.resource.cache-hit", {
         locale,
@@ -249,7 +254,7 @@
       },
     };
 
-    writeResourceCache(locale, kind, resourceHash, payloadToReturn);
+    void writeResourceCache(locale, kind, resourceHash, payloadToReturn);
     logger.info("i18n.resource.remote-fetched", {
       locale,
       kind,
@@ -261,7 +266,7 @@
 
   async function getVersionInfo(locale) {
     const storageKey = buildVersionStorageKey(locale);
-    const cached = getStoredValue(storageKey, null);
+    const cached = await getStoredValue(storageKey, null);
     const now = Date.now();
 
     if (isFreshVersionCache(cached, now)) {
@@ -277,7 +282,14 @@
       }
 
       const next = normalizeVersionInfo(locale, data, now);
-      setStoredValue(storageKey, next);
+      try {
+        await setStoredValue(storageKey, next);
+      } catch (error) {
+        logger.warn("version.cache-write.failed", {
+          locale,
+          message: stringifyError(error),
+        });
+      }
       logger.info("version.updated", {
         locale,
         builtAt: next.builtAt || "unknown",
@@ -297,8 +309,8 @@
     }
   }
 
-  function readResourceCache(cacheKey) {
-    const cached = getStoredValue(cacheKey, null);
+  async function readResourceCache(cacheKey) {
+    const cached = await getStoredValue(cacheKey, null);
     if (!cached || typeof cached.body !== "string") {
       return null;
     }
@@ -312,13 +324,13 @@
     };
   }
 
-  function writeResourceCache(locale, kind, hash, payload) {
+  async function writeResourceCache(locale, kind, hash, payload) {
     const cacheKey = buildResourceCacheKey(locale, kind, hash);
     const indexKey = buildResourceIndexKey(locale, kind);
 
     try {
-      const previous = getStoredValue(indexKey, null);
-      setStoredValue(cacheKey, {
+      const previous = await getStoredValue(indexKey, null);
+      await setStoredValue(cacheKey, {
         status: payload.status,
         statusText: payload.statusText,
         headers: payload.headers,
@@ -327,10 +339,10 @@
       });
 
       if (previous && previous.key && previous.key !== cacheKey) {
-        deleteStoredValue(previous.key);
+        await deleteStoredValue(previous.key);
       }
 
-      setStoredValue(indexKey, {
+      await setStoredValue(indexKey, {
         hash,
         key: cacheKey,
         checkedAt: Date.now(),
@@ -427,12 +439,13 @@
 
   function gmRequest(details) {
     return new Promise((resolve, reject) => {
-      if (typeof GM_xmlhttpRequest !== "function") {
-        reject(new Error("GM_xmlhttpRequest is not available"));
+      const request = resolveGmXmlHttpRequest();
+      if (!request) {
+        reject(new Error("GM_xmlhttpRequest / GM.xmlHttpRequest is not available"));
         return;
       }
 
-      GM_xmlhttpRequest({
+      const control = request({
         ...details,
         timeout: REMOTE_REQUEST_TIMEOUT_MS,
         onload(response) {
@@ -448,7 +461,23 @@
           reject(new Error(`Request aborted: ${details.url}`));
         },
       });
+
+      if (control && typeof control.then === "function") {
+        control.then(resolve, reject);
+      }
     });
+  }
+
+  function resolveGmXmlHttpRequest() {
+    if (typeof GM_xmlhttpRequest === "function") {
+      return GM_xmlhttpRequest;
+    }
+
+    if (typeof GM === "object" && GM && typeof GM.xmlHttpRequest === "function") {
+      return GM.xmlHttpRequest.bind(GM);
+    }
+
+    return null;
   }
 
   function headersToObject(headerText) {
@@ -478,9 +507,14 @@
     return output;
   }
 
-  function getStoredValue(key, fallback) {
+  async function getStoredValue(key, fallback) {
     try {
-      return GM_getValue(key, fallback);
+      const raw = await readGmStorageValue(key, undefined);
+      if (raw === undefined) {
+        return fallback;
+      }
+
+      return decodeStoredValue(raw, fallback);
     } catch (error) {
       logger.warn("storage.get.failed", {
         key,
@@ -490,9 +524,9 @@
     }
   }
 
-  function setStoredValue(key, value) {
+  async function setStoredValue(key, value) {
     try {
-      GM_setValue(key, value);
+      await writeGmStorageValue(key, encodeStoredValue(value));
     } catch (error) {
       logger.warn("storage.set.failed", {
         key,
@@ -502,14 +536,66 @@
     }
   }
 
-  function deleteStoredValue(key) {
+  async function deleteStoredValue(key) {
     try {
-      GM_deleteValue(key);
+      await removeGmStorageValue(key);
     } catch (error) {
       logger.warn("storage.delete.failed", {
         key,
         message: stringifyError(error),
       });
+    }
+  }
+
+  async function readGmStorageValue(key, fallback) {
+    if (typeof GM_getValue === "function") {
+      return GM_getValue(key, fallback);
+    }
+
+    if (typeof GM === "object" && GM && typeof GM.getValue === "function") {
+      return GM.getValue(key, fallback);
+    }
+
+    throw new Error("GM_getValue / GM.getValue is not available");
+  }
+
+  async function writeGmStorageValue(key, value) {
+    if (typeof GM_setValue === "function") {
+      return GM_setValue(key, value);
+    }
+
+    if (typeof GM === "object" && GM && typeof GM.setValue === "function") {
+      return GM.setValue(key, value);
+    }
+
+    throw new Error("GM_setValue / GM.setValue is not available");
+  }
+
+  async function removeGmStorageValue(key) {
+    if (typeof GM_deleteValue === "function") {
+      return GM_deleteValue(key);
+    }
+
+    if (typeof GM === "object" && GM && typeof GM.deleteValue === "function") {
+      return GM.deleteValue(key);
+    }
+
+    throw new Error("GM_deleteValue / GM.deleteValue is not available");
+  }
+
+  function encodeStoredValue(value) {
+    return JSON.stringify(value);
+  }
+
+  function decodeStoredValue(raw, fallback) {
+    if (typeof raw !== "string") {
+      return raw;
+    }
+
+    try {
+      return JSON.parse(raw);
+    } catch {
+      return fallback;
     }
   }
 
