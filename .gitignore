@@ -1,7 +1,13 @@
+.overrides/
+.pending/
+.remember/
+.translation/
+.vscode/
 dist/
-.overrides
-.remember
-.translation
+
+.agents/
+.codex/
+AGENT.md
 CLAUDE.md
 
 *.bak/
