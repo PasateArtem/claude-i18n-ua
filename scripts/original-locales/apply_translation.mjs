@@ -15,6 +15,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..', '..');
 const DEFAULT_PENDING_DIR = path.join(ROOT_DIR, '.pending', 'original-locale-update');
 
+function resolveRepoPath(filePath) {
+  if (!filePath) return null;
+  return path.isAbsolute(filePath) ? filePath : path.join(ROOT_DIR, filePath);
+}
+
 function usage() {
   throw new Error('Usage: node apply_translation.mjs --locale <locale> [--pending-dir <path>]');
 }
@@ -152,15 +157,21 @@ function main() {
   const mainDiffRows = readJsonl(path.join(args.pendingDir, 'main.diff.jsonl'));
   const statsigDiffRows = readJsonl(path.join(args.pendingDir, 'statsig.diff.jsonl'));
 
-  const baseMainData = readJson(workManifest.source.main.en);
-  const baseStatsigData = readJson(workManifest.source.statsig.en);
-  const currentMainData = readJson(workManifest.output.main);
-  const currentStatsigData = readJson(workManifest.output.statsig);
+  const baseMainData = readJson(resolveRepoPath(workManifest.source.main.en));
+  const baseStatsigData = readJson(resolveRepoPath(workManifest.source.statsig.en));
+  const currentMainData = readJson(resolveRepoPath(workManifest.output.main));
+  const currentStatsigData = readJson(resolveRepoPath(workManifest.output.statsig));
 
   const mainTranslations = collectTranslations(workManifest.chunks.main, 'main');
   const statsigTranslations = collectTranslations(workManifest.chunks.statsig, 'statsig');
 
-  const nextMainData = rebuildLocaleFile('main', baseMainData, currentMainData, mainDiffRows, mainTranslations);
+  const nextMainData = rebuildLocaleFile(
+    'main',
+    baseMainData,
+    currentMainData,
+    mainDiffRows,
+    mainTranslations
+  );
   const nextStatsigData = rebuildLocaleFile(
     'statsig',
     baseStatsigData,
@@ -169,10 +180,12 @@ function main() {
     statsigTranslations
   );
 
-  ensureDir(path.dirname(workManifest.output.main));
-  ensureDir(path.dirname(workManifest.output.statsig));
-  writeJson(workManifest.output.main, nextMainData);
-  writeJson(workManifest.output.statsig, nextStatsigData);
+  const outputMainPath = resolveRepoPath(workManifest.output.main);
+  const outputStatsigPath = resolveRepoPath(workManifest.output.statsig);
+  ensureDir(path.dirname(outputMainPath));
+  ensureDir(path.dirname(outputStatsigPath));
+  writeJson(outputMainPath, nextMainData);
+  writeJson(outputStatsigPath, nextStatsigData);
 
   fs.rmSync(args.pendingDir, { recursive: true, force: true });
 

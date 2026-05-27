@@ -10,6 +10,15 @@ const DEFAULT_TARGET_CHARS = 12000;
 const DEFAULT_MAX_ENTRIES = 300;
 const DEFAULT_MIN_ENTRIES = 50;
 
+function toRepoRelative(filePath) {
+  return path.relative(ROOT_DIR, filePath).split(path.sep).join('/');
+}
+
+function resolveRepoPath(filePath) {
+  if (!filePath) return null;
+  return path.isAbsolute(filePath) ? filePath : path.join(ROOT_DIR, filePath);
+}
+
 function usage() {
   throw new Error(
     'Usage: node prepare_translation.mjs --locale <locale> [--pending-dir <path>] [--target-chars <n>] [--max-entries <n>] [--min-entries <n>]'
@@ -67,6 +76,25 @@ function diffPathForFile(pendingDir, fileLabel) {
 function targetPathFor(locale, fileLabel) {
   const suffix = fileLabel === 'statsig' ? '.statsig.json' : '.json';
   return path.join(ROOT_DIR, locale, `${locale}${suffix}`);
+}
+
+function resolveSourcePath(pendingManifest, fileLabel, kind) {
+  const configuredPath = pendingManifest.source?.[fileLabel]?.[kind];
+  if (configuredPath) {
+    return resolveRepoPath(configuredPath);
+  }
+
+  if (kind === 'en') {
+    const suffix = fileLabel === 'statsig' ? '.statsig.json' : '.json';
+    return path.join(ROOT_DIR, '.original', `${pendingManifest.baseLocale}${suffix}`);
+  }
+
+  if (kind === 'ja' && pendingManifest.referenceLocale) {
+    const suffix = fileLabel === 'statsig' ? '.statsig.json' : '.json';
+    return path.join(ROOT_DIR, '.original', `${pendingManifest.referenceLocale}${suffix}`);
+  }
+
+  return null;
 }
 
 function readTargetData(filePath) {
@@ -192,20 +220,33 @@ function main() {
   const manifest = {
     schemaVersion: 1,
     createdAt: new Date().toISOString(),
-    root: ROOT_DIR,
-    pendingDir: args.pendingDir,
-    workDir,
+    root: '.',
+    pendingDir: toRepoRelative(args.pendingDir),
+    workDir: toRepoRelative(workDir),
     locale: args.locale,
     baseLocale: pendingManifest.baseLocale,
     referenceLocale: pendingManifest.referenceLocale,
-    source: pendingManifest.source,
+    source: {
+      main: {
+        en: toRepoRelative(resolveSourcePath(pendingManifest, 'main', 'en')),
+        ja: pendingManifest.referenceLocale
+          ? toRepoRelative(resolveSourcePath(pendingManifest, 'main', 'ja'))
+          : null,
+      },
+      statsig: {
+        en: toRepoRelative(resolveSourcePath(pendingManifest, 'statsig', 'en')),
+        ja: pendingManifest.referenceLocale
+          ? toRepoRelative(resolveSourcePath(pendingManifest, 'statsig', 'ja'))
+          : null,
+      },
+    },
     diff: {
-      main: diffPathForFile(args.pendingDir, 'main'),
-      statsig: diffPathForFile(args.pendingDir, 'statsig'),
+      main: toRepoRelative(diffPathForFile(args.pendingDir, 'main')),
+      statsig: toRepoRelative(diffPathForFile(args.pendingDir, 'statsig')),
     },
     output: {
-      main: targetMainPath,
-      statsig: targetStatsigPath,
+      main: toRepoRelative(targetMainPath),
+      statsig: toRepoRelative(targetStatsigPath),
     },
     chunkSizing: {
       targetChars: args.targetChars,
@@ -237,8 +278,8 @@ function main() {
     JSON.stringify(
       {
         locale: args.locale,
-        workDir,
-        manifest: manifestPath,
+        workDir: toRepoRelative(workDir),
+        manifest: toRepoRelative(manifestPath),
         summary: manifest.summary,
       },
       null,

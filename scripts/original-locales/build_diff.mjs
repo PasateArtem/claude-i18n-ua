@@ -10,6 +10,10 @@ const DEFAULT_BEFORE_DIR = path.join(ROOT_DIR, '.original');
 const DEFAULT_AFTER_DIR = path.join(ROOT_DIR, '.original');
 const DEFAULT_PENDING_DIR = path.join(ROOT_DIR, '.pending', 'original-locale-update');
 
+function toRepoRelative(filePath) {
+  return path.relative(ROOT_DIR, filePath).split(path.sep).join('/');
+}
+
 function usage() {
   throw new Error(
     'Usage: node build_diff.mjs --metadata <path> [--config <path>] [--before-dir <path>] [--after-dir <path>] [--pending-dir <path>]'
@@ -207,18 +211,18 @@ function main() {
     needsTranslation,
     source: {
       main: {
-        en: path.join(ROOT_DIR, '.original', `${baseLocale}.json`),
-        ja: referenceLocale ? path.join(ROOT_DIR, '.original', `${referenceLocale}.json`) : null,
+        en: toRepoRelative(path.join(ROOT_DIR, '.original', `${baseLocale}.json`)),
+        ja: referenceLocale ? toRepoRelative(path.join(ROOT_DIR, '.original', `${referenceLocale}.json`)) : null,
       },
       statsig: {
-        en: path.join(ROOT_DIR, '.original', `${baseLocale}.statsig.json`),
-        ja: referenceLocale ? path.join(ROOT_DIR, '.original', `${referenceLocale}.statsig.json`) : null,
+        en: toRepoRelative(path.join(ROOT_DIR, '.original', `${baseLocale}.statsig.json`)),
+        ja: referenceLocale ? toRepoRelative(path.join(ROOT_DIR, '.original', `${referenceLocale}.statsig.json`)) : null,
       },
     },
     pendingFiles: {
-      manifest: manifestPath,
-      mainDiff: mainDiffPath,
-      statsigDiff: statsigDiffPath,
+      manifest: toRepoRelative(manifestPath),
+      mainDiff: toRepoRelative(mainDiffPath),
+      statsigDiff: toRepoRelative(statsigDiffPath),
     },
     diffSummary: {
       main: mainDiff.summary,
@@ -231,7 +235,7 @@ function main() {
   const summary = {
     baseLocale,
     referenceLocale,
-    pendingDir: args.pendingDir,
+    pendingDir: toRepoRelative(args.pendingDir),
     pendingCreated: true,
     needsTranslation,
     diffSummary: manifest.diffSummary,
