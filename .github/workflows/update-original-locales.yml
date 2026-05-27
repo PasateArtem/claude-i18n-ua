@@ -380,22 +380,25 @@ jobs:
               --metadata "$compare_summary" > "$diff_summary"
 
             pending_created="true"
+          fi
+
+          if [ "$pending_created" = "true" ]; then
             needs_translation="$(python3 - "$diff_summary" <<'PY'
-            import json
-            import sys
-            with open(sys.argv[1], "r", encoding="utf-8") as file:
-                summary = json.load(file)
-            print("true" if summary["needsTranslation"] else "false")
-            PY
-            )"
+          import json
+          import sys
+          with open(sys.argv[1], "r", encoding="utf-8") as file:
+              summary = json.load(file)
+          print("true" if summary["needsTranslation"] else "false")
+          PY
+          )"
             diff_summary_json="$(python3 - "$diff_summary" <<'PY'
-            import json
-            import sys
-            with open(sys.argv[1], "r", encoding="utf-8") as file:
-                summary = json.load(file)
-            print(json.dumps(summary, ensure_ascii=False))
-            PY
-            )"
+          import json
+          import sys
+          with open(sys.argv[1], "r", encoding="utf-8") as file:
+              summary = json.load(file)
+          print(json.dumps(summary, ensure_ascii=False))
+          PY
+          )"
           fi
 
           python3 - "$tmp_dir" "$compare_summary" <<'PY'
@@ -420,14 +423,17 @@ jobs:
           echo "base_locale=$base_locale" >> "$GITHUB_OUTPUT"
           {
             echo "changed_files<<EOF"
-            python3 - "$compare_summary" <<'PY'
-            import json
-            import sys
-            with open(sys.argv[1], "r", encoding="utf-8") as file:
-                summary = json.load(file)
-            for path in summary["changedFiles"]:
-                print(path)
-            PY
+            while IFS= read -r file; do
+              [ -n "$file" ] && echo "$file"
+            done < <(python3 - "$compare_summary" <<'PY'
+          import json
+          import sys
+          with open(sys.argv[1], "r", encoding="utf-8") as file:
+              summary = json.load(file)
+          for path in summary["changedFiles"]:
+              print(path)
+          PY
+            )
             echo "EOF"
             echo "cached_locales_json<<EOF"
             echo "$cached_locales_json"
