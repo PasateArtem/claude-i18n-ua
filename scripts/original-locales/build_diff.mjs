@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { ensureDir, readJson, writeJson, writeJsonl } from '../../.translation/scripts/shared.mjs';
+import { ensureDir, readJson, writeJson, writeJsonl } from './shared.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..', '..');

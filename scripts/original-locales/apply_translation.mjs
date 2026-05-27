@@ -9,7 +9,7 @@ import {
   readJson,
   readJsonl,
   writeJson,
-} from '../../.translation/scripts/shared.mjs';
+} from './shared.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..', '..');
