@@ -1,0 +1,4 @@
+interface:
+  display_name: "Offline Chunk Translation"
+  short_description: "Offline chunk workflow for localization"
+  default_prompt: "Use $offline-chunk-translation to translate prepared localization chunks offline."
