@@ -8,9 +8,9 @@
 
 [简体中文](README.md) | [繁體中文](README.tw.md) | English
 
-[![Version](https://img.shields.io/badge/version-v1.1.1-orange?style=flat-square)](https://github.com/pectics/claude-web-i18n/releases)
+[![Version](https://img.shields.io/badge/version-v1.1.1-orange?style=flat-square)](https://github.com/pectics/claude-i18n/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Chrome%20%7C%20Edge-brightgreen?style=flat-square)](#installation)
+[![Platform](https://img.shields.io/badge/platform-Chrome%20%7C%20Edge%20%7C%20Tampermonkey-brightgreen?style=flat-square)](#installation)
 [![Locale](https://img.shields.io/badge/supported-Simplified%20Chinese-red?style=flat-square)](#supported-languages)
 
 </div>
@@ -129,6 +129,30 @@ The current implementation has three layers:
 
 ## Contributing
 
+### Updating language pack (syncing upstream)
+
+When Claude.ai adds, modifies, or removes UI keys upstream, CI automatically fetches the latest `.original/` files every 6 hours and opens a diff PR. Before the PR is merged, translations need to be applied manually:
+
+```bash
+# 1. Prepare translation tasks for zh-CN (generates chunked JSONL files)
+node scripts/locale-update/prepare_translation.mjs --locale zh-CN
+
+# 2. Translate the chunk files under .pending/locale-update/translation/zh-CN/chunks/
+#    The recommended way is to use the built-in translation workflow skill:
+#      Claude Code:  /offline-chunk-translation
+#      Codex:        /offline-chunk-translation
+#    The skill reads chunks, translates, writes to out/, and validates placeholders/ICU/tags
+#    Manual translation: each chunk is JSONL, lines have { key, en, ja, op }, output adds "zh"
+
+# 3. Validate and apply the translations
+node scripts/locale-update/apply_translation.mjs --locale zh-CN
+```
+
+What each script does:
+- `build_diff.mjs`: compares old and new `.original/` files to detect key diffs (add / update / remove)
+- `prepare_translation.mjs`: splits diffs into manageable translation chunks
+- `apply_translation.mjs`: validates translation integrity (placeholders, URLs, HTML tags, etc.) and merges back into `zh-CN/zh-CN.json`
+
 ### Improving translations
 
 The main UI translation file is [`zh-CN/zh-CN.json`](zh-CN/zh-CN.json). For `gated_messages` / Statsig-related copy, edit [`zh-CN/zh-CN.statsig.json`](zh-CN/zh-CN.statsig.json).
@@ -153,20 +177,6 @@ Edit the JSON file and open a PR. The structure is straightforward:
    `dist/locales.json`
    `dist/zh-TW/version.json`
 4. Open a PR
-
-### Local build
-
-```bash
-# Build language pack distribution files for Vercel
-./build.sh
-```
-
-`build.sh` will automatically:
-
-- copy locale directories into `dist/`
-- generate `dist/locales.json`
-- generate `dist/<locale>/version.json` for each locale
-- compute separate hashes for the main pack and Statsig pack so the extension can do lazy cache updates
 
 ---
 

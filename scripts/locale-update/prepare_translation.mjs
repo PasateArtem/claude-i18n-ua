@@ -5,7 +5,7 @@ import { ensureDir, readJson, readJsonl, writeJson, writeJsonl } from './shared.
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..', '..');
-const DEFAULT_PENDING_DIR = path.join(ROOT_DIR, '.pending', 'original-locale-update');
+const DEFAULT_PENDING_DIR = path.join(ROOT_DIR, '.pending', 'locale-update');
 const DEFAULT_TARGET_CHARS = 12000;
 const DEFAULT_MAX_ENTRIES = 300;
 const DEFAULT_MIN_ENTRIES = 50;

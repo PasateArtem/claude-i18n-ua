@@ -619,7 +619,7 @@ jobs:
           base_locale_entry_changed = os.environ["BASE_LOCALE_ENTRY_CHANGED"] == "true"
 
           lines = [
-              "Automated update for upstream Claude locale source files.",
+              "Automated update for upstream locale source files.",
               "",
               "Source patterns:",
               "- `https://claude.ai/i18n/{locale}.json`",

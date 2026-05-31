@@ -4,11 +4,6 @@
 .vscode/
 dist/
 
-.agents/
-.codex/
-AGENT.md
-CLAUDE.md
-
 *.bak/
 
 *.pem

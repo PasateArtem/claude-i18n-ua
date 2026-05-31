@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..', '..');
 const DEFAULT_BEFORE_DIR = path.join(ROOT_DIR, '.original');
 const DEFAULT_AFTER_DIR = path.join(ROOT_DIR, '.original');
-const DEFAULT_PENDING_DIR = path.join(ROOT_DIR, '.pending', 'original-locale-update');
+const DEFAULT_PENDING_DIR = path.join(ROOT_DIR, '.pending', 'locale-update');
 
 function toRepoRelative(filePath) {
   return path.relative(ROOT_DIR, filePath).split(path.sep).join('/');

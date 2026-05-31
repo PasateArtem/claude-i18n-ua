@@ -8,9 +8,9 @@
 
 简体中文 | [繁體中文](README.tw.md) | [English](README.en.md)
 
-[![Version](https://img.shields.io/badge/版本-v1.1.1-orange?style=flat-square)](https://github.com/Pectics/claude-web-i18n/releases)
+[![Version](https://img.shields.io/badge/版本-v1.1.1-orange?style=flat-square)](https://github.com/Pectics/claude-i18n/releases)
 [![License](https://img.shields.io/badge/许可证-MIT-blue?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/平台-Chrome%20%7C%20Edge-brightgreen?style=flat-square)](#安装)
+[![Platform](https://img.shields.io/badge/平台-Chrome%20%7C%20Edge%20%7C%20Tampermonkey-brightgreen?style=flat-square)](#安装)
 [![Locale](https://img.shields.io/badge/已支持-简体中文-red?style=flat-square)](#支持的语言)
 
 </div>
@@ -129,6 +129,30 @@ UI 按 Claude 自己的语言流程切换为中文
 
 ## 参与贡献
 
+### 更新语言包（同步上游）
+
+当 Claude.ai 上游新增、修改或删除 UI key 时，CI 会每 6 小时自动拉取最新 `.original/` 文件并生成差异 PR。PR 合并前，需要手动完成翻译：
+
+```bash
+# 1. 为 zh-CN 准备翻译任务（生成分块 JSONL）
+node scripts/locale-update/prepare_translation.mjs --locale zh-CN
+
+# 2. 翻译 .pending/locale-update/translation/zh-CN/chunks/ 下的分块文件
+#    推荐使用项目内置的翻译工作流 Skill：
+#      Claude Code:  /offline-chunk-translation
+#      Codex:        /offline-chunk-translation
+#    Skill 会自动读取 chunk、翻译、写入 out/ 目录，并校验占位符/ICU/标签完整性
+#    手动翻译也可：每个 chunk 是 JSONL，每行 { key, en, ja, op }，输出加 "zh" 字段
+
+# 3. 校验并应用翻译结果
+node scripts/locale-update/apply_translation.mjs --locale zh-CN
+```
+
+三个脚本的职责：
+- `build_diff.mjs`：对比新旧 `.original/` 生成 key 差异（add / update / remove）
+- `prepare_translation.mjs`：将差异拆分为可控大小的翻译分块
+- `apply_translation.mjs`：校验翻译完整性（占位符、URL、HTML 标签等），合并回 `zh-CN/zh-CN.json`
+
 ### 改进翻译
 
 主界面翻译位于 [`zh-CN/zh-CN.json`](zh-CN/zh-CN.json)。如果是 `gated_messages` / Statsig 相关文案，请编辑 [`zh-CN/zh-CN.statsig.json`](zh-CN/zh-CN.statsig.json)。
@@ -153,20 +177,6 @@ UI 按 Claude 自己的语言流程切换为中文
    `dist/locales.json`
    `dist/zh-TW/version.json`
 4. 提交 PR
-
-### 本地构建
-
-```bash
-# 构建 Vercel 部署用的语言包分发文件
-./build.sh
-```
-
-`build.sh` 会自动：
-
-- 复制语言目录到 `dist/`
-- 生成发布用的 `dist/locales.json`
-- 为每个 locale 生成 `dist/<locale>/version.json`
-- 计算主语言包和 statsig 语言包各自的 hash，供扩展做 lazy cache 更新
 
 ---
 
