@@ -1,4 +1,4 @@
-name: Update original locale files and generate diff
+name: Update original locale files and build diff
 
 on:
   schedule:
@@ -572,7 +572,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: Update original locale files and generate diff"
+          git commit -m "chore: Update original locale files and build diff"
           git push --set-upstream origin "$BRANCH_NAME"
 
           echo "committed=true" >> "$GITHUB_OUTPUT"
@@ -619,7 +619,7 @@ jobs:
           base_locale_entry_changed = os.environ["BASE_LOCALE_ENTRY_CHANGED"] == "true"
 
           lines = [
-              "Automated update for upstream Claude locale source files.",
+              "Automated update for upstream locale source files.",
               "",
               "Source patterns:",
               "- `https://claude.ai/i18n/{locale}.json`",
@@ -690,7 +690,7 @@ jobs:
 
           if [ -n "$PR_NUMBER" ]; then
             gh pr edit "$PR_NUMBER" \
-              --title "chore: update original Claude locale files" \
+              --title "chore: Update original locale files and build diff" \
               --body-file "$body_file"
             pr_url="$(gh pr view "$PR_NUMBER" --json url --jq .url)"
             echo "Updated $pr_url"
@@ -698,7 +698,7 @@ jobs:
             pr_url="$(gh pr create \
               --base "$BASE_REF" \
               --head "$BRANCH_NAME" \
-              --title "chore: update original Claude locale files" \
+              --title "chore: Update original locale files and build diff" \
               --body-file "$body_file")"
             echo "Created $pr_url"
           fi
