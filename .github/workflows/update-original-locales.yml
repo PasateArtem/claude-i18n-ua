@@ -1,4 +1,4 @@
-name: Update original Claude locale files
+name: Update original locale files and generate diff
 
 on:
   schedule:
@@ -11,13 +11,13 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: update-original-locales
+  group: locale-update
   cancel-in-progress: true
 
 env:
-  UPDATE_BRANCH: bot/locales-update
+  UPDATE_BRANCH: bot/locale-update
   BASE_LOCALE: en-US
-  PENDING_DIR: .pending/original-locale-update
+  PENDING_DIR: .pending/locale-update
   FETCH_MAX_ATTEMPTS: "5"
   FETCH_INITIAL_BACKOFF_SECONDS: "5"
   FETCH_BACKOFF_MULTIPLIER: "2"
@@ -463,7 +463,7 @@ jobs:
           diff_summary_json="null"
 
           if [ "$base_locale_entry_changed" = "true" ]; then
-            node scripts/original-locales/build_diff.mjs \
+            node scripts/locale-update/build_diff.mjs \
               --base-locale "$base_locale" \
               --before-dir "$main_original_dir" \
               --after-dir "$tmp_dir" \
