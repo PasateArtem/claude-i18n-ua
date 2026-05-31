@@ -5,7 +5,6 @@ import { ensureDir, readJson, writeJson, writeJsonl } from './shared.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..', '..');
-const DEFAULT_CONFIG_PATH = path.join(ROOT_DIR, '.original', 'upstream-locales.json');
 const DEFAULT_BEFORE_DIR = path.join(ROOT_DIR, '.original');
 const DEFAULT_AFTER_DIR = path.join(ROOT_DIR, '.original');
 const DEFAULT_PENDING_DIR = path.join(ROOT_DIR, '.pending', 'original-locale-update');
@@ -16,13 +15,13 @@ function toRepoRelative(filePath) {
 
 function usage() {
   throw new Error(
-    'Usage: node build_diff.mjs --metadata <path> [--config <path>] [--before-dir <path>] [--after-dir <path>] [--pending-dir <path>]'
+    'Usage: node build_diff.mjs --base-locale <locale> --metadata <path> [--before-dir <path>] [--after-dir <path>] [--pending-dir <path>]'
   );
 }
 
 function parseArgs(argv) {
   const args = {
-    config: DEFAULT_CONFIG_PATH,
+    baseLocale: null,
     beforeDir: DEFAULT_BEFORE_DIR,
     afterDir: DEFAULT_AFTER_DIR,
     pendingDir: DEFAULT_PENDING_DIR,
@@ -32,8 +31,8 @@ function parseArgs(argv) {
   for (let index = 0; index < argv.length; index += 1) {
     const token = argv[index];
     const next = argv[index + 1];
-    if (token === '--config' && next) {
-      args.config = path.resolve(next);
+    if (token === '--base-locale' && next) {
+      args.baseLocale = next;
       index += 1;
     } else if (token === '--before-dir' && next) {
       args.beforeDir = path.resolve(next);
@@ -52,21 +51,48 @@ function parseArgs(argv) {
     }
   }
 
+  if (!args.baseLocale) usage();
   if (!args.metadata) usage();
   return args;
 }
 
-function readLocaleList(configPath) {
-  const config = readJson(configPath);
-  if (!Array.isArray(config.locales) || config.locales.length === 0) {
-    throw new Error(`${configPath}: locales must be a non-empty array`);
-  }
-  for (const locale of config.locales) {
-    if (typeof locale !== 'string' || locale.length === 0) {
-      throw new Error(`${configPath}: locales entries must be non-empty strings`);
+function discoverLocaleList(dirPath, baseLocale) {
+  const mainLocales = new Set();
+  const statsigLocales = new Set();
+  const localePattern = /^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/;
+
+  for (const entry of fs.readdirSync(dirPath, { withFileTypes: true })) {
+    if (!entry.isFile()) continue;
+
+    const { name } = entry;
+    if (name.endsWith('.statsig.json')) {
+      const locale = name.slice(0, -'.statsig.json'.length);
+      if (localePattern.test(locale)) statsigLocales.add(locale);
+    } else if (name.endsWith('.json')) {
+      const locale = name.slice(0, -'.json'.length);
+      if (localePattern.test(locale)) mainLocales.add(locale);
     }
   }
-  return config.locales;
+
+  const missingStatsig = [...mainLocales].filter((locale) => !statsigLocales.has(locale)).sort();
+  const missingMain = [...statsigLocales].filter((locale) => !mainLocales.has(locale)).sort();
+  const errors = [];
+
+  if (!mainLocales.has(baseLocale)) {
+    errors.push(`${dirPath}: missing base locale ${baseLocale}.json`);
+  }
+  if (missingStatsig.length > 0) {
+    errors.push(`${dirPath}: missing statsig files for ${missingStatsig.join(', ')}`);
+  }
+  if (missingMain.length > 0) {
+    errors.push(`${dirPath}: missing main locale files for ${missingMain.join(', ')}`);
+  }
+
+  if (errors.length > 0) {
+    throw new Error(errors.join('\n'));
+  }
+
+  return [baseLocale, ...[...mainLocales].filter((locale) => locale !== baseLocale).sort()];
 }
 
 function readMetadata(metadataPath) {
@@ -167,8 +193,8 @@ function buildDiffRows(fileLabel, beforeData, afterData, referenceData) {
 
 function main() {
   const args = parseArgs(process.argv.slice(2));
-  const locales = readLocaleList(args.config);
-  const baseLocale = locales[0];
+  const baseLocale = args.baseLocale;
+  const locales = discoverLocaleList(args.afterDir, baseLocale);
   const referenceLocale = locales.length > 1 ? locales[1] : null;
   const metadata = readMetadata(args.metadata);
 
