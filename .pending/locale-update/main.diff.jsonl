@@ -1,0 +1,108 @@
+{"file":"main","op":"remove","index":null,"key":"/FxZ9hMF1y","beforeEn":"Connectors and tools","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"6QPtZGdszd","beforeEn":"Header value","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"6dU8bSEcAA","beforeEn":"Install custom tools, UI tabs, and context handlers.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"8PGhCK5G81","beforeEn":"This default will update automatically when a more capable model is released.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"9TuGhcPdgo","beforeEn":"Injected on every proxied request to allowed hosts. Values are write-only and never shown after saving.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"9qQVeeZUgq","beforeEn":"Back to plans","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"AYBJNce0nm","beforeEn":"Manage your Conway instance.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"Ay7Mb52y9j","beforeEn":"Use the most capable model","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"D6pbuXF+T7","beforeEn":"Running remote agent","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"ECOi79OgU1","beforeEn":"Choose the starting model for new conversations in Chat and Cowork. Members can switch, and Claude remembers each member's choice for next time. Role defaults take priority over this setting.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"Ghkq27jKoe","beforeEn":"Ready to check out","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"HgXvYecpQt","beforeEn":"Phase: {title}","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"Jg7nUnCsSg","beforeEn":"Choose the model Conway uses.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"MHF4zVWFBC","beforeEn":"Based on what you've described, a smaller plan is the better fit.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"MMGErkYDl+","beforeEn":"Clients connected to this container and the tools they provide.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"N4ItoItCoT","beforeEn":"Refresh clients","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"Q4+ugfcr5g","beforeEn":"Running monitor","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"Wc4xosHQvO","beforeEn":"Running loop","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"Y0M5WDD4f1","beforeEn":"Your request has been sent to our sales team.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"Z5XC9U1uH8","beforeEn":"Use organization default (Use the most capable model)","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"cqGbQhSB6R","beforeEn":"This task will run remotely.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"g/2u3C8Cvw","beforeEn":"Running dream","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"jgwnfsUR83","beforeEn":"Open effort menu","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"mr95hV6ErN","beforeEn":"Stays on this model when new models are released.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"ri3jJiKwAo","beforeEn":"Running Bash","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"u2FluSQcfr","beforeEn":"This isn't something I can help with here.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"xoTD6HFwNH","beforeEn":"Automatically fall back to a smaller model when a message is flagged by safety filters.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"zGsvZUPTo8","beforeEn":"e.g. DD-API-KEY","afterEn":null,"afterJa":null}
+{"file":"main","op":"add","index":437,"key":"/vS0q3Ih3h","beforeEn":null,"afterEn":"Adds to this run's prompt:","afterJa":"この実行のプロンプトに追加："}
+{"file":"main","op":"add","index":703,"key":"13oSrCj+vV","beforeEn":null,"afterEn":"This may open your browser to finish signing in. It can take a moment.","afterJa":"サインインを完了するためにブラウザが開く場合があります。少々お時間がかかることがあります。"}
+{"file":"main","op":"add","index":787,"key":"1SokOHvw3r","beforeEn":null,"afterEn":"This task runs in the cloud. Your computer doesn't need to be on.","afterJa":"このタスクはクラウドで実行されます。お使いのコンピューターの電源が入っている必要はありません。"}
+{"file":"main","op":"add","index":834,"key":"1foySNVZOy","beforeEn":null,"afterEn":"View latest","afterJa":"最新を表示"}
+{"file":"main","op":"add","index":1248,"key":"3PgVVBNJ6+","beforeEn":null,"afterEn":"Stops and restarts the container. Your files and chat history are kept.","afterJa":"コンテナを停止して再起動します。ファイルとチャット履歴は保持されます。"}
+{"file":"main","op":"add","index":1372,"key":"3x+WPYpgig","beforeEn":null,"afterEn":"Open browser activity","afterJa":"ブラウザのアクティビティを開く"}
+{"file":"main","op":"add","index":1452,"key":"4IrgLz6JjI","beforeEn":null,"afterEn":"Disables this task","afterJa":"このタスクを無効にします"}
+{"file":"main","op":"add","index":1755,"key":"5at+W4GX/M","beforeEn":null,"afterEn":"Injected on every proxied request to allowed hosts. The prefix is prepended to the secret when the header is sent — leave it empty to send the secret as-is. Values are write-only and never shown after saving.","afterJa":"許可されたホストへのすべてのプロキシリクエストに挿入されます。ヘッダー送信時にプレフィックスがシークレットの前に付加されます。シークレットをそのまま送信する場合は、プレフィックスを空のままにしてください。値は書き込み専用で、保存後は表示されません。"}
+{"file":"main","op":"add","index":2260,"key":"7YpOS0414K","beforeEn":null,"afterEn":"Used for new turns in this Conway. Changing it doesn't affect your other chats.","afterJa":"このConwayの新しいターンに使用されます。変更しても他のチャットには影響しません。"}
+{"file":"main","op":"add","index":2578,"key":"8uN+pRpuBV","beforeEn":null,"afterEn":"Workforce Identity IdP (OIDC)","afterJa":"Workforce Identity IdP (OIDC)"}
+{"file":"main","op":"add","index":2735,"key":"9XiW3xWqO5","beforeEn":null,"afterEn":"Loop","afterJa":"ループ"}
+{"file":"main","op":"add","index":2751,"key":"9dx43BqWHy","beforeEn":null,"afterEn":"Faster","afterJa":"速い"}
+{"file":"main","op":"add","index":2820,"key":"9uZHI0Dsh3","beforeEn":null,"afterEn":"Custom tools, UI tabs, and context handlers installed in this Conway.","afterJa":"このConwayにインストールされたカスタムツール、UIタブ、コンテキストハンドラー。"}
+{"file":"main","op":"add","index":3149,"key":"B9l27BNEGU","beforeEn":null,"afterEn":"Workforce Identity audience","afterJa":"Workforce Identity オーディエンス"}
+{"file":"main","op":"add","index":3166,"key":"BCq+xoiDzP","beforeEn":null,"afterEn":"GCP project for STS billing and quota. Defaults to the Vertex project ID above.","afterJa":"STSの請求とクォータに使用するGCPプロジェクト。デフォルトは上記のVertexプロジェクトIDです。"}
+{"file":"main","op":"add","index":3189,"key":"BIhNXWv4cN","beforeEn":null,"afterEn":"See resolved curl example","afterJa":"解決済みのcurlの例を見る"}
+{"file":"main","op":"add","index":3549,"key":"CjcAbB7fOB","beforeEn":null,"afterEn":"Use organization default (Anthropic's recommended default)","afterJa":"組織のデフォルトを使用（Anthropicの推奨デフォルト）"}
+{"file":"main","op":"add","index":3678,"key":"DGQiEU/2Ss","beforeEn":null,"afterEn":"Each run continues this session","afterJa":"実行のたびにこのセッションを継続します"}
+{"file":"main","op":"add","index":3818,"key":"DrsTyw0Tuh","beforeEn":null,"afterEn":"Continue to Team checkout","afterJa":"Team のチェックアウトに進む"}
+{"file":"main","op":"add","index":3849,"key":"DzRnZunx0y","beforeEn":null,"afterEn":"View scheduled tasks","afterJa":"スケジュールされたタスクを表示"}
+{"file":"main","op":"add","index":3894,"key":"EBQHEgxMx3","beforeEn":null,"afterEn":"//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER","afterJa":"//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER"}
+{"file":"main","op":"add","index":3982,"key":"EYOanHZfsA","beforeEn":null,"afterEn":"Open effort selector","afterJa":"エフォートセレクターを開く"}
+{"file":"main","op":"add","index":4233,"key":"FXIz2Xrc2H","beforeEn":null,"afterEn":"Use Anthropic's recommended default","afterJa":"Anthropicの推奨デフォルトを使用"}
+{"file":"main","op":"add","index":4409,"key":"GCiKUALiJT","beforeEn":null,"afterEn":"Phase: {title}, {status}","afterJa":"フェーズ: {title}、{status}"}
+{"file":"main","op":"add","index":4443,"key":"GKRkihdCmn","beforeEn":null,"afterEn":"Your organization's OIDC IdP. The app runs an authorization-code-with-PKCE flow against this issuer and exchanges the returned ID token at GCP STS.","afterJa":"組織のOIDC IdPです。アプリはこのイシュアーに対してPKCE付き認可コードフローを実行し、返されたIDトークンをGCP STSで交換します。"}
+{"file":"main","op":"add","index":4690,"key":"HQVQfgjV4I","beforeEn":null,"afterEn":"Level {position} of {total}","afterJa":"{total}段階中{position}段階目"}
+{"file":"main","op":"add","index":4700,"key":"HTV1/vvS2O","beforeEn":null,"afterEn":"Install plugin","afterJa":"プラグインをインストール"}
+{"file":"main","op":"add","index":4703,"key":"HUkfp9oW6x","beforeEn":null,"afterEn":"New name: {name}","afterJa":"新しい名前：{name}"}
+{"file":"main","op":"add","index":4778,"key":"HpVU1CVAj8","beforeEn":null,"afterEn":"Connected with warning · {latency}ms","afterJa":"警告付きで接続済み・{latency}ms"}
+{"file":"main","op":"add","index":4821,"key":"I0iYUvUr/a","beforeEn":null,"afterEn":"Tools Conway can use from your Claude connectors and connected apps.","afterJa":"ConwayがClaudeコネクタおよび接続済みアプリから使用できるツール。"}
+{"file":"main","op":"add","index":5020,"key":"ItICDcI/fy","beforeEn":null,"afterEn":"Automatically fall back to another model when a message is flagged by safety filters.","afterJa":"安全フィルターにメッセージが引っかかった場合、自動的に別のモデルにフォールバックします。"}
+{"file":"main","op":"add","index":5040,"key":"IzEySeOy5/","beforeEn":null,"afterEn":"All settings","afterJa":"すべての設定"}
+{"file":"main","op":"add","index":5067,"key":"J2KJ6p9ycJ","beforeEn":null,"afterEn":"Each run starts a fresh session","afterJa":"実行のたびに新しいセッションを開始します"}
+{"file":"main","op":"add","index":5068,"key":"J2RNjCfahB","beforeEn":null,"afterEn":"Applies to your whole Claude account, not just this Conway.","afterJa":"このConwayだけでなく、Claudeアカウント全体に適用されます。"}
+{"file":"main","op":"add","index":5327,"key":"K5CCzWoT+1","beforeEn":null,"afterEn":"Header secret","afterJa":"ヘッダーシークレット"}
+{"file":"main","op":"add","index":5341,"key":"K8+AA5REVZ","beforeEn":null,"afterEn":"Signing you in…","afterJa":"サインインしています…"}
+{"file":"main","op":"add","index":5762,"key":"LqAfXOsBMe","beforeEn":null,"afterEn":"Always uses the model Anthropic recommends for enterprise use. Updates automatically as newer models are released.","afterJa":"Anthropicがエンタープライズ向けに推奨するモデルを常に使用します。新しいモデルがリリースされると自動的に更新されます。"}
+{"file":"main","op":"add","index":5878,"key":"MGtIYVqVHZ","beforeEn":null,"afterEn":"Couldn't check SSO settings. Reload the page to try again.","afterJa":"SSOの設定を確認できませんでした。ページを再読み込みして、もう一度お試しください。"}
+{"file":"main","op":"add","index":6142,"key":"NMyxjimJkk","beforeEn":null,"afterEn":"Container ID","afterJa":"コンテナID"}
+{"file":"main","op":"add","index":6270,"key":"NuNseyCYlt","beforeEn":null,"afterEn":"Enables this task","afterJa":"このタスクを有効にします"}
+{"file":"main","op":"add","index":6395,"key":"OQt93E2kkU","beforeEn":null,"afterEn":"This proposal was updated — a newer one is below","afterJa":"この提案は更新されました。新しい提案は下にあります"}
+{"file":"main","op":"add","index":6552,"key":"P2LCvY0vDt","beforeEn":null,"afterEn":"Change anytime before you check out.","afterJa":"チェックアウト前にいつでも変更できます。"}
+{"file":"main","op":"add","index":7218,"key":"RyJM/8RR63","beforeEn":null,"afterEn":"Model selection isn't available until the container is connected.","afterJa":"コンテナが接続されるまで、モデルの選択はできません。"}
+{"file":"main","op":"add","index":7299,"key":"SPaaOmrai3","beforeEn":null,"afterEn":"Also changes:","afterJa":"その他の変更："}
+{"file":"main","op":"add","index":7468,"key":"T8t7Fu+JhP","beforeEn":null,"afterEn":"Workforce Identity billing project","afterJa":"Workforce Identity 請求プロジェクト"}
+{"file":"main","op":"add","index":7906,"key":"UuId1n4A3o","beforeEn":null,"afterEn":"Header prefix","afterJa":"ヘッダープレフィックス"}
+{"file":"main","op":"add","index":8082,"key":"VbB5ek1XTP","beforeEn":null,"afterEn":"Header prefix (opt.)","afterJa":"ヘッダープレフィックス（任意）"}
+{"file":"main","op":"add","index":8097,"key":"VeqEFgHu5h","beforeEn":null,"afterEn":"Billed once a year","afterJa":"年1回の請求"}
+{"file":"main","op":"add","index":8694,"key":"Y7RxDEV4Af","beforeEn":null,"afterEn":"Run task now","afterJa":"今すぐタスクを実行"}
+{"file":"main","op":"add","index":8818,"key":"YfucG+3eg9","beforeEn":null,"afterEn":"Workforce Identity sign-in (OIDC)","afterJa":"Workforce Identity サインイン (OIDC)"}
+{"file":"main","op":"add","index":9252,"key":"aO4HrhCDgs","beforeEn":null,"afterEn":"To learn more about Anthropic's model capabilities and pricing, see the <modelsOverviewLink>models overview</modelsOverviewLink>.","afterJa":"Anthropicのモデルの機能と料金の詳細については、<modelsOverviewLink>モデルの概要</modelsOverviewLink>をご覧ください。"}
+{"file":"main","op":"add","index":9525,"key":"bTBJTYxUYl","beforeEn":null,"afterEn":"Smarter","afterJa":"賢い"}
+{"file":"main","op":"add","index":9536,"key":"bV2dTY3jQq","beforeEn":null,"afterEn":"Refresh connectors","afterJa":"コネクタを更新"}
+{"file":"main","op":"add","index":9686,"key":"c6LNcWaCmr","beforeEn":null,"afterEn":"Delete task","afterJa":"タスクを削除"}
+{"file":"main","op":"add","index":9698,"key":"c9BX4f3H1c","beforeEn":null,"afterEn":"Continue to Enterprise checkout","afterJa":"Enterprise のチェックアウトに進む"}
+{"file":"main","op":"add","index":9802,"key":"cc4tPynCta","beforeEn":null,"afterEn":"Workforce-pool provider audience. When set, sign-in uses your own IdP plus a GCP STS exchange instead of a Google identity.","afterJa":"Workforce Poolプロバイダのオーディエンス。設定すると、サインイン時にGoogleアイデンティティの代わりに独自のIdPとGCP STSの交換が使用されます。"}
+{"file":"main","op":"add","index":9850,"key":"cnHH1HEs1x","beforeEn":null,"afterEn":"Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker, and Claude remembers their last selection for next time.","afterJa":"ChatとCoworkの新しい会話で使用する開始モデルを選択します。メンバーはモデルピッカーを使用していつでもモデルを変更でき、Claudeは次回のために最後の選択を記憶します。"}
+{"file":"main","op":"add","index":9980,"key":"dKEgofbwpe","beforeEn":null,"afterEn":"Workforce Identity (STS)","afterJa":"Workforce Identity (STS)"}
+{"file":"main","op":"add","index":10062,"key":"dfCoF2i6bG","beforeEn":null,"afterEn":"Select a specific model for your organization. This won't change when new models are released.","afterJa":"組織で使用する特定のモデルを選択します。新しいモデルがリリースされても変更されません。"}
+{"file":"main","op":"add","index":10103,"key":"dqeaaT0nKW","beforeEn":null,"afterEn":"To set defaults for specific groups, go to <rolesLink>Roles</rolesLink>, and to manage Claude Code model defaults, go to <managedSettingsLink>Managed settings</managedSettingsLink>.","afterJa":"特定のグループのデフォルトを設定するには<rolesLink>ロール</rolesLink>に、Claude Codeのモデルデフォルトを管理するには<managedSettingsLink>管理設定</managedSettingsLink>に移動してください。"}
+{"file":"main","op":"add","index":10444,"key":"fDB74ChLSl","beforeEn":null,"afterEn":"Open billing settings","afterJa":"請求設定を開く"}
+{"file":"main","op":"add","index":10537,"key":"fb0mFF7uEb","beforeEn":null,"afterEn":"Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker.","afterJa":"ChatとCoworkの新しい会話で使用する開始モデルを選択します。メンバーはモデルピッカーを使用していつでもモデルを変更できます。"}
+{"file":"main","op":"add","index":11184,"key":"iEfZH5cyl6","beforeEn":null,"afterEn":"About effort","afterJa":"エフォートについて"}
+{"file":"main","op":"add","index":11525,"key":"jkBzOUPk6N","beforeEn":null,"afterEn":"e.g. Bearer","afterJa":"例：Bearer"}
+{"file":"main","op":"add","index":11649,"key":"k8l06lFyli","beforeEn":null,"afterEn":"Stalled","afterJa":"停滞中"}
+{"file":"main","op":"add","index":11817,"key":"kqtFvmntYS","beforeEn":null,"afterEn":"Billed month to month","afterJa":"毎月の請求"}
+{"file":"main","op":"add","index":11851,"key":"l/rfvlcDyA","beforeEn":null,"afterEn":"A space is added between the prefix and secret (Bearer ***). Prefixes ending in = attach directly (token=***).","afterJa":"プレフィックスとシークレットの間にスペースが追加されます（Bearer ***）。=で終わるプレフィックスは直接結合されます（token=***）。"}
+{"file":"main","op":"add","index":12146,"key":"mEdG/OmTPo","beforeEn":null,"afterEn":"Connectors & tools","afterJa":"コネクタとツール"}
+{"file":"main","op":"add","index":12895,"key":"pNjWkEHKfE","beforeEn":null,"afterEn":"e.g. Authorization","afterJa":"例：Authorization"}
+{"file":"main","op":"add","index":13005,"key":"puP9QWxX+t","beforeEn":null,"afterEn":"Waiting for agents to start","afterJa":"エージェントの起動を待っています"}
+{"file":"main","op":"add","index":13449,"key":"rq61zqsEWq","beforeEn":null,"afterEn":"Connected, but the identity provider didn't issue a refresh token. This connector will stop working when the access token expires. For OIDC providers, add 'offline_access' to the scope; for others, see your IdP's documentation.","afterJa":"接続されましたが、アイデンティティプロバイダーがリフレッシュトークンを発行しませんでした。アクセストークンの有効期限が切れると、このコネクターは機能しなくなります。OIDCプロバイダーの場合は、スコープに‘offline_access’を追加してください。その他の場合は、IdPのドキュメントを参照してください。"}
+{"file":"main","op":"add","index":13523,"key":"s8hQbj7ac0","beforeEn":null,"afterEn":"More agents may appear","afterJa":"さらにエージェントが表示される場合があります"}
+{"file":"main","op":"add","index":13548,"key":"sGQYZv/a29","beforeEn":null,"afterEn":"See upgrade options","afterJa":"アップグレードオプションを見る"}
+{"file":"main","op":"add","index":13781,"key":"t6rZDWs9YI","beforeEn":null,"afterEn":"Container","afterJa":"コンテナ"}
+{"file":"main","op":"add","index":14020,"key":"u2XWYU1wrI","beforeEn":null,"afterEn":"Billing period","afterJa":"請求期間"}
+{"file":"main","op":"add","index":14794,"key":"xL7cDBls/V","beforeEn":null,"afterEn":"Open Claude settings","afterJa":"Claudeの設定を開く"}
+{"file":"main","op":"add","index":15023,"key":"yNuy7a4xdi","beforeEn":null,"afterEn":"Allowed domains & code execution","afterJa":"許可されたドメインとコード実行"}
+{"file":"main","op":"add","index":15054,"key":"yX2nEGHr9u","beforeEn":null,"afterEn":"Restart Conway","afterJa":"Conwayを再起動"}
+{"file":"main","op":"add","index":15317,"key":"zbJiVYheyP","beforeEn":null,"afterEn":"Model, connectors, and plugins for this Conway. Account-wide settings stay in your Claude settings.","afterJa":"このConwayのモデル、コネクタ、プラグイン。アカウント全体の設定はClaudeの設定に保存されます。"}
+{"file":"main","op":"add","index":15393,"key":"zw1IUPXtJ/","beforeEn":null,"afterEn":"+{hostCount, plural, one {# more host} other {# more hosts}}","afterJa":"+{hostCount, plural, one {他 # ホスト} other {他 # ホスト}}"}
