@@ -2,8 +2,10 @@
 {"file":"main","op":"remove","index":null,"key":"/gXsy9Mz/K","beforeEn":"SSO isn't available for this address.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"/mLI9f4gDS","beforeEn":"There are too many members to check. Review group memberships before making changes that could affect access.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"0zcJJs/iy7","beforeEn":"{count, plural, one {# user will be removed from this role} other {# users will be removed from this role}}","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"1KOEq/zSqC","beforeEn":"I'm an AI buying agent, here to help you figure out which plan fits, what it'll cost, and how to get your team set up. We can do all of it right here.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"3ifzXrvIu/","beforeEn":"These users are not assigned to any other custom role through their groups. After deleting this role, they will no longer have access to any features enabled by custom roles.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"5gLnhrffoM","beforeEn":"Use a different account","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"5qoxO80yaz","beforeEn":"* These figures are provided as general guidance only. Actual consumption will vary based on your team's size, workflows, and usage patterns.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"6QPtZGdszd","beforeEn":"Header value","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"6dU8bSEcAA","beforeEn":"Install custom tools, UI tabs, and context handlers.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"6taJELBVl2","beforeEn":"Your organization enforces a fixed default, so each new conversation resets to this model — members' own picks don't carry over.","afterEn":null,"afterJa":null}
@@ -18,7 +20,10 @@
 {"file":"main","op":"remove","index":null,"key":"DkhyJZy9II","beforeEn":"**The best price you'll get.** I always check the latest pricing.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"ECOi79OgU1","beforeEn":"Choose the starting model for new conversations in Chat and Cowork. Members can switch, and Claude remembers each member's choice for next time. Role defaults take priority over this setting.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"Ghkq27jKoe","beforeEn":"Ready to check out","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"GzxyiaYWhy","beforeEn":"Org default","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"HgXvYecpQt","beforeEn":"Phase: {title}","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"I2JE7R9Ijm","beforeEn":"Kick off another task","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"I90sbWU03C","beforeEn":"just now","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"Jg7nUnCsSg","beforeEn":"Choose the model Conway uses.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"KN7KCEgZIc","beforeEn":"An egress allow rule will be created for {hostCount, plural, one {this host} other {these hosts}} so the credential can be used.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"LDgesBZCH+","beforeEn":"No agents have started yet.","afterEn":null,"afterJa":null}
@@ -38,279 +43,323 @@
 {"file":"main","op":"remove","index":null,"key":"WrH/7b3RS2","beforeEn":"{count, plural, one {# user will have no custom role assigned} other {# users will have no custom role assigned}}","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"Y0M5WDD4f1","beforeEn":"Your request has been sent to our sales team.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"Z5XC9U1uH8","beforeEn":"Use organization default (Use the most capable model)","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"bCbdDdDMQC","beforeEn":"We’re rolling out access to the browser extension gradually. Join the waitlist and we’ll let you know as soon as it’s your turn!","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"bUKd7ki8zW","beforeEn":"These users are not assigned to any other custom role through their groups. After removing these groups from this role, they will no longer have access to any features enabled by custom roles.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"cKrD3R/rro","beforeEn":"Add egress credential","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"ce4R0eLvX9","beforeEn":"The starting model for members with this role. When a member has multiple roles, the most capable default model applies.","afterEn":null,"afterJa":null}
-{"file":"main","op":"remove","index":null,"key":"cqGbQhSB6R","beforeEn":"This task will run remotely.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"dSnbl5/rrh","beforeEn":"Share a link for people with an allowed email domain to join. Follows new member approval settings above.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"fFMa7D0Hp3","beforeEn":"By continuing, you agree to our {privacyPolicy} and {commercialTerms}.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"fmpHkU4mZX","beforeEn":"openid profile","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"g/2u3C8Cvw","beforeEn":"Running dream","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"gQ/rjGTdJ+","beforeEn":"Session exported to your downloads.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"iZKwrfC9cv","beforeEn":"Join waitlist","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"jTl0ZfUTLp","beforeEn":"and {count, plural, one {# other} other {# others}}","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"jgwnfsUR83","beforeEn":"Open effort menu","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"kYNOhKLB2l","beforeEn":"Couldn't start sign-in. Please try again.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"ls7UUL8YCN","beforeEn":"I can't reach {appName} right now — it may need to be reconnected.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"mr95hV6ErN","beforeEn":"Stays on this model when new models are released.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"pn8lhi+nrw","beforeEn":"Use organization default ({modelName})","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"rOhNnIgaN0","beforeEn":"Estimated usage per seat<sup>*</sup>","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"ri3jJiKwAo","beforeEn":"Running Bash","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"tWSI9b2hG6","beforeEn":"We’re not quite ready yet","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"u2FluSQcfr","beforeEn":"This isn't something I can help with here.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"uRoGnwYw6s","beforeEn":"**I already know your account.** If you're using Claude, I can see your current plan, seats, and usage. We don't train on your data.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"vEq8UN/T+P","beforeEn":"Egress credential created.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"vwgiy5FZUq","beforeEn":"Couldn't load plugin page: {error}","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"wiJGoE4uBV","beforeEn":"Preview markdown","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"xoTD6HFwNH","beforeEn":"Automatically fall back to a smaller model when a message is flagged by safety filters.","afterEn":null,"afterJa":null}
+{"file":"main","op":"remove","index":null,"key":"yTIp4vi0Yk","beforeEn":"Manage custom roles...","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"ymKQveI0jh","beforeEn":"CI checks unavailable. Check that gh is installed and authenticated.","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"zGsvZUPTo8","beforeEn":"e.g. DD-API-KEY","afterEn":null,"afterJa":null}
 {"file":"main","op":"remove","index":null,"key":"zJeLQ00e6r","beforeEn":"To enforce member permissions with custom roles, go to the <link>Members</link> page and change the member's role type to <b>Custom roles</b>. Custom roles cannot grant features disabled at the organization level. Learn more about <defaultLink>roles and permissions</defaultLink>. Please review the <setupGuideLink>setup guide</setupGuideLink> when configuring custom roles.","afterEn":null,"afterJa":null}
-{"file":"main","op":"add","index":312,"key":"/QvsXl23+v","beforeEn":null,"afterEn":"SCIM synced","afterJa":"SCIM同期済み"}
-{"file":"main","op":"add","index":436,"key":"/vS0q3Ih3h","beforeEn":null,"afterEn":"Adds to this run's prompt:","afterJa":"この実行のプロンプトに追加："}
-{"file":"main","op":"add","index":510,"key":"0GsRxkTbO8","beforeEn":null,"afterEn":"Bypass permissions mode and auto mode controls for Claude Code Desktop are moving to Managed settings on June 5, 2026, alongside the CLI and IDE.","afterJa":"Claude Code Desktopの権限バイパスモードと自動モードのコントロールは、CLIおよびIDEと合わせて、2026年6月5日に管理設定へ移行します。"}
-{"file":"main","op":"add","index":544,"key":"0PDitvSoS4","beforeEn":null,"afterEn":"Typically supplied by your bootstrap server. Ignored when bootstrap is disabled.","afterJa":"通常はbootstrapサーバーによって提供されます。bootstrapが無効の場合は無視されます。"}
-{"file":"main","op":"add","index":551,"key":"0QsHlMb8HD","beforeEn":null,"afterEn":"Allow Auto mode","afterJa":"自動モードを許可する"}
-{"file":"main","op":"add","index":572,"key":"0WKDjemQuM","beforeEn":null,"afterEn":"Domain claim could not be started because one or more required settings were changed. Review the requirements and try again.","afterJa":"必要な設定が1つ以上変更されたため、ドメインの申請を開始できませんでした。要件を確認して、もう一度お試しください。"}
-{"file":"main","op":"add","index":577,"key":"0XPZhVZucD","beforeEn":null,"afterEn":"Migrate accounts using your domains","afterJa":"ドメインを使用してアカウントを移行する"}
-{"file":"main","op":"add","index":580,"key":"0XuZalshtF","beforeEn":null,"afterEn":"View affected accounts","afterJa":"影響を受けるアカウントを表示"}
-{"file":"main","op":"add","index":688,"key":"10P48tR2FZ","beforeEn":null,"afterEn":"Auto-accept permissions mode","afterJa":"パーミッション自動承認モード"}
-{"file":"main","op":"add","index":708,"key":"13oSrCj+vV","beforeEn":null,"afterEn":"This may open your browser to finish signing in. It can take a moment.","afterJa":"サインインを完了するためにブラウザが開く場合があります。少々お時間がかかることがあります。"}
-{"file":"main","op":"add","index":792,"key":"1SokOHvw3r","beforeEn":null,"afterEn":"This task runs in the cloud. Your computer doesn't need to be on.","afterJa":"このタスクはクラウドで実行されます。お使いのコンピューターの電源が入っている必要はありません。"}
-{"file":"main","op":"add","index":839,"key":"1foySNVZOy","beforeEn":null,"afterEn":"View latest","afterJa":"最新を表示"}
-{"file":"main","op":"add","index":981,"key":"2E1wYB9RWZ","beforeEn":null,"afterEn":"Can't reach GitHub — check your connection.","afterJa":"GitHubに接続できません。接続を確認してください。"}
-{"file":"main","op":"add","index":1011,"key":"2L6R5TY/RU","beforeEn":null,"afterEn":"GitHub App","afterJa":"GitHub App"}
-{"file":"main","op":"add","index":1091,"key":"2gbdtcM81x","beforeEn":null,"afterEn":"Microsoft sign-in endpoint returned an unexpected response","afterJa":"Microsoftサインインエンドポイントが予期しない応答を返しました"}
-{"file":"main","op":"add","index":1099,"key":"2iq+QrPXf4","beforeEn":null,"afterEn":"Additional claims (JSON, optional)","afterJa":"追加クレーム（JSON、任意）"}
-{"file":"main","op":"add","index":1179,"key":"32Yl/KqgPN","beforeEn":null,"afterEn":"Collapse {title}","afterJa":"{title}を折りたたむ"}
-{"file":"main","op":"add","index":1257,"key":"3OoO84OwLp","beforeEn":null,"afterEn":"Claude Code remote control","afterJa":"Claude Code リモートコントロール"}
-{"file":"main","op":"add","index":1259,"key":"3PgVVBNJ6+","beforeEn":null,"afterEn":"Stops and restarts the container. Your files and chat history are kept.","afterJa":"コンテナを停止して再起動します。ファイルとチャット履歴は保持されます。"}
-{"file":"main","op":"add","index":1382,"key":"3x+WPYpgig","beforeEn":null,"afterEn":"Open browser activity","afterJa":"ブラウザのアクティビティを開く"}
-{"file":"main","op":"add","index":1456,"key":"4GtTA3LpA5","beforeEn":null,"afterEn":"Manually created","afterJa":"手動作成"}
-{"file":"main","op":"add","index":1463,"key":"4IrgLz6JjI","beforeEn":null,"afterEn":"Disables this task","afterJa":"このタスクを無効にします"}
-{"file":"main","op":"add","index":1513,"key":"4W3bvwMX+U","beforeEn":null,"afterEn":"This applies to all accounts using any of your verified domains","afterJa":"これは、確認済みドメインを使用しているすべてのアカウントに適用されます"}
-{"file":"main","op":"add","index":1568,"key":"4k1nNLxGMd","beforeEn":null,"afterEn":"Connected as {identity}","afterJa":"{identity} として接続されています"}
-{"file":"main","op":"add","index":1681,"key":"59LbiS6VIL","beforeEn":null,"afterEn":"Failed to initiate domain claim. You can try again.","afterJa":"ドメインの申請を開始できませんでした。もう一度お試しください。"}
-{"file":"main","op":"add","index":1690,"key":"5BqfBaQ4lt","beforeEn":null,"afterEn":"Start migration","afterJa":"移行を開始"}
-{"file":"main","op":"add","index":1709,"key":"5FRiNX6oXm","beforeEn":null,"afterEn":"SSO enabled","afterJa":"SSOが有効"}
-{"file":"main","op":"add","index":1742,"key":"5PPBR0IHhV","beforeEn":null,"afterEn":"**Free to talk.** This conversation doesn't count toward your usage.","afterJa":"**お気軽にどうぞ。** このご会話は使用量にカウントされません。"}
-{"file":"main","op":"add","index":1772,"key":"5at+W4GX/M","beforeEn":null,"afterEn":"Injected on every proxied request to allowed hosts. The prefix is prepended to the secret when the header is sent — leave it empty to send the secret as-is. Values are write-only and never shown after saving.","afterJa":"許可されたホストへのすべてのプロキシリクエストに挿入されます。ヘッダー送信時にプレフィックスがシークレットの前に付加されます。シークレットをそのまま送信する場合は、プレフィックスを空のままにしてください。値は書き込み専用で、保存後は表示されません。"}
-{"file":"main","op":"add","index":1793,"key":"5hkF/un5+o","beforeEn":null,"afterEn":"After deleting this role, <b>{count, plural, one {# user} other {# users}}</b> will have no custom roles assigned. They will no longer have access to any features enabled by custom roles.","afterJa":"このロールを削除すると、<b>{count, plural, one {#人のユーザー} other {#人のユーザー}}</b>にカスタムロールが割り当てられなくなります。カスタムロールによって有効化された機能にアクセスできなくなります。"}
-{"file":"main","op":"add","index":1970,"key":"6OtFUdP1dB","beforeEn":null,"afterEn":"Fill in the required fields first.","afterJa":"必須項目を先に入力してください。"}
-{"file":"main","op":"add","index":1979,"key":"6RF9InSlhn","beforeEn":null,"afterEn":"Bundled server is missing from this build","afterJa":"このビルドにバンドルサーバーが含まれていません"}
-{"file":"main","op":"add","index":2099,"key":"6tCgwPzBfO","beforeEn":null,"afterEn":"People who aren't in your identity provider (IdP) will be locked out, even after migrating","afterJa":"移行後も、IDプロバイダー（IdP）に登録されていないユーザーはアクセスできなくなります"}
-{"file":"main","op":"add","index":2198,"key":"7Hu0LVI9rc","beforeEn":null,"afterEn":"Expand {title}","afterJa":"{title}を展開する"}
-{"file":"main","op":"add","index":2223,"key":"7MYtB45RD0","beforeEn":null,"afterEn":"None selected","afterJa":"未選択"}
-{"file":"main","op":"add","index":2238,"key":"7P+BfHK5OP","beforeEn":null,"afterEn":"Finding files","afterJa":"ファイルを探索中"}
-{"file":"main","op":"add","index":2282,"key":"7YpOS0414K","beforeEn":null,"afterEn":"Used for new turns in this Conway. Changing it doesn't affect your other chats.","afterJa":"このConwayの新しいターンに使用されます。変更しても他のチャットには影響しません。"}
-{"file":"main","op":"add","index":2297,"key":"7eGQWNqjXT","beforeEn":null,"afterEn":"Mints an installation token from this App's private key for each proxied GitHub request. The private key is write-only and never shown after saving.","afterJa":"プロキシされた各GitHubリクエストに対して、このAppの秘密鍵からインストールトークンを生成します。秘密鍵は書き込み専用であり、保存後は表示されません。"}
-{"file":"main","op":"add","index":2307,"key":"7knnVyGATZ","beforeEn":null,"afterEn":"Your GitHub organization has an IP allowlist that is blocking Claude's servers. Add <link>Claude's IP ranges</link> to your GitHub allowlist, then try again.","afterJa":"GitHubの組織にIP許可リストが設定されており、Claudeのサーバーへのアクセスがブロックされています。GitHubの許可リストに<link>ClaudeのIPアドレス範囲</link>を追加してから、もう一度お試しください。"}
-{"file":"main","op":"add","index":2315,"key":"7mL9QEUFav","beforeEn":null,"afterEn":"Style","afterJa":"スタイル"}
-{"file":"main","op":"add","index":2328,"key":"7pQN5F/n/2","beforeEn":null,"afterEn":"These controls are moving to <link>Managed settings</link> on June 5, 2026.","afterJa":"これらのコントロールは、2026年6月5日に<link>管理設定</link>へ移行します。"}
-{"file":"main","op":"add","index":2405,"key":"85VTkK2wHr","beforeEn":null,"afterEn":"After these changes, <b>{count, plural, one {# user} other {# users}}</b> will have no custom roles assigned. They will no longer have access to any features enabled by custom roles.","afterJa":"これらの変更後、<b>{count, plural, one {#人のユーザー} other {#人のユーザー}}</b>にカスタムロールが割り当てられなくなります。カスタムロールによって有効化された機能にアクセスできなくなります。"}
-{"file":"main","op":"add","index":2436,"key":"8Dg3tNvAq8","beforeEn":null,"afterEn":"Data sharing with Anthropic","afterJa":"Anthropic とのデータ共有"}
-{"file":"main","op":"add","index":2560,"key":"8iTRYqMOkx","beforeEn":null,"afterEn":"Sonnet only","afterJa":"Sonnetのみ"}
-{"file":"main","op":"add","index":2607,"key":"8uN+pRpuBV","beforeEn":null,"afterEn":"Workforce Identity IdP (OIDC)","afterJa":"Workforce Identity IdP (OIDC)"}
-{"file":"main","op":"add","index":2655,"key":"96GJ5wSQam","beforeEn":null,"afterEn":"No matches","afterJa":"一致する項目はありません"}
-{"file":"main","op":"add","index":2734,"key":"9QflHHezNu","beforeEn":null,"afterEn":"Model overloaded","afterJa":"モデルが混雑しています"}
-{"file":"main","op":"add","index":2761,"key":"9WV8HAHpzA","beforeEn":null,"afterEn":"The starting model for members with this role. Role defaults take priority over the organization default. When a member has multiple roles, the most capable default model applies.","afterJa":"このロールを持つメンバーの開始モデルです。ロールのデフォルトは組織のデフォルトより優先されます。メンバーが複数のロールを持つ場合、最も高性能なデフォルトモデルが適用されます。"}
-{"file":"main","op":"add","index":2767,"key":"9XiW3xWqO5","beforeEn":null,"afterEn":"Loop","afterJa":"ループ"}
-{"file":"main","op":"add","index":2783,"key":"9dx43BqWHy","beforeEn":null,"afterEn":"Faster","afterJa":"速い"}
-{"file":"main","op":"add","index":2852,"key":"9uZHI0Dsh3","beforeEn":null,"afterEn":"Custom tools, UI tabs, and context handlers installed in this Conway.","afterJa":"このConwayにインストールされたカスタムツール、UIタブ、コンテキストハンドラー。"}
-{"file":"main","op":"add","index":2858,"key":"9xNm4jtXWJ","beforeEn":null,"afterEn":"Your Sonnet usage counts toward this limit, as well as your weekly and 5-hour session limits","afterJa":"Sonnetの使用量は、この制限のほか、週間の制限および5時間のセッション制限にもカウントされます。"}
-{"file":"main","op":"add","index":2990,"key":"ATiEEnZh2l","beforeEn":null,"afterEn":"To enforce member permissions with custom roles, go to the <link>Members</link> page and change the member's role type to <b>Custom roles</b>. Custom roles cannot grant features disabled at the organization level. Learn more about <defaultLink>roles and permissions</defaultLink>, or see the <setupGuideLink>setup guide</setupGuideLink> when configuring custom roles.","afterJa":"カスタムロールでメンバーの権限を適用するには、<link>メンバー</link>ページに移動し、メンバーのロールタイプを<b>カスタムロール</b>に変更してください。カスタムロールは、組織レベルで無効になっている機能を付与することはできません。<defaultLink>ロールと権限</defaultLink>の詳細をご確認いただくか、カスタムロールを設定する際は<setupGuideLink>セットアップガイド</setupGuideLink>をご参照ください。"}
-{"file":"main","op":"add","index":3002,"key":"AVd24w5yDN","beforeEn":null,"afterEn":"Couldn't parse this file as a table. Switch to Source to view the raw text.","afterJa":"このファイルをテーブルとして解析できませんでした。生のテキストを表示するには「ソース」に切り替えてください。"}
-{"file":"main","op":"add","index":3028,"key":"Aba2uTiXAG","beforeEn":null,"afterEn":"Offer Auto mode in the Cowork and Code permission selectors. Claude decides which actions need approval.","afterJa":"CoworkとCodeの権限セレクターで自動モードを提供します。Claudeがどのアクションに承認が必要かを判断します。"}
-{"file":"main","op":"add","index":3185,"key":"B9l27BNEGU","beforeEn":null,"afterEn":"Workforce Identity audience","afterJa":"Workforce Identity オーディエンス"}
-{"file":"main","op":"add","index":3202,"key":"BCq+xoiDzP","beforeEn":null,"afterEn":"GCP project for STS billing and quota. Defaults to the Vertex project ID above.","afterJa":"STSの請求とクォータに使用するGCPプロジェクト。デフォルトは上記のVertexプロジェクトIDです。"}
-{"file":"main","op":"add","index":3225,"key":"BIhNXWv4cN","beforeEn":null,"afterEn":"See resolved curl example","afterJa":"解決済みのcurlの例を見る"}
-{"file":"main","op":"add","index":3432,"key":"C6aS7HMlY7","beforeEn":null,"afterEn":"Unexpected error starting the bundled server","afterJa":"バンドルサーバーの起動中に予期しないエラーが発生しました"}
-{"file":"main","op":"add","index":3497,"key":"CMEBXEWEim","beforeEn":null,"afterEn":"Before you start, confirm you understand:","afterJa":"開始する前に、以下の内容をご確認ください："}
-{"file":"main","op":"add","index":3683,"key":"D8loZOMbyP","beforeEn":null,"afterEn":"Failed before any agents started","afterJa":"エージェントが起動する前に失敗しました"}
-{"file":"main","op":"add","index":3715,"key":"DGQiEU/2Ss","beforeEn":null,"afterEn":"Each run continues this session","afterJa":"実行のたびにこのセッションを継続します"}
-{"file":"main","op":"add","index":3843,"key":"DolRxwrLXf","beforeEn":null,"afterEn":"The Claude Code binary on the remote host is missing. Send your message again to redeploy it.","afterJa":"リモートホスト上のClaude Codeバイナリが見つかりません。再デプロイするには、もう一度メッセージを送信してください。"}
-{"file":"main","op":"add","index":3854,"key":"DrsTyw0Tuh","beforeEn":null,"afterEn":"Continue to Team checkout","afterJa":"Team のチェックアウトに進む"}
-{"file":"main","op":"add","index":3871,"key":"Dv/niTtfNO","beforeEn":null,"afterEn":"Tenant ID not found","afterJa":"テナントIDが見つかりません"}
-{"file":"main","op":"add","index":3886,"key":"DzRnZunx0y","beforeEn":null,"afterEn":"View scheduled tasks","afterJa":"スケジュールされたタスクを表示"}
-{"file":"main","op":"add","index":3931,"key":"EBQHEgxMx3","beforeEn":null,"afterEn":"//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER","afterJa":"//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER"}
-{"file":"main","op":"add","index":4019,"key":"EYOanHZfsA","beforeEn":null,"afterEn":"Open effort selector","afterJa":"エフォートセレクターを開く"}
-{"file":"main","op":"add","index":4040,"key":"EegzoyLG9O","beforeEn":null,"afterEn":"Couldn't preview which members would lose role access. Review this role's group memberships before deleting.","afterJa":"ロールへのアクセスを失うメンバーをプレビューできませんでした。削除する前に、このロールのグループメンバーシップを確認してください。"}
-{"file":"main","op":"add","index":4121,"key":"EvwT8rj6Rq","beforeEn":null,"afterEn":"Extra string claims merged into the JWT, as a JSON object with string values.","afterJa":"文字列値を持つJSONオブジェクトとして、JWTに統合される追加の文字列クレームです。"}
-{"file":"main","op":"add","index":4137,"key":"F/XfP2ZLIg","beforeEn":null,"afterEn":"Developer partner program","afterJa":"デベロッパーパートナープログラム"}
-{"file":"main","op":"add","index":4249,"key":"FQYsFhnpw2","beforeEn":null,"afterEn":"“{groupName}” will be removed. Sessions in this group will no longer be grouped.","afterJa":"「{groupName}」が削除されます。このグループのセッションはグループ化されなくなります。"}
-{"file":"main","op":"add","index":4274,"key":"FXIz2Xrc2H","beforeEn":null,"afterEn":"Use Anthropic's recommended default","afterJa":"Anthropicの推奨デフォルトを使用"}
-{"file":"main","op":"add","index":4365,"key":"Fv5rzfD1Y+","beforeEn":null,"afterEn":"Members with this role get the organization default ({modelName}) unless another of their roles sets one.","afterJa":"このロールを持つメンバーは、他のロールでデフォルトが設定されていない限り、組織のデフォルト（{modelName}）が適用されます。"}
-{"file":"main","op":"add","index":4451,"key":"GCiKUALiJT","beforeEn":null,"afterEn":"Phase: {title}, {status}","afterJa":"フェーズ: {title}、{status}"}
-{"file":"main","op":"add","index":4458,"key":"GE8hZwvUNO","beforeEn":null,"afterEn":"This preview is truncated. Switch to Source to see more.","afterJa":"このプレビューは省略されています。続きを表示するには「ソース」に切り替えてください。"}
-{"file":"main","op":"add","index":4486,"key":"GKRkihdCmn","beforeEn":null,"afterEn":"Your organization's OIDC IdP. The app runs an authorization-code-with-PKCE flow against this issuer and exchanges the returned ID token at GCP STS.","afterJa":"組織のOIDC IdPです。アプリはこのイシュアーに対してPKCE付き認可コードフローを実行し、返されたIDトークンをGCP STSで交換します。"}
-{"file":"main","op":"add","index":4639,"key":"H0IjerDjaB","beforeEn":null,"afterEn":"Members with this role get the organization default unless another of their roles sets one.","afterJa":"このロールを持つメンバーは、他のロールでデフォルトが設定されていない限り、組織のデフォルトが適用されます。"}
-{"file":"main","op":"add","index":4705,"key":"HHRj6ceroN","beforeEn":null,"afterEn":"Credential added.","afterJa":"認証情報を追加しました。"}
-{"file":"main","op":"add","index":4735,"key":"HQVQfgjV4I","beforeEn":null,"afterEn":"Level {position} of {total}","afterJa":"{total}段階中{position}段階目"}
-{"file":"main","op":"add","index":4745,"key":"HTV1/vvS2O","beforeEn":null,"afterEn":"Install plugin","afterJa":"プラグインをインストール"}
-{"file":"main","op":"add","index":4748,"key":"HUkfp9oW6x","beforeEn":null,"afterEn":"New name: {name}","afterJa":"新しい名前：{name}"}
-{"file":"main","op":"add","index":4770,"key":"HaQeT4ezzW","beforeEn":null,"afterEn":"Conversation feedback","afterJa":"会話のフィードバック"}
-{"file":"main","op":"add","index":4824,"key":"HpVU1CVAj8","beforeEn":null,"afterEn":"Connected with warning · {latency}ms","afterJa":"警告付きで接続済み・{latency}ms"}
-{"file":"main","op":"add","index":4866,"key":"I0XzdzV1yn","beforeEn":null,"afterEn":"Found","afterJa":"検出済み"}
-{"file":"main","op":"add","index":4868,"key":"I0iYUvUr/a","beforeEn":null,"afterEn":"Tools Conway can use from your Claude connectors and connected apps.","afterJa":"ConwayがClaudeコネクタおよび接続済みアプリから使用できるツール。"}
-{"file":"main","op":"add","index":4960,"key":"IQNwZ+COkV","beforeEn":null,"afterEn":"Directory sync (SCIM) or automatic approval for new members (JIT)","afterJa":"ディレクトリ同期（SCIM）または新規メンバーの自動承認（JIT）"}
-{"file":"main","op":"add","index":5068,"key":"ItICDcI/fy","beforeEn":null,"afterEn":"Automatically fall back to another model when a message is flagged by safety filters.","afterJa":"安全フィルターにメッセージが引っかかった場合、自動的に別のモデルにフォールバックします。"}
-{"file":"main","op":"add","index":5088,"key":"IzEySeOy5/","beforeEn":null,"afterEn":"All settings","afterJa":"すべての設定"}
-{"file":"main","op":"add","index":5115,"key":"J2KJ6p9ycJ","beforeEn":null,"afterEn":"Each run starts a fresh session","afterJa":"実行のたびに新しいセッションを開始します"}
-{"file":"main","op":"add","index":5116,"key":"J2RNjCfahB","beforeEn":null,"afterEn":"Applies to your whole Claude account, not just this Conway.","afterJa":"このConwayだけでなく、Claudeアカウント全体に適用されます。"}
-{"file":"main","op":"add","index":5174,"key":"JJ7D7Y4p8s","beforeEn":null,"afterEn":"This file looks like binary data and can't be previewed as text.","afterJa":"このファイルはバイナリデータのようで、テキストとしてプレビューできません。"}
-{"file":"main","op":"add","index":5236,"key":"JWx9Tmcn+e","beforeEn":null,"afterEn":"Organization skill sharing","afterJa":"組織のスキル共有"}
-{"file":"main","op":"add","index":5298,"key":"JlW5B+wbn9","beforeEn":null,"afterEn":"Server bundle","afterJa":"サーバーバンドル"}
-{"file":"main","op":"add","index":5378,"key":"K5CCzWoT+1","beforeEn":null,"afterEn":"Header secret","afterJa":"ヘッダーシークレット"}
-{"file":"main","op":"add","index":5392,"key":"K8+AA5REVZ","beforeEn":null,"afterEn":"Signing you in…","afterJa":"サインインしています…"}
-{"file":"main","op":"add","index":5434,"key":"KNgZLQsK30","beforeEn":null,"afterEn":"Requires these settings:","afterJa":"次の設定が必要です："}
-{"file":"main","op":"add","index":5442,"key":"KQaWn3U7wU","beforeEn":null,"afterEn":"Claude in artifacts","afterJa":"アーティファクト内の Claude"}
-{"file":"main","op":"add","index":5740,"key":"LWRPWIwFN0","beforeEn":null,"afterEn":"Claude Code quick web setup","afterJa":"Claude Code クイックウェブセットアップ"}
-{"file":"main","op":"add","index":5812,"key":"Lpdvfeae94","beforeEn":null,"afterEn":"Table preview","afterJa":"テーブルプレビュー"}
-{"file":"main","op":"add","index":5815,"key":"LqAfXOsBMe","beforeEn":null,"afterEn":"Always uses the model Anthropic recommends for enterprise use. Updates automatically as newer models are released.","afterJa":"Anthropicがエンタープライズ向けに推奨するモデルを常に使用します。新しいモデルがリリースされると自動的に更新されます。"}
-{"file":"main","op":"add","index":5816,"key":"LqNYmdMuC+","beforeEn":null,"afterEn":"Format valid (fully verified at first sign-in)","afterJa":"形式が有効です（初回サインイン時に完全に検証されます）"}
-{"file":"main","op":"add","index":5841,"key":"LvPO24kzJV","beforeEn":null,"afterEn":"These settings take effect on June 8, 2026.","afterJa":"これらの設定は2026年6月8日に有効になります。"}
-{"file":"main","op":"add","index":5856,"key":"LzfsZghLZu","beforeEn":null,"afterEn":"Not a GUID. Enter the application (client) ID from the Entra app registration.","afterJa":"GUIDではありません。Entraアプリ登録からアプリケーション（クライアント）IDを入力してください。"}
-{"file":"main","op":"add","index":5933,"key":"MGtIYVqVHZ","beforeEn":null,"afterEn":"Couldn't check SSO settings. Reload the page to try again.","afterJa":"SSOの設定を確認できませんでした。ページを再読み込みして、もう一度お試しください。"}
-{"file":"main","op":"add","index":6024,"key":"McpBuiltinAuthorityHost","beforeEn":null,"afterEn":"Authority host","afterJa":"認証ホスト"}
-{"file":"main","op":"add","index":6025,"key":"McpBuiltinAuthorityHostHint","beforeEn":null,"afterEn":"Microsoft sign-in endpoint. Leave blank for commercial Microsoft 365.","afterJa":"Microsoftのサインインエンドポイント。商用Microsoft 365の場合は空白のままにしてください。"}
-{"file":"main","op":"add","index":6026,"key":"McpBuiltinAuthorityHostPh","beforeEn":null,"afterEn":"https://login.microsoftonline.com","afterJa":"https://login.microsoftonline.com"}
-{"file":"main","op":"add","index":6027,"key":"McpBuiltinClientId","beforeEn":null,"afterEn":"Client ID","afterJa":"クライアントID"}
-{"file":"main","op":"add","index":6028,"key":"McpBuiltinClientIdHint","beforeEn":null,"afterEn":"Entra public-client (PKCE) app registration ID.","afterJa":"Entraパブリッククライアント（PKCE）アプリ登録IDです。"}
-{"file":"main","op":"add","index":6029,"key":"McpBuiltinClientIdReq","beforeEn":null,"afterEn":"Required for the built-in Microsoft 365 server.","afterJa":"組み込みのMicrosoft 365サーバーに必要です。"}
-{"file":"main","op":"add","index":6030,"key":"McpBuiltinServerLabel","beforeEn":null,"afterEn":"Server","afterJa":"サーバー"}
-{"file":"main","op":"add","index":6031,"key":"McpBuiltinServerM365Opt","beforeEn":null,"afterEn":"Microsoft 365","afterJa":"Microsoft 365"}
-{"file":"main","op":"add","index":6032,"key":"McpBuiltinTenantId","beforeEn":null,"afterEn":"Tenant ID","afterJa":"テナントID"}
-{"file":"main","op":"add","index":6033,"key":"McpBuiltinTenantIdHint","beforeEn":null,"afterEn":"Your organization's Microsoft Entra directory (tenant) ID.","afterJa":"組織のMicrosoft Entraディレクトリ（テナント）IDです。"}
-{"file":"main","op":"add","index":6034,"key":"McpBuiltinTenantIdPh","beforeEn":null,"afterEn":"00000000-0000-0000-0000-000000000000","afterJa":"00000000-0000-0000-0000-000000000000"}
-{"file":"main","op":"add","index":6035,"key":"McpBuiltinTenantIdReq","beforeEn":null,"afterEn":"Required for the built-in Microsoft 365 server.","afterJa":"組み込みのMicrosoft 365サーバーに必要です。"}
-{"file":"main","op":"add","index":6121,"key":"N/3DZILFD+","beforeEn":null,"afterEn":"Let Claude work across apps","afterJa":"Claudeがアプリ間で動作できるようにする"}
-{"file":"main","op":"add","index":6157,"key":"N7y7051b1A","beforeEn":null,"afterEn":"CI checks unavailable","afterJa":"CIチェックは利用できません"}
-{"file":"main","op":"add","index":6211,"key":"NMyxjimJkk","beforeEn":null,"afterEn":"Container ID","afterJa":"コンテナID"}
-{"file":"main","op":"add","index":6339,"key":"NuNseyCYlt","beforeEn":null,"afterEn":"Enables this task","afterJa":"このタスクを有効にします"}
-{"file":"main","op":"add","index":6464,"key":"OQt93E2kkU","beforeEn":null,"afterEn":"This proposal was updated — a newer one is below","afterJa":"この提案は更新されました。新しい提案は下にあります"}
-{"file":"main","op":"add","index":6544,"key":"OlwN28lSKh","beforeEn":null,"afterEn":"Please review the attached context above","afterJa":"上記の添付されたコンテキストをご確認ください"}
-{"file":"main","op":"add","index":6619,"key":"P2LCvY0vDt","beforeEn":null,"afterEn":"Change anytime before you check out.","afterJa":"チェックアウト前にいつでも変更できます。"}
-{"file":"main","op":"add","index":6787,"key":"PqsrhoQfSr","beforeEn":null,"afterEn":"Couldn't preview which members would lose role access. Review the removed groups' memberships before saving.","afterJa":"ロールへのアクセスを失うメンバーをプレビューできませんでした。保存する前に、削除されたグループのメンバーシップを確認してください。"}
-{"file":"main","op":"add","index":6821,"key":"PyLH5dnCKU","beforeEn":null,"afterEn":"GitHub CLI (<code>gh</code>) is not installed.","afterJa":"GitHub CLI（<code>gh</code>）がインストールされていません。"}
-{"file":"main","op":"add","index":7285,"key":"RyJM/8RR63","beforeEn":null,"afterEn":"Model selection isn't available until the container is connected.","afterJa":"コンテナが接続されるまで、モデルの選択はできません。"}
-{"file":"main","op":"add","index":7303,"key":"S1Sr5R/tLU","beforeEn":null,"afterEn":"You're in the process of migrating accounts using your domain. <b>Affected users have been notified and must join by {deadline}.</b>","afterJa":"ドメインを使用したアカウントの移行が進行中です。<b>影響を受けるユーザーには通知済みで、{deadline}までに参加する必要があります。</b>"}
-{"file":"main","op":"add","index":7348,"key":"SJ2nyiVhRr","beforeEn":null,"afterEn":"Switch model and retry","afterJa":"モデルを切り替えて再試行"}
-{"file":"main","op":"add","index":7368,"key":"SPaaOmrai3","beforeEn":null,"afterEn":"Also changes:","afterJa":"その他の変更："}
-{"file":"main","op":"add","index":7421,"key":"Sgd7x9pszL","beforeEn":null,"afterEn":"Stopped before any agents started","afterJa":"エージェントが起動する前に停止しました"}
-{"file":"main","op":"add","index":7538,"key":"T8t7Fu+JhP","beforeEn":null,"afterEn":"Workforce Identity billing project","afterJa":"Workforce Identity 請求プロジェクト"}
-{"file":"main","op":"add","index":7643,"key":"TVZMHi8v8n","beforeEn":null,"afterEn":"Space-separated; the token's audience must match what your bootstrap server validates.","afterJa":"スペース区切りで入力してください。トークンのオーディエンスは、bootstrapサーバーが検証する値と一致している必要があります。"}
-{"file":"main","op":"add","index":7824,"key":"UC9e3Gj5Zo","beforeEn":null,"afterEn":"Claude Code routines","afterJa":"Claude Code ルーティン"}
-{"file":"main","op":"add","index":7856,"key":"UM/QErS3Zw","beforeEn":null,"afterEn":"Search folders","afterJa":"フォルダを検索"}
-{"file":"main","op":"add","index":7871,"key":"UOwVjP7z1U","beforeEn":null,"afterEn":"Session token","afterJa":"セッショントークン"}
-{"file":"main","op":"add","index":7911,"key":"Uat5iUGZ2v","beforeEn":null,"afterEn":"Claude Code security","afterJa":"Claude Code セキュリティ"}
-{"file":"main","op":"add","index":7980,"key":"UuId1n4A3o","beforeEn":null,"afterEn":"Header prefix","afterJa":"ヘッダープレフィックス"}
-{"file":"main","op":"add","index":8003,"key":"Uyxusl3qag","beforeEn":null,"afterEn":"You haven't used Sonnet yet","afterJa":"まだSonnetを使用していません"}
-{"file":"main","op":"add","index":8020,"key":"V1ERGE3dDP","beforeEn":null,"afterEn":"During this process, you won't be able to modify these settings:","afterJa":"このプロセス中は、以下の設定を変更できません："}
-{"file":"main","op":"add","index":8049,"key":"V9WPgzOs7J","beforeEn":null,"afterEn":"Session exported to <reveal>your downloads</reveal>.","afterJa":"セッションを<reveal>ダウンロード</reveal>にエクスポートしました。"}
-{"file":"main","op":"add","index":8066,"key":"VDOTas3KLO","beforeEn":null,"afterEn":"API base URL (optional)","afterJa":"APIベースURL（任意）"}
-{"file":"main","op":"add","index":8160,"key":"VbB5ek1XTP","beforeEn":null,"afterEn":"Header prefix (opt.)","afterJa":"ヘッダープレフィックス（任意）"}
-{"file":"main","op":"add","index":8175,"key":"VeqEFgHu5h","beforeEn":null,"afterEn":"Billed once a year","afterJa":"年1回の請求"}
-{"file":"main","op":"add","index":8321,"key":"WCIAidgueo","beforeEn":null,"afterEn":"Searching files","afterJa":"ファイルを検索中"}
-{"file":"main","op":"add","index":8373,"key":"WP38t4MZJs","beforeEn":null,"afterEn":"Domain claim initiated.","afterJa":"ドメインの申請を開始しました。"}
-{"file":"main","op":"add","index":8454,"key":"Wm9szD8GBy","beforeEn":null,"afterEn":"Show users","afterJa":"ユーザーを表示"}
-{"file":"main","op":"add","index":8480,"key":"WtkDPX8usa","beforeEn":null,"afterEn":"Required. Set the scope your bootstrap server accepts as the token audience.","afterJa":"必須。bootstrapサーバーがトークンのオーディエンスとして受け入れるスコープを設定してください。"}
-{"file":"main","op":"add","index":8482,"key":"Wtwl4aDBYy","beforeEn":null,"afterEn":"To set defaults for specific roles, go to <rolesLink>Roles</rolesLink>. Role defaults take priority over the organization default. To manage Claude Code model defaults, go to <managedSettingsLink>Managed settings</managedSettingsLink>.","afterJa":"特定のロールのデフォルトを設定するには、<rolesLink>ロール</rolesLink>に移動してください。ロールのデフォルトは組織のデフォルトより優先されます。Claude Codeのモデルデフォルトを管理するには、<managedSettingsLink>管理設定</managedSettingsLink>に移動してください。"}
-{"file":"main","op":"add","index":8666,"key":"XgFMQ2uC6Q","beforeEn":null,"afterEn":"Searching for {pattern}","afterJa":"{pattern} を検索中"}
-{"file":"main","op":"add","index":8776,"key":"Y7RxDEV4Af","beforeEn":null,"afterEn":"Run task now","afterJa":"今すぐタスクを実行"}
-{"file":"main","op":"add","index":8900,"key":"YfucG+3eg9","beforeEn":null,"afterEn":"Workforce Identity sign-in (OIDC)","afterJa":"Workforce Identity サインイン (OIDC)"}
-{"file":"main","op":"add","index":8957,"key":"YtSmOqou5i","beforeEn":null,"afterEn":"JWT lifetime (seconds, optional)","afterJa":"JWTの有効期間（秒、任意）"}
-{"file":"main","op":"add","index":8961,"key":"Yu80pxpAk6","beforeEn":null,"afterEn":"Controls whether new members joining through discovery or member invites are added automatically or require admin approval.","afterJa":"ディスカバリーまたはメンバー招待を通じて参加する新規メンバーを自動的に追加するか、管理者の承認を必要とするかを制御します。"}
-{"file":"main","op":"add","index":9051,"key":"ZF5XQjwi2G","beforeEn":null,"afterEn":"All affected accounts in the list above belong to your organization","afterJa":"上記リストの影響を受けるすべてのアカウントは、あなたの組織に属しています"}
-{"file":"main","op":"add","index":9053,"key":"ZFZYvzEuej","beforeEn":null,"afterEn":"**The best price you'll get.** I'll check for our latest pricing.","afterJa":"**最もお得な価格をご案内します。** 最新の料金をご確認いたします。"}
-{"file":"main","op":"add","index":9100,"key":"ZPveJa49VR","beforeEn":null,"afterEn":"Request ID: {requestId}","afterJa":"リクエストID: {requestId}"}
-{"file":"main","op":"add","index":9339,"key":"aO4HrhCDgs","beforeEn":null,"afterEn":"To learn more about Anthropic's model capabilities and pricing, see the <modelsOverviewLink>models overview</modelsOverviewLink>.","afterJa":"Anthropicのモデルの機能と料金の詳細については、<modelsOverviewLink>モデルの概要</modelsOverviewLink>をご覧ください。"}
-{"file":"main","op":"add","index":9341,"key":"aOlSeK2rV0","beforeEn":null,"afterEn":"{count, plural, one {# more group} other {# more groups}}. Keep typing to narrow.","afterJa":"{count, plural, one {他に#グループ} other {他に#グループ}}。絞り込むには入力を続けてください。"}
-{"file":"main","op":"add","index":9347,"key":"aQJJCK6cs4","beforeEn":null,"afterEn":"Remote templates","afterJa":"リモートテンプレート"}
-{"file":"main","op":"add","index":9387,"key":"aZRUdur9da","beforeEn":null,"afterEn":"Check that <code>gh</code> is installed and authenticated.","afterJa":"<code>gh</code> がインストールされ、認証済みであることを確認してください。"}
-{"file":"main","op":"add","index":9496,"key":"axjlmjG7D8","beforeEn":null,"afterEn":"Showing first {n}. Keep typing to narrow.","afterJa":"最初の{n}件を表示しています。続けて入力すると絞り込めます。"}
-{"file":"main","op":"add","index":9616,"key":"bTBJTYxUYl","beforeEn":null,"afterEn":"Smarter","afterJa":"賢い"}
-{"file":"main","op":"add","index":9626,"key":"bV2dTY3jQq","beforeEn":null,"afterEn":"Refresh connectors","afterJa":"コネクタを更新"}
-{"file":"main","op":"add","index":9645,"key":"bXzpWpo1O9","beforeEn":null,"afterEn":"Reading {file}","afterJa":"{file} を読み込み中"}
-{"file":"main","op":"add","index":9683,"key":"bjNlPzg7Mc","beforeEn":null,"afterEn":"Couldn't run the test. Try again.","afterJa":"テストを実行できませんでした。もう一度お試しください。"}
-{"file":"main","op":"add","index":9722,"key":"bw+L0wLpiO","beforeEn":null,"afterEn":"Set up a place for ongoing work, where context builds over time","afterJa":"継続的な作業スペースを作成して、コンテキストを時間とともに積み重ねましょう"}
-{"file":"main","op":"add","index":9730,"key":"byLbiDmAsH","beforeEn":null,"afterEn":"No agents have started yet","afterJa":"エージェントはまだ起動していません"}
-{"file":"main","op":"add","index":9743,"key":"c+uxWPHl6M","beforeEn":null,"afterEn":"Once you start migrating, you can't undo it","afterJa":"移行を開始すると、元に戻すことはできません"}
-{"file":"main","op":"add","index":9779,"key":"c5qI63zrIs","beforeEn":null,"afterEn":"Members with this role get the organization default (Anthropic's recommended default) unless another of their roles sets one.","afterJa":"このロールを持つメンバーは、他のロールでデフォルトが設定されていない限り、組織のデフォルト（Anthropicが推奨するデフォルト）が適用されます。"}
-{"file":"main","op":"add","index":9782,"key":"c6LNcWaCmr","beforeEn":null,"afterEn":"Delete task","afterJa":"タスクを削除"}
-{"file":"main","op":"add","index":9790,"key":"c7QL9iJl3J","beforeEn":null,"afterEn":"Run <code>gh auth login</code> to authenticate.","afterJa":"認証するには <code>gh auth login</code> を実行してください。"}
-{"file":"main","op":"add","index":9795,"key":"c9BX4f3H1c","beforeEn":null,"afterEn":"Continue to Enterprise checkout","afterJa":"Enterprise のチェックアウトに進む"}
-{"file":"main","op":"add","index":9822,"key":"cG09T6tp8G","beforeEn":null,"afterEn":"Blocked address","afterJa":"ブロックされたアドレス"}
-{"file":"main","op":"add","index":9899,"key":"cc4tPynCta","beforeEn":null,"afterEn":"Workforce-pool provider audience. When set, sign-in uses your own IdP plus a GCP STS exchange instead of a Google identity.","afterJa":"Workforce Poolプロバイダのオーディエンス。設定すると、サインイン時にGoogleアイデンティティの代わりに独自のIdPとGCP STSの交換が使用されます。"}
-{"file":"main","op":"add","index":9925,"key":"cflWd3GEL5","beforeEn":null,"afterEn":"Claude Code couldn't write its settings file to the temporary directory. Check that the temp directory is writable, or adjust the sandbox policy.","afterJa":"Claude Codeが設定ファイルを一時ディレクトリに書き込めませんでした。一時ディレクトリへの書き込み権限を確認するか、サンドボックスポリシーを調整してください。"}
-{"file":"main","op":"add","index":9947,"key":"cnHH1HEs1x","beforeEn":null,"afterEn":"Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker, and Claude remembers their last selection for next time.","afterJa":"ChatとCoworkの新しい会話で使用する開始モデルを選択します。メンバーはモデルピッカーを使用していつでもモデルを変更でき、Claudeは次回のために最後の選択を記憶します。"}
-{"file":"main","op":"add","index":10077,"key":"dKEgofbwpe","beforeEn":null,"afterEn":"Workforce Identity (STS)","afterJa":"Workforce Identity (STS)"}
-{"file":"main","op":"add","index":10158,"key":"dfCoF2i6bG","beforeEn":null,"afterEn":"Select a specific model for your organization. This won't change when new models are released.","afterJa":"組織で使用する特定のモデルを選択します。新しいモデルがリリースされても変更されません。"}
-{"file":"main","op":"add","index":10349,"key":"eSej8NJHSy","beforeEn":null,"afterEn":"Affected accounts will be deleted after {days} days, whether users migrate or not","afterJa":"ユーザーが移行するかどうかにかかわらず、影響を受けるアカウントは{days}日後に削除されます"}
-{"file":"main","op":"add","index":10365,"key":"eV/BNCIRzM","beforeEn":null,"afterEn":"The installed Claude Code version doesn't support a feature this app uses. Update Claude Code on this host.","afterJa":"インストールされているClaude Codeのバージョンは、このアプリが使用する機能をサポートしていません。このホストのClaude Codeを更新してください。"}
-{"file":"main","op":"add","index":10407,"key":"egZcnLe3Vv","beforeEn":null,"afterEn":"{count, plural, one {Please address the comment above} other {Please address the comments above}}","afterJa":"{count, plural, one {上記のコメントにご対応ください} other {上記のコメントにご対応ください}}"}
-{"file":"main","op":"add","index":10445,"key":"eoFIHEeJyH","beforeEn":null,"afterEn":"Migrate accounts","afterJa":"アカウントの移行"}
-{"file":"main","op":"add","index":10478,"key":"ewOBk8nuZ0","beforeEn":null,"afterEn":"Run this in the background with Cowork","afterJa":"Cowork でバックグラウンドで実行する"}
-{"file":"main","op":"add","index":10544,"key":"fDB74ChLSl","beforeEn":null,"afterEn":"Open billing settings","afterJa":"請求設定を開く"}
-{"file":"main","op":"add","index":10600,"key":"fSKoqI4XSt","beforeEn":null,"afterEn":"openid offline_access CLIENT_ID/.default","afterJa":"openid offline_access CLIENT_ID/.default"}
-{"file":"main","op":"add","index":10637,"key":"fb0mFF7uEb","beforeEn":null,"afterEn":"Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker.","afterJa":"ChatとCoworkの新しい会話で使用する開始モデルを選択します。メンバーはモデルピッカーを使用していつでもモデルを変更できます。"}
-{"file":"main","op":"add","index":10743,"key":"g+VnzeLG0N","beforeEn":null,"afterEn":"No groups match the selected filters.","afterJa":"選択したフィルターに一致するグループはありません。"}
-{"file":"main","op":"add","index":10946,"key":"gteLO/FfKM","beforeEn":null,"afterEn":"CWE","afterJa":"CWE"}
-{"file":"main","op":"add","index":11002,"key":"h6tRhdrzOQ","beforeEn":null,"afterEn":"Timed out starting the bundled server","afterJa":"バンドルサーバーの起動がタイムアウトしました"}
-{"file":"main","op":"add","index":11285,"key":"iEfZH5cyl6","beforeEn":null,"afterEn":"About effort","afterJa":"エフォートについて"}
-{"file":"main","op":"add","index":11314,"key":"iLlsz1BLkf","beforeEn":null,"afterEn":"Re-run helper for silent refresh","afterJa":"サイレントリフレッシュ用ヘルパーの再実行"}
-{"file":"main","op":"add","index":11317,"key":"iMGl038nIV","beforeEn":null,"afterEn":"Request failed","afterJa":"リクエストが失敗しました"}
-{"file":"main","op":"add","index":11419,"key":"ikvYNW5SJj","beforeEn":null,"afterEn":"See offer","afterJa":"オファーを見る"}
-{"file":"main","op":"add","index":11480,"key":"j1hp0c8Y2U","beforeEn":null,"afterEn":"Members can let Claude share context between apps like Excel and PowerPoint.","afterJa":"メンバーは、ClaudeがExcelやPowerPointなどのアプリ間でコンテキストを共有できるようにすることができます。"}
-{"file":"main","op":"add","index":11530,"key":"jJgvaXAvRf","beforeEn":null,"afterEn":"Check the credential works before saving.","afterJa":"保存する前に、認証情報が正しく機能するか確認してください。"}
-{"file":"main","op":"add","index":11565,"key":"jQAhpucavu","beforeEn":null,"afterEn":"Always allow tool approvals by default","afterJa":"ツールの承認を常にデフォルトで許可する"}
-{"file":"main","op":"add","index":11631,"key":"jkBzOUPk6N","beforeEn":null,"afterEn":"e.g. Bearer","afterJa":"例：Bearer"}
-{"file":"main","op":"add","index":11699,"key":"jwf/WURmBJ","beforeEn":null,"afterEn":"No agents ran in this phase","afterJa":"このフェーズではエージェントが実行されませんでした"}
-{"file":"main","op":"add","index":11756,"key":"k8l06lFyli","beforeEn":null,"afterEn":"Stalled","afterJa":"停滞中"}
-{"file":"main","op":"add","index":11768,"key":"kCKK+84T6p","beforeEn":null,"afterEn":"Bypass Permissions can't be used with root/sudo. Run as a non-root user, or turn off Bypass Permissions in settings.","afterJa":"Bypass Permissionsはroot/sudoでは使用できません。非rootユーザーとして実行するか、設定でBypass Permissionsをオフにしてください。"}
-{"file":"main","op":"add","index":11823,"key":"kVLQt2i9SW","beforeEn":null,"afterEn":"Could not reach Microsoft sign-in endpoint","afterJa":"Microsoftサインインエンドポイントに接続できませんでした"}
-{"file":"main","op":"add","index":11893,"key":"kjW0KjX/V6","beforeEn":null,"afterEn":"API is overloaded","afterJa":"APIが過負荷状態です"}
-{"file":"main","op":"add","index":11926,"key":"kqtFvmntYS","beforeEn":null,"afterEn":"Billed month to month","afterJa":"毎月の請求"}
-{"file":"main","op":"add","index":11960,"key":"l/rfvlcDyA","beforeEn":null,"afterEn":"A space is added between the prefix and secret (Bearer ***). Prefixes ending in = attach directly (token=***).","afterJa":"プレフィックスとシークレットの間にスペースが追加されます（Bearer ***）。=で終わるプレフィックスは直接結合されます（token=***）。"}
-{"file":"main","op":"add","index":12060,"key":"lR2lIbKnv2","beforeEn":null,"afterEn":"This GitHub Enterprise connection is set up with OAuth App credentials. Ask an org admin to reconfigure it with GitHub App credentials in Admin Settings.","afterJa":"このGitHub Enterpriseの接続はOAuth Appの認証情報で設定されています。管理者設定でGitHub Appの認証情報を使用して再設定するよう、組織の管理者に依頼してください。"}
-{"file":"main","op":"add","index":12117,"key":"lgMEj0UXFI","beforeEn":null,"afterEn":"Tenant","afterJa":"テナント"}
-{"file":"main","op":"add","index":12256,"key":"mEdG/OmTPo","beforeEn":null,"afterEn":"Connectors & tools","afterJa":"コネクタとツール"}
-{"file":"main","op":"add","index":12683,"key":"o6VLRz4ffK","beforeEn":null,"afterEn":"Your organization enforces a fixed default, so each new conversation resets to the default. Members' own choices don't carry over.","afterJa":"組織が固定のデフォルトを適用しているため、新しい会話を開始するたびにデフォルトにリセットされます。メンバー自身の選択は引き継がれません。"}
-{"file":"main","op":"add","index":12800,"key":"ob/MsgCqeR","beforeEn":null,"afterEn":"By continuing, you agree to our {privacyPolicy}.","afterJa":"続行することで、{privacyPolicy}に同意したことになります。"}
-{"file":"main","op":"add","index":12976,"key":"pDu8LAeMGn","beforeEn":null,"afterEn":"Couldn't start Claude Code on the remote host","afterJa":"リモートホストでClaude Codeを起動できませんでした"}
-{"file":"main","op":"add","index":13008,"key":"pNjWkEHKfE","beforeEn":null,"afterEn":"e.g. Authorization","afterJa":"例：Authorization"}
-{"file":"main","op":"add","index":13024,"key":"pQzmTJWHyT","beforeEn":null,"afterEn":"Hide users","afterJa":"ユーザーを非表示"}
-{"file":"main","op":"add","index":13036,"key":"pV8HdOgErh","beforeEn":null,"afterEn":"When a session's credential expires, re-run the helper with CLAUDE_HELPER_CONTEXT=mid-session-refresh to recover silently. Turn this off if your helper can't run non-interactively.","afterJa":"セッションの認証情報が期限切れになった場合、CLAUDE_HELPER_CONTEXT=mid-session-refresh を指定してヘルパーを再実行することで、自動的に回復します。ヘルパーを非対話的に実行できない場合は、この設定をオフにしてください。"}
-{"file":"main","op":"add","index":13042,"key":"pYRPMBAE8N","beforeEn":null,"afterEn":"Editing this message will restart the conversation from here.","afterJa":"このメッセージを編集すると、ここから会話がやり直しになります。"}
-{"file":"main","op":"add","index":13120,"key":"puP9QWxX+t","beforeEn":null,"afterEn":"Waiting for agents to start","afterJa":"エージェントの起動を待っています"}
-{"file":"main","op":"add","index":13189,"key":"q7wi6Ob175","beforeEn":null,"afterEn":"GitHub rate limit — retrying automatically.","afterJa":"GitHubのレート制限 — 自動的に再試行しています。"}
-{"file":"main","op":"add","index":13232,"key":"qHibv+HX9A","beforeEn":null,"afterEn":"Remote control","afterJa":"リモートコントロール"}
-{"file":"main","op":"add","index":13319,"key":"qiSoXe2ZAZ","beforeEn":null,"afterEn":"Web search isolation","afterJa":"ウェブ検索の分離"}
-{"file":"main","op":"add","index":13344,"key":"qnfl4zhao6","beforeEn":null,"afterEn":"Rate limited","afterJa":"レート制限中です"}
-{"file":"main","op":"add","index":13518,"key":"ralFTCLFvr","beforeEn":null,"afterEn":"Internal preview","afterJa":"内部プレビュー"}
-{"file":"main","op":"add","index":13569,"key":"rq61zqsEWq","beforeEn":null,"afterEn":"Connected, but the identity provider didn't issue a refresh token. This connector will stop working when the access token expires. For OIDC providers, add 'offline_access' to the scope; for others, see your IdP's documentation.","afterJa":"接続されましたが、アイデンティティプロバイダーがリフレッシュトークンを発行しませんでした。アクセストークンの有効期限が切れると、このコネクターは機能しなくなります。OIDCプロバイダーの場合は、スコープに‘offline_access’を追加してください。その他の場合は、IdPのドキュメントを参照してください。"}
-{"file":"main","op":"add","index":13581,"key":"rsuTMjSeRY","beforeEn":null,"afterEn":"Workbench feedback","afterJa":"ワークベンチのフィードバック"}
-{"file":"main","op":"add","index":13644,"key":"s8hQbj7ac0","beforeEn":null,"afterEn":"More agents may appear","afterJa":"さらにエージェントが表示される場合があります"}
-{"file":"main","op":"add","index":13664,"key":"sFB1oyGxRN","beforeEn":null,"afterEn":"Reading a file","afterJa":"ファイルを読み込み中"}
-{"file":"main","op":"add","index":13670,"key":"sGQYZv/a29","beforeEn":null,"afterEn":"See upgrade options","afterJa":"アップグレードオプションを見る"}
-{"file":"main","op":"add","index":13829,"key":"ssRa7c1heU","beforeEn":null,"afterEn":"View as text anyway","afterJa":"それでもテキストとして表示する"}
-{"file":"main","op":"add","index":13897,"key":"t40G4sO+0U","beforeEn":null,"afterEn":"retrying ({attempt}/{maxRetries})","afterJa":"再試行中 ({attempt}/{maxRetries})"}
-{"file":"main","op":"add","index":13905,"key":"t6rZDWs9YI","beforeEn":null,"afterEn":"Container","afterJa":"コンテナ"}
-{"file":"main","op":"add","index":13946,"key":"tICNG3XM2D","beforeEn":null,"afterEn":"Require accounts using your verified domains to migrate to your organization (excluding Team accounts). For anyone who doesn't migrate within {days} days, we'll email their data and then delete their account.","afterJa":"確認済みドメインを使用しているアカウントに、組織への移行を要求します（Team アカウントを除く）。{days}日以内に移行しないユーザーには、データをメールで送信した後、アカウントを削除します。"}
-{"file":"main","op":"add","index":14145,"key":"u2XWYU1wrI","beforeEn":null,"afterEn":"Billing period","afterJa":"請求期間"}
-{"file":"main","op":"add","index":14365,"key":"v4mECAyjhj","beforeEn":null,"afterEn":"An allow rule will be created for {hostCount, plural, one {this host} other {these hosts}} so the credential can be used.","afterJa":"認証情報を使用できるよう、{hostCount, plural, one {このホスト} other {これらのホスト}}に対して許可ルールが作成されます。"}
-{"file":"main","op":"add","index":14544,"key":"vmfgjI0W/G","beforeEn":null,"afterEn":"Can't reach {appName} right now — it may need to be reconnected.","afterJa":"{appName}に現在接続できません。再接続が必要な場合があります。"}
-{"file":"main","op":"add","index":14564,"key":"vrroVytaad","beforeEn":null,"afterEn":"**I already know your account.** If you're using Claude, I can see your current plan, seats, and usage.","afterJa":"**お客様のアカウント情報を確認できます。** Claudeをご利用中の場合、現在のプラン、シート数、使用状況を把握しています。"}
-{"file":"main","op":"add","index":14597,"key":"vx9PyxWrqA","beforeEn":null,"afterEn":"Built-in servers","afterJa":"組み込みサーバー"}
-{"file":"main","op":"add","index":14729,"key":"wZkJgdBQ0M","beforeEn":null,"afterEn":"Cowork can work on complex tasks across {connectorList} without you watching. Send it off, come back to results.","afterJa":"Cowork は、{connectorList} にわたる複雑なタスクを、あなたが見ていなくても処理できます。送信したら、あとは結果を待つだけです。"}
-{"file":"main","op":"add","index":14915,"key":"xJT34LJoZk","beforeEn":null,"afterEn":"Built-in server, bundled with the Claude desktop app.","afterJa":"Claude デスクトップアプリに同梱されている組み込みサーバーです。"}
-{"file":"main","op":"add","index":14921,"key":"xL7cDBls/V","beforeEn":null,"afterEn":"Open Claude settings","afterJa":"Claudeの設定を開く"}
-{"file":"main","op":"add","index":14946,"key":"xQ1nQIrXCH","beforeEn":null,"afterEn":"We'll notify affected users. They'll have {days} days to migrate. For anyone who doesn't migrate, we'll email their data and then delete their account. Console organizations and API access are not affected.","afterJa":"影響を受けるユーザーに通知します。ユーザーには移行のために{days}日間の猶予があります。移行しないユーザーには、データをメールで送信した後、アカウントを削除します。Console 組織と API アクセスは影響を受けません。"}
-{"file":"main","op":"add","index":15012,"key":"xkTPaXZ/Zv","beforeEn":null,"afterEn":"Claude Code review","afterJa":"Claude Code レビュー"}
-{"file":"main","op":"add","index":15015,"key":"xl2L0w2bLY","beforeEn":null,"afterEn":"Give Claude a folder you already work from","afterJa":"すでに作業で使っているフォルダをClaudeに提供する"}
-{"file":"main","op":"add","index":15100,"key":"y5DZpIdyzt","beforeEn":null,"afterEn":"**A sales rep if you want one.** For complex or large deals, I'll hand you to a teammate with everything you've shared already in context.","afterJa":"**ご希望の場合は営業担当者にお繋ぎします。** 複雑なご要件や大規模なお取引の場合は、これまでにお伝えいただいた内容を引き継いだ上で、担当者にお繋ぎいたします。"}
-{"file":"main","op":"add","index":15106,"key":"y8ZPM0PLcS","beforeEn":null,"afterEn":"Start new","afterJa":"新規作成"}
-{"file":"main","op":"add","index":15155,"key":"yNuy7a4xdi","beforeEn":null,"afterEn":"Allowed domains & code execution","afterJa":"許可されたドメインとコード実行"}
-{"file":"main","op":"add","index":15168,"key":"yRRyF+Ogkf","beforeEn":null,"afterEn":"Skill creation","afterJa":"スキルの作成"}
-{"file":"main","op":"add","index":15187,"key":"yX2nEGHr9u","beforeEn":null,"afterEn":"Restart Conway","afterJa":"Conwayを再起動"}
-{"file":"main","op":"add","index":15188,"key":"yX6W+H81JR","beforeEn":null,"afterEn":"Identity verified — click Subscribe to complete your purchase.","afterJa":"本人確認が完了しました。Subscribeをクリックして購入を完了してください。"}
-{"file":"main","op":"add","index":15339,"key":"z79RWp5LsO","beforeEn":null,"afterEn":"Claude Code is out of date","afterJa":"Claude Codeのバージョンが古くなっています"}
-{"file":"main","op":"add","index":15450,"key":"zbJiVYheyP","beforeEn":null,"afterEn":"Model, connectors, and plugins for this Conway. Account-wide settings stay in your Claude settings.","afterJa":"このConwayのモデル、コネクタ、プラグイン。アカウント全体の設定はClaudeの設定に保存されます。"}
-{"file":"main","op":"add","index":15475,"key":"zh+AkOLpeL","beforeEn":null,"afterEn":"Bypass permissions mode","afterJa":"パーミッションバイパスモード"}
-{"file":"main","op":"add","index":15527,"key":"zw1IUPXtJ/","beforeEn":null,"afterEn":"+{hostCount, plural, one {# more host} other {# more hosts}}","afterJa":"+{hostCount, plural, one {他 # ホスト} other {他 # ホスト}}"}
+{"file":"main","op":"add","index":195,"key":"+tfMZJGbJH","beforeEn":null,"afterEn":"See full offer","afterJa":"詳細を見る"}
+{"file":"main","op":"add","index":313,"key":"/QvsXl23+v","beforeEn":null,"afterEn":"SCIM synced","afterJa":"SCIM同期済み"}
+{"file":"main","op":"add","index":329,"key":"/UWVWsb2by","beforeEn":null,"afterEn":"This upgrade link is for an organization this account doesn't have access to upgrade. You can create a new organization below, or sign in with an account that manages that organization.","afterJa":"このアップグレードリンクは、このアカウントがアップグレードできない組織向けのものです。以下から新しい組織を作成するか、その組織を管理しているアカウントでサインインしてください。"}
+{"file":"main","op":"add","index":438,"key":"/vS0q3Ih3h","beforeEn":null,"afterEn":"Adds to this run's prompt:","afterJa":"この実行のプロンプトに追加："}
+{"file":"main","op":"add","index":512,"key":"0GsRxkTbO8","beforeEn":null,"afterEn":"Bypass permissions mode and auto mode controls for Claude Code Desktop are moving to Managed settings on June 5, 2026, alongside the CLI and IDE.","afterJa":"Claude Code Desktopの権限バイパスモードと自動モードのコントロールは、CLIおよびIDEと合わせて、2026年6月5日に管理設定へ移行します。"}
+{"file":"main","op":"add","index":533,"key":"0KgbFt6Rd+","beforeEn":null,"afterEn":"Estimated usage cost","afterJa":"推定使用コスト"}
+{"file":"main","op":"add","index":547,"key":"0PDitvSoS4","beforeEn":null,"afterEn":"Typically supplied by your bootstrap server. Ignored when bootstrap is disabled.","afterJa":"通常はbootstrapサーバーによって提供されます。bootstrapが無効の場合は無視されます。"}
+{"file":"main","op":"add","index":554,"key":"0QsHlMb8HD","beforeEn":null,"afterEn":"Allow Auto mode","afterJa":"自動モードを許可する"}
+{"file":"main","op":"add","index":575,"key":"0WKDjemQuM","beforeEn":null,"afterEn":"Domain claim could not be started because one or more required settings were changed. Review the requirements and try again.","afterJa":"必要な設定が1つ以上変更されたため、ドメインの申請を開始できませんでした。要件を確認して、もう一度お試しください。"}
+{"file":"main","op":"add","index":580,"key":"0XPZhVZucD","beforeEn":null,"afterEn":"Migrate accounts using your domains","afterJa":"ドメインを使用してアカウントを移行する"}
+{"file":"main","op":"add","index":583,"key":"0XuZalshtF","beforeEn":null,"afterEn":"View affected accounts","afterJa":"影響を受けるアカウントを表示"}
+{"file":"main","op":"add","index":596,"key":"0bIJknc5LK","beforeEn":null,"afterEn":"Usage-limit notices now say which limit you hit and when it resets","afterJa":"使用量制限の通知に、どの制限に達したか、およびリセット時期が表示されるようになりました"}
+{"file":"main","op":"add","index":674,"key":"0x75v+sDBR","beforeEn":null,"afterEn":"Not delivered","afterJa":"未送信"}
+{"file":"main","op":"add","index":693,"key":"10P48tR2FZ","beforeEn":null,"afterEn":"Auto-accept permissions mode","afterJa":"パーミッション自動承認モード"}
+{"file":"main","op":"add","index":713,"key":"13oSrCj+vV","beforeEn":null,"afterEn":"This may open your browser to finish signing in. It can take a moment.","afterJa":"サインインを完了するためにブラウザが開く場合があります。少々お時間がかかることがあります。"}
+{"file":"main","op":"add","index":796,"key":"1SokOHvw3r","beforeEn":null,"afterEn":"This task runs in the cloud. Your computer doesn't need to be on.","afterJa":"このタスクはクラウドで実行されます。お使いのコンピューターの電源が入っている必要はありません。"}
+{"file":"main","op":"add","index":843,"key":"1foySNVZOy","beforeEn":null,"afterEn":"View latest","afterJa":"最新を表示"}
+{"file":"main","op":"add","index":985,"key":"2E1wYB9RWZ","beforeEn":null,"afterEn":"Can't reach GitHub — check your connection.","afterJa":"GitHubに接続できません。接続を確認してください。"}
+{"file":"main","op":"add","index":1015,"key":"2L6R5TY/RU","beforeEn":null,"afterEn":"GitHub App","afterJa":"GitHub App"}
+{"file":"main","op":"add","index":1095,"key":"2gbdtcM81x","beforeEn":null,"afterEn":"Microsoft sign-in endpoint returned an unexpected response","afterJa":"Microsoftサインインエンドポイントが予期しない応答を返しました"}
+{"file":"main","op":"add","index":1103,"key":"2iq+QrPXf4","beforeEn":null,"afterEn":"Additional claims (JSON, optional)","afterJa":"追加クレーム（JSON、任意）"}
+{"file":"main","op":"add","index":1183,"key":"32Yl/KqgPN","beforeEn":null,"afterEn":"Collapse {title}","afterJa":"{title}を折りたたむ"}
+{"file":"main","op":"add","index":1261,"key":"3OoO84OwLp","beforeEn":null,"afterEn":"Claude Code remote control","afterJa":"Claude Code リモートコントロール"}
+{"file":"main","op":"add","index":1263,"key":"3PgVVBNJ6+","beforeEn":null,"afterEn":"Stops and restarts the container. Your files and chat history are kept.","afterJa":"コンテナを停止して再起動します。ファイルとチャット履歴は保持されます。"}
+{"file":"main","op":"add","index":1293,"key":"3Xhhx1Hq48","beforeEn":null,"afterEn":"Buying agent","afterJa":"購入エージェント"}
+{"file":"main","op":"add","index":1387,"key":"3x+WPYpgig","beforeEn":null,"afterEn":"Open browser activity","afterJa":"ブラウザのアクティビティを開く"}
+{"file":"main","op":"add","index":1461,"key":"4GtTA3LpA5","beforeEn":null,"afterEn":"Manually created","afterJa":"手動作成"}
+{"file":"main","op":"add","index":1464,"key":"4HrerxXUg5","beforeEn":null,"afterEn":"Mark a waiting session as completed from the sidebar's right-click menu — clears the yellow dot without sending a reply","afterJa":"サイドバーの右クリックメニューから待機中のセッションを完了済みとしてマークできます。返信を送らずに黄色のドットを消去します"}
+{"file":"main","op":"add","index":1469,"key":"4IrgLz6JjI","beforeEn":null,"afterEn":"Disables this task","afterJa":"このタスクを無効にします"}
+{"file":"main","op":"add","index":1519,"key":"4W3bvwMX+U","beforeEn":null,"afterEn":"This applies to all accounts using any of your verified domains","afterJa":"これは、確認済みドメインを使用しているすべてのアカウントに適用されます"}
+{"file":"main","op":"add","index":1574,"key":"4k1nNLxGMd","beforeEn":null,"afterEn":"Connected as {identity}","afterJa":"{identity} として接続されています"}
+{"file":"main","op":"add","index":1687,"key":"59LbiS6VIL","beforeEn":null,"afterEn":"Failed to initiate domain claim. You can try again.","afterJa":"ドメインの申請を開始できませんでした。もう一度お試しください。"}
+{"file":"main","op":"add","index":1696,"key":"5BqfBaQ4lt","beforeEn":null,"afterEn":"Start migration","afterJa":"移行を開始"}
+{"file":"main","op":"add","index":1715,"key":"5FRiNX6oXm","beforeEn":null,"afterEn":"SSO enabled","afterJa":"SSOが有効"}
+{"file":"main","op":"add","index":1748,"key":"5PPBR0IHhV","beforeEn":null,"afterEn":"**Free to talk.** This conversation doesn't count toward your usage.","afterJa":"**お気軽にどうぞ。** このご会話は使用量にカウントされません。"}
+{"file":"main","op":"add","index":1778,"key":"5at+W4GX/M","beforeEn":null,"afterEn":"Injected on every proxied request to allowed hosts. The prefix is prepended to the secret when the header is sent — leave it empty to send the secret as-is. Values are write-only and never shown after saving.","afterJa":"許可されたホストへのすべてのプロキシリクエストに挿入されます。ヘッダー送信時にプレフィックスがシークレットの前に付加されます。シークレットをそのまま送信する場合は、プレフィックスを空のままにしてください。値は書き込み専用で、保存後は表示されません。"}
+{"file":"main","op":"add","index":1799,"key":"5hkF/un5+o","beforeEn":null,"afterEn":"After deleting this role, <b>{count, plural, one {# user} other {# users}}</b> will have no custom roles assigned. They will no longer have access to any features enabled by custom roles.","afterJa":"このロールを削除すると、<b>{count, plural, one {#人のユーザー} other {#人のユーザー}}</b>にカスタムロールが割り当てられなくなります。カスタムロールによって有効化された機能にアクセスできなくなります。"}
+{"file":"main","op":"add","index":1975,"key":"6OtFUdP1dB","beforeEn":null,"afterEn":"Fill in the required fields first.","afterJa":"必須項目を先に入力してください。"}
+{"file":"main","op":"add","index":1977,"key":"6PFugcgbqc","beforeEn":null,"afterEn":"Get usage credits when you run it","afterJa":"実行すると利用クレジットがもらえます"}
+{"file":"main","op":"add","index":1985,"key":"6RF9InSlhn","beforeEn":null,"afterEn":"Bundled server is missing from this build","afterJa":"このビルドにバンドルサーバーが含まれていません"}
+{"file":"main","op":"add","index":2105,"key":"6tCgwPzBfO","beforeEn":null,"afterEn":"People who aren't in your identity provider (IdP) will be locked out, even after migrating","afterJa":"移行後も、IDプロバイダー（IdP）に登録されていないユーザーはアクセスできなくなります"}
+{"file":"main","op":"add","index":2204,"key":"7Hu0LVI9rc","beforeEn":null,"afterEn":"Expand {title}","afterJa":"{title}を展開する"}
+{"file":"main","op":"add","index":2229,"key":"7MYtB45RD0","beforeEn":null,"afterEn":"None selected","afterJa":"未選択"}
+{"file":"main","op":"add","index":2244,"key":"7P+BfHK5OP","beforeEn":null,"afterEn":"Finding files","afterJa":"ファイルを探索中"}
+{"file":"main","op":"add","index":2288,"key":"7YpOS0414K","beforeEn":null,"afterEn":"Used for new turns in this Conway. Changing it doesn't affect your other chats.","afterJa":"このConwayの新しいターンに使用されます。変更しても他のチャットには影響しません。"}
+{"file":"main","op":"add","index":2303,"key":"7eGQWNqjXT","beforeEn":null,"afterEn":"Mints an installation token from this App's private key for each proxied GitHub request. The private key is write-only and never shown after saving.","afterJa":"プロキシされた各GitHubリクエストに対して、このAppの秘密鍵からインストールトークンを生成します。秘密鍵は書き込み専用であり、保存後は表示されません。"}
+{"file":"main","op":"add","index":2313,"key":"7knnVyGATZ","beforeEn":null,"afterEn":"Your GitHub organization has an IP allowlist that is blocking Claude's servers. Add <link>Claude's IP ranges</link> to your GitHub allowlist, then try again.","afterJa":"GitHubの組織にIP許可リストが設定されており、Claudeのサーバーへのアクセスがブロックされています。GitHubの許可リストに<link>ClaudeのIPアドレス範囲</link>を追加してから、もう一度お試しください。"}
+{"file":"main","op":"add","index":2321,"key":"7mL9QEUFav","beforeEn":null,"afterEn":"Style","afterJa":"スタイル"}
+{"file":"main","op":"add","index":2334,"key":"7pQN5F/n/2","beforeEn":null,"afterEn":"These controls are moving to <link>Managed settings</link> on June 5, 2026.","afterJa":"これらのコントロールは、2026年6月5日に<link>管理設定</link>へ移行します。"}
+{"file":"main","op":"add","index":2411,"key":"85VTkK2wHr","beforeEn":null,"afterEn":"After these changes, <b>{count, plural, one {# user} other {# users}}</b> will have no custom roles assigned. They will no longer have access to any features enabled by custom roles.","afterJa":"これらの変更後、<b>{count, plural, one {#人のユーザー} other {#人のユーザー}}</b>にカスタムロールが割り当てられなくなります。カスタムロールによって有効化された機能にアクセスできなくなります。"}
+{"file":"main","op":"add","index":2442,"key":"8Dg3tNvAq8","beforeEn":null,"afterEn":"Data sharing with Anthropic","afterJa":"Anthropic とのデータ共有"}
+{"file":"main","op":"add","index":2566,"key":"8iTRYqMOkx","beforeEn":null,"afterEn":"Sonnet only","afterJa":"Sonnetのみ"}
+{"file":"main","op":"add","index":2613,"key":"8uN+pRpuBV","beforeEn":null,"afterEn":"Workforce Identity IdP (OIDC)","afterJa":"Workforce Identity IdP (OIDC)"}
+{"file":"main","op":"add","index":2661,"key":"96GJ5wSQam","beforeEn":null,"afterEn":"No matches","afterJa":"一致する項目はありません"}
+{"file":"main","op":"add","index":2740,"key":"9QflHHezNu","beforeEn":null,"afterEn":"Model overloaded","afterJa":"モデルが混雑しています"}
+{"file":"main","op":"add","index":2767,"key":"9WV8HAHpzA","beforeEn":null,"afterEn":"The starting model for members with this role. Role defaults take priority over the organization default. When a member has multiple roles, the most capable default model applies.","afterJa":"このロールを持つメンバーの開始モデルです。ロールのデフォルトは組織のデフォルトより優先されます。メンバーが複数のロールを持つ場合、最も高性能なデフォルトモデルが適用されます。"}
+{"file":"main","op":"add","index":2773,"key":"9XiW3xWqO5","beforeEn":null,"afterEn":"Loop","afterJa":"ループ"}
+{"file":"main","op":"add","index":2789,"key":"9dx43BqWHy","beforeEn":null,"afterEn":"Faster","afterJa":"速い"}
+{"file":"main","op":"add","index":2858,"key":"9uZHI0Dsh3","beforeEn":null,"afterEn":"Custom tools, UI tabs, and context handlers installed in this Conway.","afterJa":"このConwayにインストールされたカスタムツール、UIタブ、コンテキストハンドラー。"}
+{"file":"main","op":"add","index":2864,"key":"9xNm4jtXWJ","beforeEn":null,"afterEn":"Your Sonnet usage counts toward this limit, as well as your weekly and 5-hour session limits","afterJa":"Sonnetの使用量は、この制限のほか、週間の制限および5時間のセッション制限にもカウントされます。"}
+{"file":"main","op":"add","index":2996,"key":"ATiEEnZh2l","beforeEn":null,"afterEn":"To enforce member permissions with custom roles, go to the <link>Members</link> page and change the member's role type to <b>Custom roles</b>. Custom roles cannot grant features disabled at the organization level. Learn more about <defaultLink>roles and permissions</defaultLink>, or see the <setupGuideLink>setup guide</setupGuideLink> when configuring custom roles.","afterJa":"カスタムロールでメンバーの権限を適用するには、<link>メンバー</link>ページに移動し、メンバーのロールタイプを<b>カスタムロール</b>に変更してください。カスタムロールは、組織レベルで無効になっている機能を付与することはできません。<defaultLink>ロールと権限</defaultLink>の詳細をご確認いただくか、カスタムロールを設定する際は<setupGuideLink>セットアップガイド</setupGuideLink>をご参照ください。"}
+{"file":"main","op":"add","index":3007,"key":"AVI/0jhKeJ","beforeEn":null,"afterEn":"Split","afterJa":"分割"}
+{"file":"main","op":"add","index":3009,"key":"AVd24w5yDN","beforeEn":null,"afterEn":"Couldn't parse this file as a table. Switch to Source to view the raw text.","afterJa":"このファイルをテーブルとして解析できませんでした。生のテキストを表示するには「ソース」に切り替えてください。"}
+{"file":"main","op":"add","index":3035,"key":"Aba2uTiXAG","beforeEn":null,"afterEn":"Offer Auto mode in the Cowork and Code permission selectors. Claude decides which actions need approval.","afterJa":"CoworkとCodeの権限セレクターで自動モードを提供します。Claudeがどのアクションに承認が必要かを判断します。"}
+{"file":"main","op":"add","index":3192,"key":"B9l27BNEGU","beforeEn":null,"afterEn":"Workforce Identity audience","afterJa":"Workforce Identity オーディエンス"}
+{"file":"main","op":"add","index":3209,"key":"BCq+xoiDzP","beforeEn":null,"afterEn":"GCP project for STS billing and quota. Defaults to the Vertex project ID above.","afterJa":"STSの請求とクォータに使用するGCPプロジェクト。デフォルトは上記のVertexプロジェクトIDです。"}
+{"file":"main","op":"add","index":3232,"key":"BIhNXWv4cN","beforeEn":null,"afterEn":"See resolved curl example","afterJa":"解決済みのcurlの例を見る"}
+{"file":"main","op":"add","index":3439,"key":"C6aS7HMlY7","beforeEn":null,"afterEn":"Unexpected error starting the bundled server","afterJa":"バンドルサーバーの起動中に予期しないエラーが発生しました"}
+{"file":"main","op":"add","index":3504,"key":"CMEBXEWEim","beforeEn":null,"afterEn":"Before you start, confirm you understand:","afterJa":"開始する前に、以下の内容をご確認ください："}
+{"file":"main","op":"add","index":3690,"key":"D8loZOMbyP","beforeEn":null,"afterEn":"Failed before any agents started","afterJa":"エージェントが起動する前に失敗しました"}
+{"file":"main","op":"add","index":3722,"key":"DGQiEU/2Ss","beforeEn":null,"afterEn":"Each run continues this session","afterJa":"実行のたびにこのセッションを継続します"}
+{"file":"main","op":"add","index":3850,"key":"DolRxwrLXf","beforeEn":null,"afterEn":"The Claude Code binary on the remote host is missing. Send your message again to redeploy it.","afterJa":"リモートホスト上のClaude Codeバイナリが見つかりません。再デプロイするには、もう一度メッセージを送信してください。"}
+{"file":"main","op":"add","index":3861,"key":"DrsTyw0Tuh","beforeEn":null,"afterEn":"Continue to Team checkout","afterJa":"Team のチェックアウトに進む"}
+{"file":"main","op":"add","index":3878,"key":"Dv/niTtfNO","beforeEn":null,"afterEn":"Tenant ID not found","afterJa":"テナントIDが見つかりません"}
+{"file":"main","op":"add","index":3893,"key":"DzRnZunx0y","beforeEn":null,"afterEn":"View scheduled tasks","afterJa":"スケジュールされたタスクを表示"}
+{"file":"main","op":"add","index":3938,"key":"EBQHEgxMx3","beforeEn":null,"afterEn":"//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER","afterJa":"//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER"}
+{"file":"main","op":"add","index":4026,"key":"EYOanHZfsA","beforeEn":null,"afterEn":"Open effort selector","afterJa":"エフォートセレクターを開く"}
+{"file":"main","op":"add","index":4047,"key":"EegzoyLG9O","beforeEn":null,"afterEn":"Couldn't preview which members would lose role access. Review this role's group memberships before deleting.","afterJa":"ロールへのアクセスを失うメンバーをプレビューできませんでした。削除する前に、このロールのグループメンバーシップを確認してください。"}
+{"file":"main","op":"add","index":4128,"key":"EvwT8rj6Rq","beforeEn":null,"afterEn":"Extra string claims merged into the JWT, as a JSON object with string values.","afterJa":"文字列値を持つJSONオブジェクトとして、JWTに統合される追加の文字列クレームです。"}
+{"file":"main","op":"add","index":4144,"key":"F/XfP2ZLIg","beforeEn":null,"afterEn":"Developer partner program","afterJa":"デベロッパーパートナープログラム"}
+{"file":"main","op":"add","index":4256,"key":"FQYsFhnpw2","beforeEn":null,"afterEn":"“{groupName}” will be removed. Sessions in this group will no longer be grouped.","afterJa":"「{groupName}」が削除されます。このグループのセッションはグループ化されなくなります。"}
+{"file":"main","op":"add","index":4281,"key":"FXIz2Xrc2H","beforeEn":null,"afterEn":"Use Anthropic's recommended default","afterJa":"Anthropicの推奨デフォルトを使用"}
+{"file":"main","op":"add","index":4372,"key":"Fv5rzfD1Y+","beforeEn":null,"afterEn":"Members with this role get the organization default ({modelName}) unless another of their roles sets one.","afterJa":"このロールを持つメンバーは、他のロールでデフォルトが設定されていない限り、組織のデフォルト（{modelName}）が適用されます。"}
+{"file":"main","op":"add","index":4458,"key":"GCiKUALiJT","beforeEn":null,"afterEn":"Phase: {title}, {status}","afterJa":"フェーズ: {title}、{status}"}
+{"file":"main","op":"add","index":4464,"key":"GE2haKb7vs","beforeEn":null,"afterEn":"<added>{amount} of usage credits added</added> — thanks for trying the feature of the week <cmd>/{command}</cmd>","afterJa":"<added>{amount}の利用クレジットが追加されました</added>—今週の機能<cmd>/{command}</cmd>をお試しいただきありがとうございます"}
+{"file":"main","op":"add","index":4466,"key":"GE8hZwvUNO","beforeEn":null,"afterEn":"This preview is truncated. Switch to Source to see more.","afterJa":"このプレビューは省略されています。続きを表示するには「ソース」に切り替えてください。"}
+{"file":"main","op":"add","index":4494,"key":"GKRkihdCmn","beforeEn":null,"afterEn":"Your organization's OIDC IdP. The app runs an authorization-code-with-PKCE flow against this issuer and exchanges the returned ID token at GCP STS.","afterJa":"組織のOIDC IdPです。アプリはこのイシュアーに対してPKCE付き認可コードフローを実行し、返されたIDトークンをGCP STSで交換します。"}
+{"file":"main","op":"add","index":4646,"key":"H0IjerDjaB","beforeEn":null,"afterEn":"Members with this role get the organization default unless another of their roles sets one.","afterJa":"このロールを持つメンバーは、他のロールでデフォルトが設定されていない限り、組織のデフォルトが適用されます。"}
+{"file":"main","op":"add","index":4712,"key":"HHRj6ceroN","beforeEn":null,"afterEn":"Credential added.","afterJa":"認証情報を追加しました。"}
+{"file":"main","op":"add","index":4742,"key":"HQVQfgjV4I","beforeEn":null,"afterEn":"Level {position} of {total}","afterJa":"{total}段階中{position}段階目"}
+{"file":"main","op":"add","index":4752,"key":"HTV1/vvS2O","beforeEn":null,"afterEn":"Install plugin","afterJa":"プラグインをインストール"}
+{"file":"main","op":"add","index":4755,"key":"HUkfp9oW6x","beforeEn":null,"afterEn":"New name: {name}","afterJa":"新しい名前：{name}"}
+{"file":"main","op":"add","index":4777,"key":"HaQeT4ezzW","beforeEn":null,"afterEn":"Conversation feedback","afterJa":"会話のフィードバック"}
+{"file":"main","op":"add","index":4831,"key":"HpVU1CVAj8","beforeEn":null,"afterEn":"Connected with warning · {latency}ms","afterJa":"警告付きで接続済み・{latency}ms"}
+{"file":"main","op":"add","index":4873,"key":"I0XzdzV1yn","beforeEn":null,"afterEn":"Found","afterJa":"検出済み"}
+{"file":"main","op":"add","index":4875,"key":"I0iYUvUr/a","beforeEn":null,"afterEn":"Tools Conway can use from your Claude connectors and connected apps.","afterJa":"ConwayがClaudeコネクタおよび接続済みアプリから使用できるツール。"}
+{"file":"main","op":"add","index":4965,"key":"IQNwZ+COkV","beforeEn":null,"afterEn":"Directory sync (SCIM) or automatic approval for new members (JIT)","afterJa":"ディレクトリ同期（SCIM）または新規メンバーの自動承認（JIT）"}
+{"file":"main","op":"add","index":5073,"key":"ItICDcI/fy","beforeEn":null,"afterEn":"Automatically fall back to another model when a message is flagged by safety filters.","afterJa":"安全フィルターにメッセージが引っかかった場合、自動的に別のモデルにフォールバックします。"}
+{"file":"main","op":"add","index":5093,"key":"IzEySeOy5/","beforeEn":null,"afterEn":"All settings","afterJa":"すべての設定"}
+{"file":"main","op":"add","index":5120,"key":"J2KJ6p9ycJ","beforeEn":null,"afterEn":"Each run starts a fresh session","afterJa":"実行のたびに新しいセッションを開始します"}
+{"file":"main","op":"add","index":5121,"key":"J2RNjCfahB","beforeEn":null,"afterEn":"Applies to your whole Claude account, not just this Conway.","afterJa":"このConwayだけでなく、Claudeアカウント全体に適用されます。"}
+{"file":"main","op":"add","index":5179,"key":"JJ7D7Y4p8s","beforeEn":null,"afterEn":"This file looks like binary data and can't be previewed as text.","afterJa":"このファイルはバイナリデータのようで、テキストとしてプレビューできません。"}
+{"file":"main","op":"add","index":5241,"key":"JWx9Tmcn+e","beforeEn":null,"afterEn":"Organization skill sharing","afterJa":"組織のスキル共有"}
+{"file":"main","op":"add","index":5264,"key":"Jdr9gPxUIc","beforeEn":null,"afterEn":"The Files panel stays open when you switch between sessions","afterJa":"セッションを切り替えてもファイルパネルは開いたままになります"}
+{"file":"main","op":"add","index":5304,"key":"JlW5B+wbn9","beforeEn":null,"afterEn":"Server bundle","afterJa":"サーバーバンドル"}
+{"file":"main","op":"add","index":5384,"key":"K5CCzWoT+1","beforeEn":null,"afterEn":"Header secret","afterJa":"ヘッダーシークレット"}
+{"file":"main","op":"add","index":5398,"key":"K8+AA5REVZ","beforeEn":null,"afterEn":"Signing you in…","afterJa":"サインインしています…"}
+{"file":"main","op":"add","index":5440,"key":"KNgZLQsK30","beforeEn":null,"afterEn":"Requires these settings:","afterJa":"次の設定が必要です："}
+{"file":"main","op":"add","index":5448,"key":"KQaWn3U7wU","beforeEn":null,"afterEn":"Claude in artifacts","afterJa":"アーティファクト内の Claude"}
+{"file":"main","op":"add","index":5746,"key":"LWRPWIwFN0","beforeEn":null,"afterEn":"Claude Code quick web setup","afterJa":"Claude Code クイックウェブセットアップ"}
+{"file":"main","op":"add","index":5799,"key":"LlR+BYH9jE","beforeEn":null,"afterEn":"<label>Feature of the week:</label> <cmd>/{command}</cmd>","afterJa":"<label>今週の機能：</label> <cmd>/{command}</cmd>"}
+{"file":"main","op":"add","index":5819,"key":"Lpdvfeae94","beforeEn":null,"afterEn":"Table preview","afterJa":"テーブルプレビュー"}
+{"file":"main","op":"add","index":5822,"key":"LqAfXOsBMe","beforeEn":null,"afterEn":"Always uses the model Anthropic recommends for enterprise use. Updates automatically as newer models are released.","afterJa":"Anthropicがエンタープライズ向けに推奨するモデルを常に使用します。新しいモデルがリリースされると自動的に更新されます。"}
+{"file":"main","op":"add","index":5823,"key":"LqNYmdMuC+","beforeEn":null,"afterEn":"Format valid (fully verified at first sign-in)","afterJa":"形式が有効です（初回サインイン時に完全に検証されます）"}
+{"file":"main","op":"add","index":5848,"key":"LvPO24kzJV","beforeEn":null,"afterEn":"These settings take effect on June 8, 2026.","afterJa":"これらの設定は2026年6月8日に有効になります。"}
+{"file":"main","op":"add","index":5861,"key":"LyvoS49DnN","beforeEn":null,"afterEn":"Unable to start session. Sign in again to continue.","afterJa":"セッションを開始できませんでした。続行するには、もう一度サインインしてください。"}
+{"file":"main","op":"add","index":5863,"key":"LzD3TVpXVC","beforeEn":null,"afterEn":"Unified","afterJa":"統合"}
+{"file":"main","op":"add","index":5865,"key":"LzfsZghLZu","beforeEn":null,"afterEn":"Not a GUID. Enter the application (client) ID from the Entra app registration.","afterJa":"GUIDではありません。Entraアプリ登録からアプリケーション（クライアント）IDを入力してください。"}
+{"file":"main","op":"add","index":5942,"key":"MGtIYVqVHZ","beforeEn":null,"afterEn":"Couldn't check SSO settings. Reload the page to try again.","afterJa":"SSOの設定を確認できませんでした。ページを再読み込みして、もう一度お試しください。"}
+{"file":"main","op":"add","index":6033,"key":"McpBuiltinAuthorityHost","beforeEn":null,"afterEn":"Authority host","afterJa":"認証ホスト"}
+{"file":"main","op":"add","index":6034,"key":"McpBuiltinAuthorityHostHint","beforeEn":null,"afterEn":"Microsoft sign-in endpoint. Leave blank for commercial Microsoft 365.","afterJa":"Microsoftのサインインエンドポイント。商用Microsoft 365の場合は空白のままにしてください。"}
+{"file":"main","op":"add","index":6035,"key":"McpBuiltinAuthorityHostPh","beforeEn":null,"afterEn":"https://login.microsoftonline.com","afterJa":"https://login.microsoftonline.com"}
+{"file":"main","op":"add","index":6036,"key":"McpBuiltinClientId","beforeEn":null,"afterEn":"Client ID","afterJa":"クライアントID"}
+{"file":"main","op":"add","index":6037,"key":"McpBuiltinClientIdHint","beforeEn":null,"afterEn":"Entra public-client (PKCE) app registration ID.","afterJa":"Entraパブリッククライアント（PKCE）アプリ登録IDです。"}
+{"file":"main","op":"add","index":6038,"key":"McpBuiltinClientIdReq","beforeEn":null,"afterEn":"Required for the built-in Microsoft 365 server.","afterJa":"組み込みのMicrosoft 365サーバーに必要です。"}
+{"file":"main","op":"add","index":6039,"key":"McpBuiltinServerLabel","beforeEn":null,"afterEn":"Server","afterJa":"サーバー"}
+{"file":"main","op":"add","index":6040,"key":"McpBuiltinServerM365Opt","beforeEn":null,"afterEn":"Microsoft 365","afterJa":"Microsoft 365"}
+{"file":"main","op":"add","index":6041,"key":"McpBuiltinTenantId","beforeEn":null,"afterEn":"Tenant ID","afterJa":"テナントID"}
+{"file":"main","op":"add","index":6042,"key":"McpBuiltinTenantIdHint","beforeEn":null,"afterEn":"Your organization's Microsoft Entra directory (tenant) ID.","afterJa":"組織のMicrosoft Entraディレクトリ（テナント）IDです。"}
+{"file":"main","op":"add","index":6043,"key":"McpBuiltinTenantIdPh","beforeEn":null,"afterEn":"00000000-0000-0000-0000-000000000000","afterJa":"00000000-0000-0000-0000-000000000000"}
+{"file":"main","op":"add","index":6044,"key":"McpBuiltinTenantIdReq","beforeEn":null,"afterEn":"Required for the built-in Microsoft 365 server.","afterJa":"組み込みのMicrosoft 365サーバーに必要です。"}
+{"file":"main","op":"add","index":6130,"key":"N/3DZILFD+","beforeEn":null,"afterEn":"Let Claude work across apps","afterJa":"Claudeがアプリ間で動作できるようにする"}
+{"file":"main","op":"add","index":6166,"key":"N7y7051b1A","beforeEn":null,"afterEn":"CI checks unavailable","afterJa":"CIチェックは利用できません"}
+{"file":"main","op":"add","index":6220,"key":"NMyxjimJkk","beforeEn":null,"afterEn":"Container ID","afterJa":"コンテナID"}
+{"file":"main","op":"add","index":6348,"key":"NuNseyCYlt","beforeEn":null,"afterEn":"Enables this task","afterJa":"このタスクを有効にします"}
+{"file":"main","op":"add","index":6473,"key":"OQt93E2kkU","beforeEn":null,"afterEn":"This proposal was updated — a newer one is below","afterJa":"この提案は更新されました。新しい提案は下にあります"}
+{"file":"main","op":"add","index":6553,"key":"OlwN28lSKh","beforeEn":null,"afterEn":"Please review the attached context above","afterJa":"上記の添付されたコンテキストをご確認ください"}
+{"file":"main","op":"add","index":6628,"key":"P2LCvY0vDt","beforeEn":null,"afterEn":"Change anytime before you check out.","afterJa":"チェックアウト前にいつでも変更できます。"}
+{"file":"main","op":"add","index":6796,"key":"PqsrhoQfSr","beforeEn":null,"afterEn":"Couldn't preview which members would lose role access. Review the removed groups' memberships before saving.","afterJa":"ロールへのアクセスを失うメンバーをプレビューできませんでした。保存する前に、削除されたグループのメンバーシップを確認してください。"}
+{"file":"main","op":"add","index":6830,"key":"PyLH5dnCKU","beforeEn":null,"afterEn":"GitHub CLI (<code>gh</code>) is not installed.","afterJa":"GitHub CLI（<code>gh</code>）がインストールされていません。"}
+{"file":"main","op":"add","index":7060,"key":"R+60QaQzQ9","beforeEn":null,"afterEn":"I'm an AI buying agent, currently in alpha, here to help you figure out which plan fits, what it'll cost, and how to get your team set up. We can do all of it right here.","afterJa":"私はAIの購入エージェントです。現在Alphaとして公開されており、最適なプランの選定、費用の確認、チームのセットアップをお手伝いします。すべてここで対応できます。"}
+{"file":"main","op":"add","index":7295,"key":"RyJM/8RR63","beforeEn":null,"afterEn":"Model selection isn't available until the container is connected.","afterJa":"コンテナが接続されるまで、モデルの選択はできません。"}
+{"file":"main","op":"add","index":7313,"key":"S1LMsBFtoC","beforeEn":null,"afterEn":"Redeem by {date}.","afterJa":"{date}までにご利用ください。"}
+{"file":"main","op":"add","index":7314,"key":"S1Sr5R/tLU","beforeEn":null,"afterEn":"You're in the process of migrating accounts using your domain. <b>Affected users have been notified and must join by {deadline}.</b>","afterJa":"ドメインを使用したアカウントの移行が進行中です。<b>影響を受けるユーザーには通知済みで、{deadline}までに参加する必要があります。</b>"}
+{"file":"main","op":"add","index":7359,"key":"SJ2nyiVhRr","beforeEn":null,"afterEn":"Switch model and retry","afterJa":"モデルを切り替えて再試行"}
+{"file":"main","op":"add","index":7379,"key":"SPaaOmrai3","beforeEn":null,"afterEn":"Also changes:","afterJa":"その他の変更："}
+{"file":"main","op":"add","index":7432,"key":"Sgd7x9pszL","beforeEn":null,"afterEn":"Stopped before any agents started","afterJa":"エージェントが起動する前に停止しました"}
+{"file":"main","op":"add","index":7549,"key":"T8t7Fu+JhP","beforeEn":null,"afterEn":"Workforce Identity billing project","afterJa":"Workforce Identity 請求プロジェクト"}
+{"file":"main","op":"add","index":7602,"key":"TIkZEE9FMo","beforeEn":null,"afterEn":"This file is outside the folders connected to this session.","afterJa":"このファイルは、このセッションに接続されたフォルダの外にあります。"}
+{"file":"main","op":"add","index":7655,"key":"TVZMHi8v8n","beforeEn":null,"afterEn":"Space-separated; the token's audience must match what your bootstrap server validates.","afterJa":"スペース区切りで入力してください。トークンのオーディエンスは、bootstrapサーバーが検証する値と一致している必要があります。"}
+{"file":"main","op":"add","index":7836,"key":"UC9e3Gj5Zo","beforeEn":null,"afterEn":"Claude Code routines","afterJa":"Claude Code ルーティン"}
+{"file":"main","op":"add","index":7868,"key":"UM/QErS3Zw","beforeEn":null,"afterEn":"Search folders","afterJa":"フォルダを検索"}
+{"file":"main","op":"add","index":7883,"key":"UOwVjP7z1U","beforeEn":null,"afterEn":"Session token","afterJa":"セッショントークン"}
+{"file":"main","op":"add","index":7923,"key":"Uat5iUGZ2v","beforeEn":null,"afterEn":"Claude Code security","afterJa":"Claude Code セキュリティ"}
+{"file":"main","op":"add","index":7992,"key":"UuId1n4A3o","beforeEn":null,"afterEn":"Header prefix","afterJa":"ヘッダープレフィックス"}
+{"file":"main","op":"add","index":8015,"key":"Uyxusl3qag","beforeEn":null,"afterEn":"You haven't used Sonnet yet","afterJa":"まだSonnetを使用していません"}
+{"file":"main","op":"add","index":8032,"key":"V1ERGE3dDP","beforeEn":null,"afterEn":"During this process, you won't be able to modify these settings:","afterJa":"このプロセス中は、以下の設定を変更できません："}
+{"file":"main","op":"add","index":8061,"key":"V9WPgzOs7J","beforeEn":null,"afterEn":"Session exported to <reveal>your downloads</reveal>.","afterJa":"セッションを<reveal>ダウンロード</reveal>にエクスポートしました。"}
+{"file":"main","op":"add","index":8078,"key":"VDOTas3KLO","beforeEn":null,"afterEn":"API base URL (optional)","afterJa":"APIベースURL（任意）"}
+{"file":"main","op":"add","index":8091,"key":"VHhN1KfmCH","beforeEn":null,"afterEn":"Sessions in their own window stay responsive when the main window is hidden","afterJa":"メインウィンドウが非表示のときも、独自ウィンドウで開いているセッションは引き続き応答します"}
+{"file":"main","op":"add","index":8173,"key":"VbB5ek1XTP","beforeEn":null,"afterEn":"Header prefix (opt.)","afterJa":"ヘッダープレフィックス（任意）"}
+{"file":"main","op":"add","index":8188,"key":"VeqEFgHu5h","beforeEn":null,"afterEn":"Billed once a year","afterJa":"年1回の請求"}
+{"file":"main","op":"add","index":8231,"key":"Vqd9xnOl2k","beforeEn":null,"afterEn":"Opening a very large repository no longer crashes on startup","afterJa":"非常に大きなリポジトリを開いても、起動時にクラッシュしなくなりました"}
+{"file":"main","op":"add","index":8335,"key":"WCIAidgueo","beforeEn":null,"afterEn":"Searching files","afterJa":"ファイルを検索中"}
+{"file":"main","op":"add","index":8387,"key":"WP38t4MZJs","beforeEn":null,"afterEn":"Domain claim initiated.","afterJa":"ドメインの申請を開始しました。"}
+{"file":"main","op":"add","index":8433,"key":"WdWxHNx+TK","beforeEn":null,"afterEn":"Expand diff","afterJa":"差分を展開"}
+{"file":"main","op":"add","index":8469,"key":"Wm9szD8GBy","beforeEn":null,"afterEn":"Show users","afterJa":"ユーザーを表示"}
+{"file":"main","op":"add","index":8495,"key":"WtkDPX8usa","beforeEn":null,"afterEn":"Required. Set the scope your bootstrap server accepts as the token audience.","afterJa":"必須。bootstrapサーバーがトークンのオーディエンスとして受け入れるスコープを設定してください。"}
+{"file":"main","op":"add","index":8497,"key":"Wtwl4aDBYy","beforeEn":null,"afterEn":"To set defaults for specific roles, go to <rolesLink>Roles</rolesLink>. Role defaults take priority over the organization default. To manage Claude Code model defaults, go to <managedSettingsLink>Managed settings</managedSettingsLink>.","afterJa":"特定のロールのデフォルトを設定するには、<rolesLink>ロール</rolesLink>に移動してください。ロールのデフォルトは組織のデフォルトより優先されます。Claude Codeのモデルデフォルトを管理するには、<managedSettingsLink>管理設定</managedSettingsLink>に移動してください。"}
+{"file":"main","op":"add","index":8563,"key":"XD1Jy4C8ws","beforeEn":null,"afterEn":"Get {amount} in usage credits when you run it","afterJa":"実行すると{amount}分の利用クレジットがもらえます"}
+{"file":"main","op":"add","index":8682,"key":"XgFMQ2uC6Q","beforeEn":null,"afterEn":"Searching for {pattern}","afterJa":"{pattern} を検索中"}
+{"file":"main","op":"add","index":8743,"key":"XttBjwqWuu","beforeEn":null,"afterEn":"Can't save your sign-in. Restart your computer, then try again.","afterJa":"サインインを保存できません。コンピュータを再起動してから、もう一度お試しください。"}
+{"file":"main","op":"add","index":8793,"key":"Y7RxDEV4Af","beforeEn":null,"afterEn":"Run task now","afterJa":"今すぐタスクを実行"}
+{"file":"main","op":"add","index":8917,"key":"YfucG+3eg9","beforeEn":null,"afterEn":"Workforce Identity sign-in (OIDC)","afterJa":"Workforce Identity サインイン (OIDC)"}
+{"file":"main","op":"add","index":8974,"key":"YtSmOqou5i","beforeEn":null,"afterEn":"JWT lifetime (seconds, optional)","afterJa":"JWTの有効期間（秒、任意）"}
+{"file":"main","op":"add","index":8978,"key":"Yu80pxpAk6","beforeEn":null,"afterEn":"Controls whether new members joining through discovery or member invites are added automatically or require admin approval.","afterJa":"ディスカバリーまたはメンバー招待を通じて参加する新規メンバーを自動的に追加するか、管理者の承認を必要とするかを制御します。"}
+{"file":"main","op":"add","index":9068,"key":"ZF5XQjwi2G","beforeEn":null,"afterEn":"All affected accounts in the list above belong to your organization","afterJa":"上記リストの影響を受けるすべてのアカウントは、あなたの組織に属しています"}
+{"file":"main","op":"add","index":9070,"key":"ZFZYvzEuej","beforeEn":null,"afterEn":"**The best price you'll get.** I'll check for our latest pricing.","afterJa":"**最もお得な価格をご案内します。** 最新の料金をご確認いたします。"}
+{"file":"main","op":"add","index":9117,"key":"ZPveJa49VR","beforeEn":null,"afterEn":"Request ID: {requestId}","afterJa":"リクエストID: {requestId}"}
+{"file":"main","op":"add","index":9150,"key":"ZWG/G/xeVy","beforeEn":null,"afterEn":"Alpha","afterJa":"Alpha"}
+{"file":"main","op":"add","index":9357,"key":"aO4HrhCDgs","beforeEn":null,"afterEn":"To learn more about Anthropic's model capabilities and pricing, see the <modelsOverviewLink>models overview</modelsOverviewLink>.","afterJa":"Anthropicのモデルの機能と料金の詳細については、<modelsOverviewLink>モデルの概要</modelsOverviewLink>をご覧ください。"}
+{"file":"main","op":"add","index":9359,"key":"aOlSeK2rV0","beforeEn":null,"afterEn":"{count, plural, one {# more group} other {# more groups}}. Keep typing to narrow.","afterJa":"{count, plural, one {他に#グループ} other {他に#グループ}}。絞り込むには入力を続けてください。"}
+{"file":"main","op":"add","index":9365,"key":"aQJJCK6cs4","beforeEn":null,"afterEn":"Remote templates","afterJa":"リモートテンプレート"}
+{"file":"main","op":"add","index":9405,"key":"aZRUdur9da","beforeEn":null,"afterEn":"Check that <code>gh</code> is installed and authenticated.","afterJa":"<code>gh</code> がインストールされ、認証済みであることを確認してください。"}
+{"file":"main","op":"add","index":9514,"key":"axjlmjG7D8","beforeEn":null,"afterEn":"Showing first {n}. Keep typing to narrow.","afterJa":"最初の{n}件を表示しています。続けて入力すると絞り込めます。"}
+{"file":"main","op":"add","index":9633,"key":"bTBJTYxUYl","beforeEn":null,"afterEn":"Smarter","afterJa":"賢い"}
+{"file":"main","op":"add","index":9643,"key":"bV2dTY3jQq","beforeEn":null,"afterEn":"Refresh connectors","afterJa":"コネクタを更新"}
+{"file":"main","op":"add","index":9662,"key":"bXzpWpo1O9","beforeEn":null,"afterEn":"Reading {file}","afterJa":"{file} を読み込み中"}
+{"file":"main","op":"add","index":9700,"key":"bjNlPzg7Mc","beforeEn":null,"afterEn":"Couldn't run the test. Try again.","afterJa":"テストを実行できませんでした。もう一度お試しください。"}
+{"file":"main","op":"add","index":9739,"key":"bw+L0wLpiO","beforeEn":null,"afterEn":"Set up a place for ongoing work, where context builds over time","afterJa":"継続的な作業スペースを作成して、コンテキストを時間とともに積み重ねましょう"}
+{"file":"main","op":"add","index":9747,"key":"byLbiDmAsH","beforeEn":null,"afterEn":"No agents have started yet","afterJa":"エージェントはまだ起動していません"}
+{"file":"main","op":"add","index":9760,"key":"c+uxWPHl6M","beforeEn":null,"afterEn":"Once you start migrating, you can't undo it","afterJa":"移行を開始すると、元に戻すことはできません"}
+{"file":"main","op":"add","index":9796,"key":"c5qI63zrIs","beforeEn":null,"afterEn":"Members with this role get the organization default (Anthropic's recommended default) unless another of their roles sets one.","afterJa":"このロールを持つメンバーは、他のロールでデフォルトが設定されていない限り、組織のデフォルト（Anthropicが推奨するデフォルト）が適用されます。"}
+{"file":"main","op":"add","index":9799,"key":"c6LNcWaCmr","beforeEn":null,"afterEn":"Delete task","afterJa":"タスクを削除"}
+{"file":"main","op":"add","index":9807,"key":"c7QL9iJl3J","beforeEn":null,"afterEn":"Run <code>gh auth login</code> to authenticate.","afterJa":"認証するには <code>gh auth login</code> を実行してください。"}
+{"file":"main","op":"add","index":9812,"key":"c9BX4f3H1c","beforeEn":null,"afterEn":"Continue to Enterprise checkout","afterJa":"Enterprise のチェックアウトに進む"}
+{"file":"main","op":"add","index":9839,"key":"cG09T6tp8G","beforeEn":null,"afterEn":"Blocked address","afterJa":"ブロックされたアドレス"}
+{"file":"main","op":"add","index":9916,"key":"cc4tPynCta","beforeEn":null,"afterEn":"Workforce-pool provider audience. When set, sign-in uses your own IdP plus a GCP STS exchange instead of a Google identity.","afterJa":"Workforce Poolプロバイダのオーディエンス。設定すると、サインイン時にGoogleアイデンティティの代わりに独自のIdPとGCP STSの交換が使用されます。"}
+{"file":"main","op":"add","index":9942,"key":"cflWd3GEL5","beforeEn":null,"afterEn":"Claude Code couldn't write its settings file to the temporary directory. Check that the temp directory is writable, or adjust the sandbox policy.","afterJa":"Claude Codeが設定ファイルを一時ディレクトリに書き込めませんでした。一時ディレクトリへの書き込み権限を確認するか、サンドボックスポリシーを調整してください。"}
+{"file":"main","op":"add","index":9964,"key":"cnHH1HEs1x","beforeEn":null,"afterEn":"Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker, and Claude remembers their last selection for next time.","afterJa":"ChatとCoworkの新しい会話で使用する開始モデルを選択します。メンバーはモデルピッカーを使用していつでもモデルを変更でき、Claudeは次回のために最後の選択を記憶します。"}
+{"file":"main","op":"add","index":10049,"key":"d9NDqfMVBB","beforeEn":null,"afterEn":"Manage roles...","afterJa":"ロールを管理..."}
+{"file":"main","op":"add","index":10096,"key":"dKEgofbwpe","beforeEn":null,"afterEn":"Workforce Identity (STS)","afterJa":"Workforce Identity (STS)"}
+{"file":"main","op":"add","index":10134,"key":"dUFzeVqhPP","beforeEn":null,"afterEn":"Diff layout","afterJa":"差分レイアウト"}
+{"file":"main","op":"add","index":10178,"key":"dfCoF2i6bG","beforeEn":null,"afterEn":"Select a specific model for your organization. This won't change when new models are released.","afterJa":"組織で使用する特定のモデルを選択します。新しいモデルがリリースされても変更されません。"}
+{"file":"main","op":"add","index":10185,"key":"dgqhUM6BxJ","beforeEn":null,"afterEn":"Changes","afterJa":"変更"}
+{"file":"main","op":"add","index":10370,"key":"eSej8NJHSy","beforeEn":null,"afterEn":"Affected accounts will be deleted after {days} days, whether users migrate or not","afterJa":"ユーザーが移行するかどうかにかかわらず、影響を受けるアカウントは{days}日後に削除されます"}
+{"file":"main","op":"add","index":10386,"key":"eV/BNCIRzM","beforeEn":null,"afterEn":"The installed Claude Code version doesn't support a feature this app uses. Update Claude Code on this host.","afterJa":"インストールされているClaude Codeのバージョンは、このアプリが使用する機能をサポートしていません。このホストのClaude Codeを更新してください。"}
+{"file":"main","op":"add","index":10422,"key":"eeoSImkdiY","beforeEn":null,"afterEn":"These ranges are for guidance only. Your team's consumption will vary based on size, workflows, and usage patterns.","afterJa":"これらの範囲はあくまでも目安です。チームの消費量は、規模、ワークフロー、使用パターンによって異なります。"}
+{"file":"main","op":"add","index":10429,"key":"egZcnLe3Vv","beforeEn":null,"afterEn":"{count, plural, one {Please address the comment above} other {Please address the comments above}}","afterJa":"{count, plural, one {上記のコメントにご対応ください} other {上記のコメントにご対応ください}}"}
+{"file":"main","op":"add","index":10467,"key":"eoFIHEeJyH","beforeEn":null,"afterEn":"Migrate accounts","afterJa":"アカウントの移行"}
+{"file":"main","op":"add","index":10500,"key":"ewOBk8nuZ0","beforeEn":null,"afterEn":"Run this in the background with Cowork","afterJa":"Cowork でバックグラウンドで実行する"}
+{"file":"main","op":"add","index":10566,"key":"fDB74ChLSl","beforeEn":null,"afterEn":"Open billing settings","afterJa":"請求設定を開く"}
+{"file":"main","op":"add","index":10622,"key":"fSKoqI4XSt","beforeEn":null,"afterEn":"openid offline_access CLIENT_ID/.default","afterJa":"openid offline_access CLIENT_ID/.default"}
+{"file":"main","op":"add","index":10659,"key":"fb0mFF7uEb","beforeEn":null,"afterEn":"Choose the starting model for new conversations in Chat and Cowork. Members can change their model anytime using the model picker.","afterJa":"ChatとCoworkの新しい会話で使用する開始モデルを選択します。メンバーはモデルピッカーを使用していつでもモデルを変更できます。"}
+{"file":"main","op":"add","index":10666,"key":"fcVZ0DPiHS","beforeEn":null,"afterEn":"Please quit and reopen Claude","afterJa":"Claudeを終了して再起動してください"}
+{"file":"main","op":"add","index":10766,"key":"g+VnzeLG0N","beforeEn":null,"afterEn":"No groups match the selected filters.","afterJa":"選択したフィルターに一致するグループはありません。"}
+{"file":"main","op":"add","index":10821,"key":"gC9+SjQopv","beforeEn":null,"afterEn":"The diff panel and file previews work in SSH sessions","afterJa":"差分パネルとファイルプレビューがSSHセッションで動作します"}
+{"file":"main","op":"add","index":10934,"key":"giU3LRQe8Q","beforeEn":null,"afterEn":"When the model is overloaded, pick a different one right from the error card's retry menu","afterJa":"モデルが過負荷の場合、エラーカードの再試行メニューから別のモデルを選択できます"}
+{"file":"main","op":"add","index":10971,"key":"gteLO/FfKM","beforeEn":null,"afterEn":"CWE","afterJa":"CWE"}
+{"file":"main","op":"add","index":11027,"key":"h6tRhdrzOQ","beforeEn":null,"afterEn":"Timed out starting the bundled server","afterJa":"バンドルサーバーの起動がタイムアウトしました"}
+{"file":"main","op":"add","index":11066,"key":"hEM4asyIjl","beforeEn":null,"afterEn":"Archiving or deleting a session works while it's starting up or responding","afterJa":"セッションの起動中または応答中でも、アーカイブや削除ができます"}
+{"file":"main","op":"add","index":11311,"key":"iEfZH5cyl6","beforeEn":null,"afterEn":"About effort","afterJa":"エフォートについて"}
+{"file":"main","op":"add","index":11340,"key":"iLlsz1BLkf","beforeEn":null,"afterEn":"Re-run helper for silent refresh","afterJa":"サイレントリフレッシュ用ヘルパーの再実行"}
+{"file":"main","op":"add","index":11343,"key":"iMGl038nIV","beforeEn":null,"afterEn":"Request failed","afterJa":"リクエストが失敗しました"}
+{"file":"main","op":"add","index":11403,"key":"icn8CM+0cV","beforeEn":null,"afterEn":"Press a number key to pick an option when Claude asks a question","afterJa":"Claudeが質問したとき、数字キーを押してオプションを選択できます"}
+{"file":"main","op":"add","index":11505,"key":"j1hp0c8Y2U","beforeEn":null,"afterEn":"Members can let Claude share context between apps like Excel and PowerPoint.","afterJa":"メンバーは、ClaudeがExcelやPowerPointなどのアプリ間でコンテキストを共有できるようにすることができます。"}
+{"file":"main","op":"add","index":11555,"key":"jJgvaXAvRf","beforeEn":null,"afterEn":"Check the credential works before saving.","afterJa":"保存する前に、認証情報が正しく機能するか確認してください。"}
+{"file":"main","op":"add","index":11590,"key":"jQAhpucavu","beforeEn":null,"afterEn":"Always allow tool approvals by default","afterJa":"ツールの承認を常にデフォルトで許可する"}
+{"file":"main","op":"add","index":11656,"key":"jkBzOUPk6N","beforeEn":null,"afterEn":"e.g. Bearer","afterJa":"例：Bearer"}
+{"file":"main","op":"add","index":11724,"key":"jwf/WURmBJ","beforeEn":null,"afterEn":"No agents ran in this phase","afterJa":"このフェーズではエージェントが実行されませんでした"}
+{"file":"main","op":"add","index":11781,"key":"k8l06lFyli","beforeEn":null,"afterEn":"Stalled","afterJa":"停滞中"}
+{"file":"main","op":"add","index":11793,"key":"kCKK+84T6p","beforeEn":null,"afterEn":"Bypass Permissions can't be used with root/sudo. Run as a non-root user, or turn off Bypass Permissions in settings.","afterJa":"Bypass Permissionsはroot/sudoでは使用できません。非rootユーザーとして実行するか、設定でBypass Permissionsをオフにしてください。"}
+{"file":"main","op":"add","index":11848,"key":"kVLQt2i9SW","beforeEn":null,"afterEn":"Could not reach Microsoft sign-in endpoint","afterJa":"Microsoftサインインエンドポイントに接続できませんでした"}
+{"file":"main","op":"add","index":11918,"key":"kjW0KjX/V6","beforeEn":null,"afterEn":"API is overloaded","afterJa":"APIが過負荷状態です"}
+{"file":"main","op":"add","index":11941,"key":"ko9Ma834YL","beforeEn":null,"afterEn":"<label>Feature of the week:</label> <cmd>/{command}</cmd> — {blurb}","afterJa":"<label>今週の機能：</label> <cmd>/{command}</cmd>—{blurb}"}
+{"file":"main","op":"add","index":11952,"key":"kqtFvmntYS","beforeEn":null,"afterEn":"Billed month to month","afterJa":"毎月の請求"}
+{"file":"main","op":"add","index":11986,"key":"l/rfvlcDyA","beforeEn":null,"afterEn":"A space is added between the prefix and secret (Bearer ***). Prefixes ending in = attach directly (token=***).","afterJa":"プレフィックスとシークレットの間にスペースが追加されます（Bearer ***）。=で終わるプレフィックスは直接結合されます（token=***）。"}
+{"file":"main","op":"add","index":12086,"key":"lR2lIbKnv2","beforeEn":null,"afterEn":"This GitHub Enterprise connection is set up with OAuth App credentials. Ask an org admin to reconfigure it with GitHub App credentials in Admin Settings.","afterJa":"このGitHub Enterpriseの接続はOAuth Appの認証情報で設定されています。管理者設定でGitHub Appの認証情報を使用して再設定するよう、組織の管理者に依頼してください。"}
+{"file":"main","op":"add","index":12143,"key":"lgMEj0UXFI","beforeEn":null,"afterEn":"Tenant","afterJa":"テナント"}
+{"file":"main","op":"add","index":12282,"key":"mEdG/OmTPo","beforeEn":null,"afterEn":"Connectors & tools","afterJa":"コネクタとツール"}
+{"file":"main","op":"add","index":12709,"key":"o6VLRz4ffK","beforeEn":null,"afterEn":"Your organization enforces a fixed default, so each new conversation resets to the default. Members' own choices don't carry over.","afterJa":"組織が固定のデフォルトを適用しているため、新しい会話を開始するたびにデフォルトにリセットされます。メンバー自身の選択は引き継がれません。"}
+{"file":"main","op":"add","index":12826,"key":"ob/MsgCqeR","beforeEn":null,"afterEn":"By continuing, you agree to our {privacyPolicy}.","afterJa":"続行することで、{privacyPolicy}に同意したことになります。"}
+{"file":"main","op":"add","index":13002,"key":"pDu8LAeMGn","beforeEn":null,"afterEn":"Couldn't start Claude Code on the remote host","afterJa":"リモートホストでClaude Codeを起動できませんでした"}
+{"file":"main","op":"add","index":13012,"key":"pFm2K7k3z/","beforeEn":null,"afterEn":"Something went wrong when adding your usage credits. Contact support for help.","afterJa":"利用クレジットの追加中にエラーが発生しました。サポートにお問い合わせください。"}
+{"file":"main","op":"add","index":13035,"key":"pNjWkEHKfE","beforeEn":null,"afterEn":"e.g. Authorization","afterJa":"例：Authorization"}
+{"file":"main","op":"add","index":13051,"key":"pQzmTJWHyT","beforeEn":null,"afterEn":"Hide users","afterJa":"ユーザーを非表示"}
+{"file":"main","op":"add","index":13063,"key":"pV8HdOgErh","beforeEn":null,"afterEn":"When a session's credential expires, re-run the helper with CLAUDE_HELPER_CONTEXT=mid-session-refresh to recover silently. Turn this off if your helper can't run non-interactively.","afterJa":"セッションの認証情報が期限切れになった場合、CLAUDE_HELPER_CONTEXT=mid-session-refresh を指定してヘルパーを再実行することで、自動的に回復します。ヘルパーを非対話的に実行できない場合は、この設定をオフにしてください。"}
+{"file":"main","op":"add","index":13069,"key":"pYRPMBAE8N","beforeEn":null,"afterEn":"Editing this message will restart the conversation from here.","afterJa":"このメッセージを編集すると、ここから会話がやり直しになります。"}
+{"file":"main","op":"add","index":13147,"key":"puP9QWxX+t","beforeEn":null,"afterEn":"Waiting for agents to start","afterJa":"エージェントの起動を待っています"}
+{"file":"main","op":"add","index":13216,"key":"q7wi6Ob175","beforeEn":null,"afterEn":"GitHub rate limit — retrying automatically.","afterJa":"GitHubのレート制限 — 自動的に再試行しています。"}
+{"file":"main","op":"add","index":13259,"key":"qHibv+HX9A","beforeEn":null,"afterEn":"Remote control","afterJa":"リモートコントロール"}
+{"file":"main","op":"add","index":13346,"key":"qiSoXe2ZAZ","beforeEn":null,"afterEn":"Web search isolation","afterJa":"ウェブ検索の分離"}
+{"file":"main","op":"add","index":13371,"key":"qnfl4zhao6","beforeEn":null,"afterEn":"Rate limited","afterJa":"レート制限中です"}
+{"file":"main","op":"add","index":13544,"key":"ralFTCLFvr","beforeEn":null,"afterEn":"Internal preview","afterJa":"内部プレビュー"}
+{"file":"main","op":"add","index":13595,"key":"rq61zqsEWq","beforeEn":null,"afterEn":"Connected, but the identity provider didn't issue a refresh token. This connector will stop working when the access token expires. For OIDC providers, add 'offline_access' to the scope; for others, see your IdP's documentation.","afterJa":"接続されましたが、アイデンティティプロバイダーがリフレッシュトークンを発行しませんでした。アクセストークンの有効期限が切れると、このコネクターは機能しなくなります。OIDCプロバイダーの場合は、スコープに‘offline_access’を追加してください。その他の場合は、IdPのドキュメントを参照してください。"}
+{"file":"main","op":"add","index":13607,"key":"rsuTMjSeRY","beforeEn":null,"afterEn":"Workbench feedback","afterJa":"ワークベンチのフィードバック"}
+{"file":"main","op":"add","index":13646,"key":"s13x/nL7AU","beforeEn":null,"afterEn":"Update didn't complete","afterJa":"アップデートが完了しませんでした"}
+{"file":"main","op":"add","index":13671,"key":"s8hQbj7ac0","beforeEn":null,"afterEn":"More agents may appear","afterJa":"さらにエージェントが表示される場合があります"}
+{"file":"main","op":"add","index":13691,"key":"sFB1oyGxRN","beforeEn":null,"afterEn":"Reading a file","afterJa":"ファイルを読み込み中"}
+{"file":"main","op":"add","index":13697,"key":"sGQYZv/a29","beforeEn":null,"afterEn":"See upgrade options","afterJa":"アップグレードオプションを見る"}
+{"file":"main","op":"add","index":13856,"key":"ssRa7c1heU","beforeEn":null,"afterEn":"View as text anyway","afterJa":"それでもテキストとして表示する"}
+{"file":"main","op":"add","index":13924,"key":"t40G4sO+0U","beforeEn":null,"afterEn":"retrying ({attempt}/{maxRetries})","afterJa":"再試行中 ({attempt}/{maxRetries})"}
+{"file":"main","op":"add","index":13932,"key":"t6rZDWs9YI","beforeEn":null,"afterEn":"Container","afterJa":"コンテナ"}
+{"file":"main","op":"add","index":13973,"key":"tICNG3XM2D","beforeEn":null,"afterEn":"Require accounts using your verified domains to migrate to your organization (excluding Team accounts). For anyone who doesn't migrate within {days} days, we'll email their data and then delete their account.","afterJa":"確認済みドメインを使用しているアカウントに、組織への移行を要求します（Team アカウントを除く）。{days}日以内に移行しないユーザーには、データをメールで送信した後、アカウントを削除します。"}
+{"file":"main","op":"add","index":14171,"key":"u2XWYU1wrI","beforeEn":null,"afterEn":"Billing period","afterJa":"請求期間"}
+{"file":"main","op":"add","index":14294,"key":"uYLQ5lDLZu","beforeEn":null,"afterEn":"Choose effort with a slider next to the model picker","afterJa":"モデル選択の横にあるスライダーで処理量を選択できます"}
+{"file":"main","op":"add","index":14392,"key":"v4mECAyjhj","beforeEn":null,"afterEn":"An allow rule will be created for {hostCount, plural, one {this host} other {these hosts}} so the credential can be used.","afterJa":"認証情報を使用できるよう、{hostCount, plural, one {このホスト} other {これらのホスト}}に対して許可ルールが作成されます。"}
+{"file":"main","op":"add","index":14471,"key":"vPeZgEqCtF","beforeEn":null,"afterEn":"<added>Usage credits added</added> — thanks for trying the feature of the week <cmd>/{command}</cmd>","afterJa":"<added>利用クレジットが追加されました</added>—今週の機能<cmd>/{command}</cmd>をお試しいただきありがとうございます"}
+{"file":"main","op":"add","index":14568,"key":"vlR0m+0SYg","beforeEn":null,"afterEn":"Can't save your sign-in because the macOS keychain is locked. Restart your Mac, then try again.","afterJa":"macOS キーチェーンがロックされているため、サインインを保存できません。Mac を再起動してから、もう一度お試しください。"}
+{"file":"main","op":"add","index":14573,"key":"vmfgjI0W/G","beforeEn":null,"afterEn":"Can't reach {appName} right now — it may need to be reconnected.","afterJa":"{appName}に現在接続できません。再接続が必要な場合があります。"}
+{"file":"main","op":"add","index":14592,"key":"vrlRL6mz1+","beforeEn":null,"afterEn":"What else can I work on?","afterJa":"他に何かお手伝いできることはありますか？"}
+{"file":"main","op":"add","index":14594,"key":"vrroVytaad","beforeEn":null,"afterEn":"**I already know your account.** If you're using Claude, I can see your current plan, seats, and usage.","afterJa":"**お客様のアカウント情報を確認できます。** Claudeをご利用中の場合、現在のプラン、シート数、使用状況を把握しています。"}
+{"file":"main","op":"add","index":14627,"key":"vx9PyxWrqA","beforeEn":null,"afterEn":"Built-in servers","afterJa":"組み込みサーバー"}
+{"file":"main","op":"add","index":14759,"key":"wZkJgdBQ0M","beforeEn":null,"afterEn":"Cowork can work on complex tasks across {connectorList} without you watching. Send it off, come back to results.","afterJa":"Cowork は、{connectorList} にわたる複雑なタスクを、あなたが見ていなくても処理できます。送信したら、あとは結果を待つだけです。"}
+{"file":"main","op":"add","index":14820,"key":"wn2vkdH65U","beforeEn":null,"afterEn":"{base} → {head}","afterJa":"{base} → {head}"}
+{"file":"main","op":"add","index":14946,"key":"xJT34LJoZk","beforeEn":null,"afterEn":"Built-in server, bundled with the Claude desktop app.","afterJa":"Claude デスクトップアプリに同梱されている組み込みサーバーです。"}
+{"file":"main","op":"add","index":14952,"key":"xL7cDBls/V","beforeEn":null,"afterEn":"Open Claude settings","afterJa":"Claudeの設定を開く"}
+{"file":"main","op":"add","index":14977,"key":"xQ1nQIrXCH","beforeEn":null,"afterEn":"We'll notify affected users. They'll have {days} days to migrate. For anyone who doesn't migrate, we'll email their data and then delete their account. Console organizations and API access are not affected.","afterJa":"影響を受けるユーザーに通知します。ユーザーには移行のために{days}日間の猶予があります。移行しないユーザーには、データをメールで送信した後、アカウントを削除します。Console 組織と API アクセスは影響を受けません。"}
+{"file":"main","op":"add","index":15043,"key":"xkTPaXZ/Zv","beforeEn":null,"afterEn":"Claude Code review","afterJa":"Claude Code レビュー"}
+{"file":"main","op":"add","index":15046,"key":"xl2L0w2bLY","beforeEn":null,"afterEn":"Give Claude a folder you already work from","afterJa":"すでに作業で使っているフォルダをClaudeに提供する"}
+{"file":"main","op":"add","index":15131,"key":"y5DZpIdyzt","beforeEn":null,"afterEn":"**A sales rep if you want one.** For complex or large deals, I'll hand you to a teammate with everything you've shared already in context.","afterJa":"**ご希望の場合は営業担当者にお繋ぎします。** 複雑なご要件や大規模なお取引の場合は、これまでにお伝えいただいた内容を引き継いだ上で、担当者にお繋ぎいたします。"}
+{"file":"main","op":"add","index":15137,"key":"y8ZPM0PLcS","beforeEn":null,"afterEn":"Start new","afterJa":"新規作成"}
+{"file":"main","op":"add","index":15186,"key":"yNuy7a4xdi","beforeEn":null,"afterEn":"Allowed domains & code execution","afterJa":"許可されたドメインとコード実行"}
+{"file":"main","op":"add","index":15199,"key":"yRRyF+Ogkf","beforeEn":null,"afterEn":"Skill creation","afterJa":"スキルの作成"}
+{"file":"main","op":"add","index":15217,"key":"yX2nEGHr9u","beforeEn":null,"afterEn":"Restart Conway","afterJa":"Conwayを再起動"}
+{"file":"main","op":"add","index":15218,"key":"yX6W+H81JR","beforeEn":null,"afterEn":"Identity verified — click Subscribe to complete your purchase.","afterJa":"本人確認が完了しました。Subscribeをクリックして購入を完了してください。"}
+{"file":"main","op":"add","index":15369,"key":"z79RWp5LsO","beforeEn":null,"afterEn":"Claude Code is out of date","afterJa":"Claude Codeのバージョンが古くなっています"}
+{"file":"main","op":"add","index":15378,"key":"z9hwfZywT7","beforeEn":null,"afterEn":"Not delivered · {time}","afterJa":"未送信 · {time}"}
+{"file":"main","op":"add","index":15481,"key":"zbJiVYheyP","beforeEn":null,"afterEn":"Model, connectors, and plugins for this Conway. Account-wide settings stay in your Claude settings.","afterJa":"このConwayのモデル、コネクタ、プラグイン。アカウント全体の設定はClaudeの設定に保存されます。"}
+{"file":"main","op":"add","index":15506,"key":"zh+AkOLpeL","beforeEn":null,"afterEn":"Bypass permissions mode","afterJa":"パーミッションバイパスモード"}
+{"file":"main","op":"add","index":15558,"key":"zw1IUPXtJ/","beforeEn":null,"afterEn":"+{hostCount, plural, one {# more host} other {# more hosts}}","afterJa":"+{hostCount, plural, one {他 # ホスト} other {他 # ホスト}}"}
