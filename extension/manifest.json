@@ -6,7 +6,7 @@
   "permissions": ["storage"],
   "host_permissions": [
     "https://claude.ai/*",
-    "https://claude-i18n-ua.vercel.app/*"
+    "https://claude-i18n-ua.netlify.app/*"
   ],
   "background": {
     "service_worker": "service.js"

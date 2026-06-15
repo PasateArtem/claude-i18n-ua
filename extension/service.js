@@ -1,4 +1,4 @@
-const REMOTE_I18N_BASE_URL = "https://claude-i18n-ua.vercel.app";
+const REMOTE_I18N_BASE_URL = "https://claude-i18n-ua.netlify.app";
 const VERSION_CACHE_KEY_PREFIX = "claude-i18n:version:";
 const RESOURCE_CACHE_NAME = "claude-i18n-cache-v1";
 const VERSION_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
