@@ -6,7 +6,7 @@
 
   const TARGET_FIRST = "en-US";
   const TARGET_LAST = "id-ID";
-  const DEFAULT_EXTENSION_LOCALES = ["zh-CN"];
+  const DEFAULT_EXTENSION_LOCALES = ["uk-UA"];
   const EXTENSION_LOCALES_KEY = "__CLAUDE_EXTENSION_LOCALES__";
   const EXTENSION_LOCALES_STORAGE_KEY = "__CLAUDE_EXTENSION_LOCALES_CACHE__";
   const PROFILE_LOCALE_STORAGE_KEY = "__CLAUDE_EXTENSION_PROFILE_LOCALE__";
@@ -297,7 +297,6 @@
     }
   }
 
-  // Rules run top-to-bottom. Add new request handling here so each intercept stays isolated.
   function createFetchRules() {
     return [
       {
@@ -732,18 +731,6 @@
     }
 
     return "GET";
-  }
-
-  async function readRequestBodyText(input, init) {
-    if (init && typeof init.body === "string") {
-      return init.body;
-    }
-
-    if (input instanceof Request) {
-      return input.clone().text();
-    }
-
-    return "";
   }
 
   function replaceRequestBody(input, init, body, options = {}) {

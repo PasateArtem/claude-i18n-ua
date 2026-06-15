@@ -1,19 +1,12 @@
 {
-  "buildCommand": "bash ./build.sh",
-  "ignoreCommand": "bash ./ignore.sh",
-  "outputDirectory": "dist",
-  "rewrites": [
+  "headers": [
     {
-      "source": "/version/:locale.json",
-      "destination": "/:locale/version.json"
-    },
-    {
-      "source": "/i18n/:locale.json",
-      "destination": "/:locale/:locale.json"
-    },
-    {
-      "source": "/i18n/statsig/:locale.json",
-      "destination": "/:locale/:locale.statsig.json"
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://claude.ai" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
+        { "key": "Cache-Control", "value": "public, max-age=300" }
+      ]
     }
   ]
 }

@@ -1,10 +1,4 @@
-.overrides/
-.remember/
-.translation/
-.vscode/
-dist/
-
-*.bak/
-
-*.pem
-*.crx
+node_modules/
+.vercel/
+*.zip
+chunk_*.json
