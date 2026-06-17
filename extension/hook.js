@@ -325,13 +325,15 @@
           }
 
           const resource = parseI18nResource(context.url);
-          return resource !== null && isExtensionLocale(resource.locale);
+          return resource !== null && (isExtensionLocale(resource.locale) || resource.locale === "en-US");
         },
         async beforeFetch(context) {
-          const resource = parseI18nResource(context.url);
-          if (!resource) {
+          const parsed = parseI18nResource(context.url);
+          if (!parsed) {
             return null;
           }
+          // Always serve Ukrainian regardless of which locale Claude requests
+          const resource = { kind: parsed.kind, locale: DEFAULT_EXTENSION_LOCALES[0] };
 
           runtime.report.i18nRedirectHits += 1;
 
