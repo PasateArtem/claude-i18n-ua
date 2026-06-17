@@ -3,7 +3,9 @@ node_modules/
 *.zip
 chunk_*.json
 zh-CN/
-assets/
+assets/*.png
+assets/*.jpg
+assets/*.gif
 scripts/
 userscript/
 build.sh
@@ -12,3 +14,8 @@ index.html
 404.html
 README.en.md
 README.tw.md
+generate-icons.mjs
+vercel.json
+.github/
+.codex/
+.original/
