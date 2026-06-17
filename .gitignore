@@ -2,3 +2,13 @@ node_modules/
 .vercel/
 *.zip
 chunk_*.json
+zh-CN/
+assets/
+scripts/
+userscript/
+build.sh
+ignore.sh
+index.html
+404.html
+README.en.md
+README.tw.md
